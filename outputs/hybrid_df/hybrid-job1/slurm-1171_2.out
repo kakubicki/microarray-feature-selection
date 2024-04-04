@@ -1,0 +1,2311 @@
+Running: job=2 idx=2 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=10
+No. selected genes: 170
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7694989106753812
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=8 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=10
+No. selected genes: 61
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7524250440917108
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=14 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=10
+No. selected genes: 199
+Naive_Bayes
+F1 score: 0.8028110233992587
+SVM
+F1 score: 0.6669389978213507
+kNN
+F1 score: 0.7933914306463326
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=20 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=10
+No. selected genes: 177
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7722568825510002
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=26 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=10
+No. selected genes: 246
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7611832611832612
+Random_Forest
+F1 score: 0.6615497076023392
+------------------------------------------
+Running: job=2 idx=32 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=10
+No. selected genes: 520
+Naive_Bayes
+F1 score: 0.7763559969442322
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.794234360410831
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=38 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=20
+No. selected genes: 165
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.8343979005743711
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=44 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=20
+No. selected genes: 70
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7522585057414778
+Random_Forest
+F1 score: 0.6615497076023392
+------------------------------------------
+Running: job=2 idx=50 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=20
+No. selected genes: 240
+Naive_Bayes
+F1 score: 0.7486383442265795
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7663985051755949
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=56 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=20
+No. selected genes: 246
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7948957360722066
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=62 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=20
+No. selected genes: 131
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7615546218487395
+Random_Forest
+F1 score: 0.7763559969442322
+------------------------------------------
+Running: job=2 idx=68 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=20
+No. selected genes: 527
+Naive_Bayes
+F1 score: 0.8028110233992587
+SVM
+F1 score: 0.7476677805625174
+kNN
+F1 score: 0.8292483660130718
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=74 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=10
+No. selected genes: 25
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.8040123456790123
+Random_Forest
+F1 score: 0.7486383442265795
+------------------------------------------
+Running: job=2 idx=80 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=10
+No. selected genes: 230
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.637962962962963
+kNN
+F1 score: 0.7175925925925926
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=86 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=10
+No. selected genes: 52
+Naive_Bayes
+F1 score: 0.6612862862862863
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7622159975101152
+Random_Forest
+F1 score: 0.691301349196086
+------------------------------------------
+Running: job=2 idx=92 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=10
+No. selected genes: 187
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7184758287699464
+Random_Forest
+F1 score: 0.6615497076023392
+------------------------------------------
+Running: job=2 idx=98 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=10
+No. selected genes: 236
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7522585057414778
+Random_Forest
+F1 score: 0.6721317181843498
+------------------------------------------
+Running: job=2 idx=104 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=10
+No. selected genes: 499
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.7486383442265795
+kNN
+F1 score: 0.8040123456790123
+Random_Forest
+F1 score: 0.6910774410774411
+------------------------------------------
+Running: job=2 idx=110 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=20
+No. selected genes: 69
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.8292483660130718
+Random_Forest
+F1 score: 0.7023420479302831
+------------------------------------------
+Running: job=2 idx=116 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=20
+No. selected genes: 38
+Naive_Bayes
+F1 score: 0.8213684463684464
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7704248366013071
+Random_Forest
+F1 score: 0.7189153439153438
+------------------------------------------
+Running: job=2 idx=122 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=20
+No. selected genes: 31
+Naive_Bayes
+F1 score: 0.761574074074074
+SVM
+F1 score: 0.691301349196086
+kNN
+F1 score: 0.7621558724499901
+Random_Forest
+F1 score: 0.6612862862862863
+------------------------------------------
+Running: job=2 idx=128 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=20
+No. selected genes: 216
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.8040123456790123
+Random_Forest
+F1 score: 0.7023420479302831
+------------------------------------------
+Running: job=2 idx=134 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=20
+No. selected genes: 264
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7769360269360269
+Random_Forest
+F1 score: 0.7476677805625174
+------------------------------------------
+Running: job=2 idx=140 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=20
+No. selected genes: 452
+Naive_Bayes
+F1 score: 0.7757335257335257
+SVM
+F1 score: 0.7476677805625174
+kNN
+F1 score: 0.7921075837742505
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=146 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=10
+No. selected genes: 17
+Naive_Bayes
+F1 score: 0.7218013468013468
+SVM
+F1 score: 0.7218013468013468
+kNN
+F1 score: 0.7319023569023568
+Random_Forest
+F1 score: 0.7476943346508563
+------------------------------------------
+Running: job=2 idx=152 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=10
+No. selected genes: 101
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7667548500881834
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=158 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=10
+No. selected genes: 193
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.8034876982245404
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=164 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=10
+No. selected genes: 140
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.8281136528685548
+Random_Forest
+F1 score: 0.6615497076023392
+------------------------------------------
+Running: job=2 idx=170 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=10
+No. selected genes: 238
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.727805010893246
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=176 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=10
+No. selected genes: 507
+Naive_Bayes
+F1 score: 0.7757335257335257
+SVM
+F1 score: 0.6924001924001923
+kNN
+F1 score: 0.7986111111111112
+Random_Forest
+F1 score: 0.691301349196086
+------------------------------------------
+Running: job=2 idx=182 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=50
+No. selected genes: 79
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.8284832451499118
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=188 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=50
+No. selected genes: 60
+Naive_Bayes
+F1 score: 0.753908128908129
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7965686274509803
+Random_Forest
+F1 score: 0.7476677805625174
+------------------------------------------
+Running: job=2 idx=194 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=50
+No. selected genes: 126
+Naive_Bayes
+F1 score: 0.8200067905950258
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.71532537322011
+Random_Forest
+F1 score: 0.691301349196086
+------------------------------------------
+Running: job=2 idx=200 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=50
+No. selected genes: 139
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7622159975101152
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=206 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=50
+No. selected genes: 180
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7625272331154682
+Random_Forest
+F1 score: 0.6615497076023392
+------------------------------------------
+Running: job=2 idx=212 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=50
+No. selected genes: 484
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.7547498797498798
+kNN
+F1 score: 0.7967097879378581
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=218 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=20
+No. selected genes: 210
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.8568137515505936
+Random_Forest
+F1 score: 0.6615497076023392
+------------------------------------------
+Running: job=2 idx=224 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=20
+No. selected genes: 28
+Naive_Bayes
+F1 score: 0.7559523809523809
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.727805010893246
+Random_Forest
+F1 score: 0.6930827886710238
+------------------------------------------
+Running: job=2 idx=230 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=20
+No. selected genes: 70
+Naive_Bayes
+F1 score: 0.7919410454240174
+SVM
+F1 score: 0.6669389978213507
+kNN
+F1 score: 0.7366218576744892
+Random_Forest
+F1 score: 0.6615497076023392
+------------------------------------------
+Running: job=2 idx=236 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=20
+No. selected genes: 193
+Naive_Bayes
+F1 score: 0.753908128908129
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7933914306463326
+Random_Forest
+F1 score: 0.701371484266221
+------------------------------------------
+Running: job=2 idx=242 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=20
+No. selected genes: 248
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.794234360410831
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=248 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=20
+No. selected genes: 453
+Naive_Bayes
+F1 score: 0.7763559969442322
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7986111111111112
+Random_Forest
+F1 score: 0.6910774410774411
+------------------------------------------
+Running: job=2 idx=254 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=100
+No. selected genes: 13
+Naive_Bayes
+F1 score: 0.7195378151260504
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.727805010893246
+Random_Forest
+F1 score: 0.7757335257335257
+------------------------------------------
+Running: job=2 idx=260 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=100
+No. selected genes: 54
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7919410454240174
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=266 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=100
+No. selected genes: 15
+Naive_Bayes
+F1 score: 0.7588771741997549
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.670861391694725
+Random_Forest
+F1 score: 0.6670033670033669
+------------------------------------------
+Running: job=2 idx=272 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=100
+No. selected genes: 225
+Naive_Bayes
+F1 score: 0.7559523809523809
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.8327143988908694
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=278 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=100
+No. selected genes: 171
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7476677805625174
+Random_Forest
+F1 score: 0.7023420479302831
+------------------------------------------
+Running: job=2 idx=284 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=100
+No. selected genes: 516
+Naive_Bayes
+F1 score: 0.8028110233992587
+SVM
+F1 score: 0.7183678894205211
+kNN
+F1 score: 0.7484567901234568
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=290 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=50
+No. selected genes: 53
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6930827886710238
+kNN
+F1 score: 0.7295362589480237
+Random_Forest
+F1 score: 0.7230187396596066
+------------------------------------------
+Running: job=2 idx=296 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=50
+No. selected genes: 136
+Naive_Bayes
+F1 score: 0.753908128908129
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7622159975101152
+Random_Forest
+F1 score: 0.7215608465608465
+------------------------------------------
+Running: job=2 idx=302 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=50
+No. selected genes: 35
+Naive_Bayes
+F1 score: 0.7516582317306955
+SVM
+F1 score: 0.7195378151260504
+kNN
+F1 score: 0.7238621944504298
+Random_Forest
+F1 score: 0.7456922162804516
+------------------------------------------
+Running: job=2 idx=308 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=50
+No. selected genes: 256
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7274937752878929
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=314 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=50
+No. selected genes: 207
+Naive_Bayes
+F1 score: 0.7559523809523809
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7939039517986886
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=320 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=50
+No. selected genes: 488
+Naive_Bayes
+F1 score: 0.7763559969442322
+SVM
+F1 score: 0.6691271691271692
+kNN
+F1 score: 0.7882300448089922
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=326 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=10
+No. selected genes: 316
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.8601125635439361
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=332 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=10
+No. selected genes: 142
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.6971807241415084
+Random_Forest
+F1 score: 0.7486383442265795
+------------------------------------------
+Running: job=2 idx=338 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=10
+No. selected genes: 232
+Naive_Bayes
+F1 score: 0.8213083213083213
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7476677805625174
+Random_Forest
+F1 score: 0.720899470899471
+------------------------------------------
+Running: job=2 idx=344 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=10
+No. selected genes: 244
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7976190476190477
+Random_Forest
+F1 score: 0.6615497076023392
+------------------------------------------
+Running: job=2 idx=350 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=10
+No. selected genes: 215
+Naive_Bayes
+F1 score: 0.753908128908129
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7657044299201162
+Random_Forest
+F1 score: 0.7023420479302831
+------------------------------------------
+Running: job=2 idx=356 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=10
+No. selected genes: 465
+Naive_Bayes
+F1 score: 0.7757335257335257
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.794234360410831
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=362 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=200
+No. selected genes: 20
+Naive_Bayes
+F1 score: 0.805976430976431
+SVM
+F1 score: 0.6924683503630872
+kNN
+F1 score: 0.730059700647936
+Random_Forest
+F1 score: 0.7189153439153438
+------------------------------------------
+Running: job=2 idx=368 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=200
+No. selected genes: 44
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7625272331154682
+Random_Forest
+F1 score: 0.7522585057414778
+------------------------------------------
+Running: job=2 idx=374 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=200
+No. selected genes: 19
+Naive_Bayes
+F1 score: 0.7303709362532893
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.5814814814814815
+Random_Forest
+F1 score: 0.7218614718614719
+------------------------------------------
+Running: job=2 idx=380 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=200
+No. selected genes: 209
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7921075837742505
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=386 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=200
+No. selected genes: 114
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7638888888888888
+Random_Forest
+F1 score: 0.6612862862862863
+------------------------------------------
+Running: job=2 idx=392 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=200
+No. selected genes: 426
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.7218013468013468
+kNN
+F1 score: 0.7638888888888888
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=398 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=100
+No. selected genes: 19
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.8281136528685548
+Random_Forest
+F1 score: 0.7192714692714692
+------------------------------------------
+Running: job=2 idx=404 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=100
+No. selected genes: 12
+Naive_Bayes
+F1 score: 0.7854090354090355
+SVM
+F1 score: 0.7195378151260504
+kNN
+F1 score: 0.7769727348674716
+Random_Forest
+F1 score: 0.6930827886710238
+------------------------------------------
+Running: job=2 idx=410 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=100
+No. selected genes: 12
+Naive_Bayes
+F1 score: 0.7602339181286548
+SVM
+F1 score: 0.5455614344503235
+kNN
+F1 score: 0.7374338624338624
+Random_Forest
+F1 score: 0.7757335257335257
+------------------------------------------
+Running: job=2 idx=416 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=100
+No. selected genes: 194
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.8049366211130917
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=422 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=100
+No. selected genes: 181
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7657044299201162
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=428 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=100
+No. selected genes: 438
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.8292483660130718
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=434 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=50
+No. selected genes: 15
+Naive_Bayes
+F1 score: 0.7337962962962963
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7422138047138047
+Random_Forest
+F1 score: 0.678030303030303
+------------------------------------------
+Running: job=2 idx=440 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=50
+No. selected genes: 11
+Naive_Bayes
+F1 score: 0.7529461279461278
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7030059365585681
+Random_Forest
+F1 score: 0.654882154882155
+------------------------------------------
+Running: job=2 idx=446 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=50
+No. selected genes: 53
+Naive_Bayes
+F1 score: 0.7337361712361713
+SVM
+F1 score: 0.6934583934583934
+kNN
+F1 score: 0.680670426065163
+Random_Forest
+F1 score: 0.691301349196086
+------------------------------------------
+Running: job=2 idx=452 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=50
+No. selected genes: 225
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7921075837742505
+Random_Forest
+F1 score: 0.718428014480646
+------------------------------------------
+Running: job=2 idx=458 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=50
+No. selected genes: 216
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7524250440917108
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=464 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=50
+No. selected genes: 492
+Naive_Bayes
+F1 score: 0.7763559969442322
+SVM
+F1 score: 0.7764161220043574
+kNN
+F1 score: 0.8296179582944289
+Random_Forest
+F1 score: 0.6910774410774411
+------------------------------------------
+Running: job=2 idx=470 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=20
+No. selected genes: 10
+Naive_Bayes
+F1 score: 0.691137566137566
+SVM
+F1 score: 0.5601851851851851
+kNN
+F1 score: 0.6959876543209876
+Random_Forest
+F1 score: 0.6712962962962963
+------------------------------------------
+Running: job=2 idx=476 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=20
+No. selected genes: 9
+Naive_Bayes
+F1 score: 0.7456922162804516
+SVM
+F1 score: 0.668831168831169
+kNN
+F1 score: 0.7223361433887749
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=482 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=20
+No. selected genes: 5
+Naive_Bayes
+F1 score: 0.730059700647936
+SVM
+F1 score: 0.2844444444444444
+kNN
+F1 score: 0.6362834696168029
+Random_Forest
+F1 score: 0.6746031746031746
+------------------------------------------
+Running: job=2 idx=488 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=20
+No. selected genes: 240
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6669389978213507
+kNN
+F1 score: 0.8040123456790123
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=494 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=20
+No. selected genes: 268
+Naive_Bayes
+F1 score: 0.753908128908129
+SVM
+F1 score: 0.6669389978213507
+kNN
+F1 score: 0.7615546218487395
+Random_Forest
+F1 score: 0.6615497076023392
+------------------------------------------
+Running: job=2 idx=500 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=20
+No. selected genes: 532
+Naive_Bayes
+F1 score: 0.7763559969442322
+SVM
+F1 score: 0.8234126984126985
+kNN
+F1 score: 0.7986111111111112
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=506 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=10
+No. selected genes: 58
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7995642701525054
+Random_Forest
+F1 score: 0.6970836181362497
+------------------------------------------
+Running: job=2 idx=512 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=10
+No. selected genes: 69
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7525464731347085
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=518 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=10
+No. selected genes: 55
+Naive_Bayes
+F1 score: 0.7476677805625174
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.696164021164021
+Random_Forest
+F1 score: 0.6612862862862863
+------------------------------------------
+Running: job=2 idx=524 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=10
+No. selected genes: 254
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.794234360410831
+Random_Forest
+F1 score: 0.7486383442265795
+------------------------------------------
+Running: job=2 idx=530 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=10
+No. selected genes: 214
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.8342339162231635
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=536 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=10
+No. selected genes: 509
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.8284231200897866
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=542 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=200
+No. selected genes: 33
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7638888888888888
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=548 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=200
+No. selected genes: 12
+Naive_Bayes
+F1 score: 0.7529461279461278
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7422174966034615
+Random_Forest
+F1 score: 0.7669764875647229
+------------------------------------------
+Running: job=2 idx=554 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=200
+No. selected genes: 25
+Naive_Bayes
+F1 score: 0.7982590885816693
+SVM
+F1 score: 0.6623250044302674
+kNN
+F1 score: 0.6014878514878514
+Random_Forest
+F1 score: 0.6623250044302674
+------------------------------------------
+Running: job=2 idx=560 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=200
+No. selected genes: 167
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7710363872644574
+Random_Forest
+F1 score: 0.6615497076023392
+------------------------------------------
+Running: job=2 idx=566 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=200
+No. selected genes: 221
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.637962962962963
+kNN
+F1 score: 0.7322457026404394
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=572 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=200
+No. selected genes: 425
+Naive_Bayes
+F1 score: 0.7764161220043574
+SVM
+F1 score: 0.7476677805625174
+kNN
+F1 score: 0.8285657697422403
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=578 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=100
+No. selected genes: 44
+Naive_Bayes
+F1 score: 0.753908128908129
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7657044299201162
+Random_Forest
+F1 score: 0.7486383442265795
+------------------------------------------
+Running: job=2 idx=584 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=100
+No. selected genes: 24
+Naive_Bayes
+F1 score: 0.7195378151260504
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7222222222222222
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=590 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=100
+No. selected genes: 23
+Naive_Bayes
+F1 score: 0.7479557479557479
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.8014870931537597
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=596 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=100
+No. selected genes: 169
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7524250440917108
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=602 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=100
+No. selected genes: 172
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7637995137995138
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=608 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=100
+No. selected genes: 425
+Naive_Bayes
+F1 score: 0.7763559969442322
+SVM
+F1 score: 0.7431302270011947
+kNN
+F1 score: 0.8031045751633986
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=614 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=20
+No. selected genes: 88
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7706228956228957
+Random_Forest
+F1 score: 0.7484567901234568
+------------------------------------------
+Running: job=2 idx=620 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=20
+No. selected genes: 24
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.6944444444444444
+Random_Forest
+F1 score: 0.6620615831142147
+------------------------------------------
+Running: job=2 idx=626 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=20
+No. selected genes: 106
+Naive_Bayes
+F1 score: 0.7189153439153438
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7290772915772916
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=632 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=20
+No. selected genes: 201
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7522585057414778
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=638 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=20
+No. selected genes: 250
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.8296179582944289
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=644 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=20
+No. selected genes: 511
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.7212166918049271
+kNN
+F1 score: 0.7921075837742505
+Random_Forest
+F1 score: 0.6910774410774411
+------------------------------------------
+Running: job=2 idx=650 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=500
+No. selected genes: 49
+Naive_Bayes
+F1 score: 0.753908128908129
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7291666666666666
+Random_Forest
+F1 score: 0.7484567901234568
+------------------------------------------
+Running: job=2 idx=656 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=500
+No. selected genes: 9
+Naive_Bayes
+F1 score: 0.7546897546897546
+SVM
+F1 score: 0.6137740183792815
+kNN
+F1 score: 0.6111111111111112
+Random_Forest
+F1 score: 0.607537361923327
+------------------------------------------
+Running: job=2 idx=662 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=500
+No. selected genes: 91
+Naive_Bayes
+F1 score: 0.7757335257335257
+SVM
+F1 score: 0.6924683503630872
+kNN
+F1 score: 0.7444791047732224
+Random_Forest
+F1 score: 0.6612862862862863
+------------------------------------------
+Running: job=2 idx=668 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=500
+No. selected genes: 173
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.8595679012345678
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=674 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=500
+No. selected genes: 170
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7484567901234568
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=680 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=500
+No. selected genes: 443
+Naive_Bayes
+F1 score: 0.7763559969442322
+SVM
+F1 score: 0.7195378151260504
+kNN
+F1 score: 0.8281136528685548
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=686 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=50
+No. selected genes: 16
+Naive_Bayes
+F1 score: 0.7456922162804516
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7184758287699464
+Random_Forest
+F1 score: 0.6712962962962963
+------------------------------------------
+Running: job=2 idx=692 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=50
+No. selected genes: 11
+Naive_Bayes
+F1 score: 0.8098845598845599
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.6980646059593428
+Random_Forest
+F1 score: 0.7511034716917071
+------------------------------------------
+Running: job=2 idx=698 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=50
+No. selected genes: 59
+Naive_Bayes
+F1 score: 0.7816257816257816
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.8167388167388167
+Random_Forest
+F1 score: 0.6615497076023392
+------------------------------------------
+Running: job=2 idx=704 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=50
+No. selected genes: 212
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.8601125635439361
+Random_Forest
+F1 score: 0.6615497076023392
+------------------------------------------
+Running: job=2 idx=710 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=50
+No. selected genes: 237
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7363834422657951
+Random_Forest
+F1 score: 0.7023420479302831
+------------------------------------------
+Running: job=2 idx=716 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=50
+No. selected genes: 435
+Naive_Bayes
+F1 score: 0.8028110233992587
+SVM
+F1 score: 0.7949214528161895
+kNN
+F1 score: 0.7637995137995138
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=722 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=200
+No. selected genes: 11
+Naive_Bayes
+F1 score: 0.7892917267917269
+SVM
+F1 score: 0.6626963650957459
+kNN
+F1 score: 0.6193385467579016
+Random_Forest
+F1 score: 0.8071428571428572
+------------------------------------------
+Running: job=2 idx=728 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=200
+No. selected genes: 20
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.7189153439153438
+kNN
+F1 score: 0.6764069264069265
+Random_Forest
+F1 score: 0.6772486772486772
+------------------------------------------
+Running: job=2 idx=734 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=200
+No. selected genes: 42
+Naive_Bayes
+F1 score: 0.7757335257335257
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7274336502277678
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=740 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=200
+No. selected genes: 170
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7976190476190477
+Random_Forest
+F1 score: 0.7476677805625174
+------------------------------------------
+Running: job=2 idx=746 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=200
+No. selected genes: 174
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7986111111111112
+Random_Forest
+F1 score: 0.6612862862862863
+------------------------------------------
+Running: job=2 idx=752 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=200
+No. selected genes: 496
+Naive_Bayes
+F1 score: 0.7757335257335257
+SVM
+F1 score: 0.7486383442265795
+kNN
+F1 score: 0.8296179582944289
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=758 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=1000
+No. selected genes: 39
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.6968749488099335
+Random_Forest
+F1 score: 0.6615497076023392
+------------------------------------------
+Running: job=2 idx=764 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=1000
+No. selected genes: 18
+Naive_Bayes
+F1 score: 0.7919410454240174
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.6709322959322959
+Random_Forest
+F1 score: 0.7175925925925926
+------------------------------------------
+Running: job=2 idx=770 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=1000
+No. selected genes: 13
+Naive_Bayes
+F1 score: 0.7150072150072151
+SVM
+F1 score: 0.5608465608465609
+kNN
+F1 score: 0.7222222222222222
+Random_Forest
+F1 score: 0.691301349196086
+------------------------------------------
+Running: job=2 idx=776 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=1000
+No. selected genes: 171
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7648420479302831
+Random_Forest
+F1 score: 0.7023420479302831
+------------------------------------------
+Running: job=2 idx=782 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=1000
+No. selected genes: 183
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7522585057414778
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=788 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=1000
+No. selected genes: 250
+Naive_Bayes
+F1 score: 0.7486383442265795
+SVM
+F1 score: 0.6633597883597884
+kNN
+F1 score: 0.7611832611832612
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=794 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=500
+No. selected genes: 13
+Naive_Bayes
+F1 score: 0.7138092393468738
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7986111111111112
+Random_Forest
+F1 score: 0.6540964338951955
+------------------------------------------
+Running: job=2 idx=800 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=500
+No. selected genes: 28
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7476677805625174
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=806 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=500
+No. selected genes: 48
+Naive_Bayes
+F1 score: 0.7522585057414778
+SVM
+F1 score: 0.6930827886710238
+kNN
+F1 score: 0.7965686274509803
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=812 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=500
+No. selected genes: 184
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7948957360722066
+Random_Forest
+F1 score: 0.7486383442265795
+------------------------------------------
+Running: job=2 idx=818 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=500
+No. selected genes: 139
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7933914306463326
+Random_Forest
+F1 score: 0.753908128908129
+------------------------------------------
+Running: job=2 idx=824 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=500
+No. selected genes: 474
+Naive_Bayes
+F1 score: 0.8028110233992587
+SVM
+F1 score: 0.7486383442265795
+kNN
+F1 score: 0.7524250440917108
+Random_Forest
+F1 score: 0.6910774410774411
+------------------------------------------
+Running: job=2 idx=830 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=100
+No. selected genes: 11
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.6695137651020003
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=836 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=100
+No. selected genes: 34
+Naive_Bayes
+F1 score: 0.7559523809523809
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.739560639070443
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=842 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=100
+No. selected genes: 27
+Naive_Bayes
+F1 score: 0.730059700647936
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.6409439742773075
+Random_Forest
+F1 score: 0.7218614718614719
+------------------------------------------
+Running: job=2 idx=848 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=100
+No. selected genes: 234
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7184758287699464
+Random_Forest
+F1 score: 0.7476677805625174
+------------------------------------------
+Running: job=2 idx=854 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=100
+No. selected genes: 178
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.8281136528685548
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=860 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=100
+No. selected genes: 485
+Naive_Bayes
+F1 score: 0.7757335257335257
+SVM
+F1 score: 0.7763559969442322
+kNN
+F1 score: 0.7986111111111112
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=866 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=50
+No. selected genes: 41
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7666947250280584
+Random_Forest
+F1 score: 0.7920474587141254
+------------------------------------------
+Running: job=2 idx=872 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=50
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.7204396910279264
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7299419634945951
+Random_Forest
+F1 score: 0.739560639070443
+------------------------------------------
+Running: job=2 idx=878 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=50
+No. selected genes: 82
+Naive_Bayes
+F1 score: 0.7525464731347085
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7927088343755011
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=884 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=50
+No. selected genes: 188
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7722403776325345
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=890 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=50
+No. selected genes: 220
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7939039517986886
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=896 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=50
+No. selected genes: 479
+Naive_Bayes
+F1 score: 0.7763559969442322
+SVM
+F1 score: 0.7499691284521004
+kNN
+F1 score: 0.8532052551660395
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=902 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=1000
+No. selected genes: 21
+Naive_Bayes
+F1 score: 0.7322457026404394
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7476076555023923
+Random_Forest
+F1 score: 0.6612862862862863
+------------------------------------------
+Running: job=2 idx=908 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=1000
+No. selected genes: 7
+Naive_Bayes
+F1 score: 0.7189153439153438
+SVM
+F1 score: 0.6088075653293045
+kNN
+F1 score: 0.7669753086419754
+Random_Forest
+F1 score: 0.8041726791726792
+------------------------------------------
+Running: job=2 idx=914 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=1000
+No. selected genes: 33
+Naive_Bayes
+F1 score: 0.6603535353535354
+SVM
+F1 score: 0.6930827886710238
+kNN
+F1 score: 0.7020969498910675
+Random_Forest
+F1 score: 0.6633597883597884
+------------------------------------------
+Running: job=2 idx=920 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=1000
+No. selected genes: 193
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7320326278659612
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=926 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=1000
+No. selected genes: 182
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.8017181620122796
+Random_Forest
+F1 score: 0.7486383442265795
+------------------------------------------
+Running: job=2 idx=932 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=1000
+No. selected genes: 380
+Naive_Bayes
+F1 score: 0.7763559969442322
+SVM
+F1 score: 0.7195378151260504
+kNN
+F1 score: 0.794234360410831
+Random_Forest
+F1 score: 0.6612862862862863
+------------------------------------------
+Running: job=2 idx=938 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=500
+No. selected genes: 10
+Naive_Bayes
+F1 score: 0.7389095634709668
+SVM
+F1 score: 0.6300166265336544
+kNN
+F1 score: 0.7722403776325345
+Random_Forest
+F1 score: 0.8071428571428572
+------------------------------------------
+Running: job=2 idx=944 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=500
+No. selected genes: 24
+Naive_Bayes
+F1 score: 0.753908128908129
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7319725028058361
+Random_Forest
+F1 score: 0.7175925925925926
+------------------------------------------
+Running: job=2 idx=950 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=500
+No. selected genes: 16
+Naive_Bayes
+F1 score: 0.7039159097982628
+SVM
+F1 score: 0.5103884372177055
+kNN
+F1 score: 0.62769130511066
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=956 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=500
+No. selected genes: 200
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7710363872644574
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=962 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=500
+No. selected genes: 168
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7320326278659612
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=968 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=500
+No. selected genes: 473
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.7764161220043574
+kNN
+F1 score: 0.7986111111111112
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=974 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=200
+No. selected genes: 20
+Naive_Bayes
+F1 score: 0.8041726791726792
+SVM
+F1 score: 0.7195378151260504
+kNN
+F1 score: 0.794234360410831
+Random_Forest
+F1 score: 0.7764161220043574
+------------------------------------------
+Running: job=2 idx=980 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=200
+No. selected genes: 32
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.7195378151260504
+kNN
+F1 score: 0.7515759094706463
+Random_Forest
+F1 score: 0.7803242509124863
+------------------------------------------
+Running: job=2 idx=986 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=200
+No. selected genes: 26
+Naive_Bayes
+F1 score: 0.7195378151260504
+SVM
+F1 score: 0.747053872053872
+kNN
+F1 score: 0.7710363872644574
+Random_Forest
+F1 score: 0.7195378151260504
+------------------------------------------
+Running: job=2 idx=992 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=200
+No. selected genes: 112
+Naive_Bayes
+F1 score: 0.753908128908129
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7986111111111112
+Random_Forest
+F1 score: 0.701371484266221
+------------------------------------------
+Running: job=2 idx=998 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=200
+No. selected genes: 139
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7476677805625174
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=1004 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=200
+No. selected genes: 458
+Naive_Bayes
+F1 score: 0.7763559969442322
+SVM
+F1 score: 0.6924683503630872
+kNN
+F1 score: 0.7986111111111112
+Random_Forest
+F1 score: 0.7476677805625174
+------------------------------------------
+Running: job=2 idx=1010 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=100
+No. selected genes: 14
+Naive_Bayes
+F1 score: 0.7023420479302831
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.8269706872648048
+Random_Forest
+F1 score: 0.7486383442265795
+------------------------------------------
+Running: job=2 idx=1016 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=100
+No. selected genes: 34
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7939039517986886
+Random_Forest
+F1 score: 0.6924001924001923
+------------------------------------------
+Running: job=2 idx=1022 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=100
+No. selected genes: 38
+Naive_Bayes
+F1 score: 0.8524860742602678
+SVM
+F1 score: 0.7189153439153438
+kNN
+F1 score: 0.65740107845371
+Random_Forest
+F1 score: 0.8038720538720538
+------------------------------------------
+Running: job=2 idx=1028 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=100
+No. selected genes: 187
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7413580246913579
+Random_Forest
+F1 score: 0.6612862862862863
+------------------------------------------
+Running: job=2 idx=1034 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=100
+No. selected genes: 173
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7933914306463326
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=1040 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=100
+No. selected genes: 419
+Naive_Bayes
+F1 score: 0.7763559969442322
+SVM
+F1 score: 0.6910774410774411
+kNN
+F1 score: 0.8292483660130718
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=1046 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=1000
+No. selected genes: 24
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.8284231200897866
+Random_Forest
+F1 score: 0.6924001924001923
+------------------------------------------
+Running: job=2 idx=1052 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=1000
+No. selected genes: 25
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7621558724499901
+Random_Forest
+F1 score: 0.6394997939115586
+------------------------------------------
+Running: job=2 idx=1058 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=1000
+No. selected genes: 46
+Naive_Bayes
+F1 score: 0.7921075837742505
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.6762626262626262
+Random_Forest
+F1 score: 0.6609686609686609
+------------------------------------------
+Running: job=2 idx=1064 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=1000
+No. selected genes: 216
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7622159975101152
+Random_Forest
+F1 score: 0.7023420479302831
+------------------------------------------
+Running: job=2 idx=1070 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=1000
+No. selected genes: 179
+Naive_Bayes
+F1 score: 0.7559523809523809
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7933914306463326
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=1076 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=1000
+No. selected genes: 442
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.6930827886710238
+kNN
+F1 score: 0.8281136528685548
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=1082 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=200
+No. selected genes: 49
+Naive_Bayes
+F1 score: 0.753908128908129
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7638888888888888
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=1088 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=200
+No. selected genes: 26
+Naive_Bayes
+F1 score: 0.753908128908129
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7323420950871932
+Random_Forest
+F1 score: 0.7522585057414778
+------------------------------------------
+Running: job=2 idx=1094 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=200
+No. selected genes: 35
+Naive_Bayes
+F1 score: 0.747053872053872
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7175925925925926
+Random_Forest
+F1 score: 0.6910774410774411
+------------------------------------------
+Running: job=2 idx=1100 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=200
+No. selected genes: 169
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7215608465608465
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=1106 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=200
+No. selected genes: 204
+Naive_Bayes
+F1 score: 0.7559523809523809
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.8284231200897866
+Random_Forest
+F1 score: 0.753908128908129
+------------------------------------------
+Running: job=2 idx=1112 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=200
+No. selected genes: 512
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.7227032227032227
+kNN
+F1 score: 0.8296179582944289
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=1118 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=500
+No. selected genes: 43
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.726972101972102
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=1124 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=500
+No. selected genes: 7
+Naive_Bayes
+F1 score: 0.7816859066859068
+SVM
+F1 score: 0.7189153439153438
+kNN
+F1 score: 0.6691271691271691
+Random_Forest
+F1 score: 0.6864321752092649
+------------------------------------------
+Running: job=2 idx=1130 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=500
+No. selected genes: 22
+Naive_Bayes
+F1 score: 0.6450119474313022
+SVM
+F1 score: 0.6632763985705162
+kNN
+F1 score: 0.6360229276895942
+Random_Forest
+F1 score: 0.6626963650957459
+------------------------------------------
+Running: job=2 idx=1136 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=500
+No. selected genes: 166
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.8284231200897866
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=1142 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=500
+No. selected genes: 172
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7622159975101152
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=1148 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=500
+No. selected genes: 487
+Naive_Bayes
+F1 score: 0.7486383442265795
+SVM
+F1 score: 0.7499009704892057
+kNN
+F1 score: 0.7948957360722066
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=1154 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=1000
+No. selected genes: 9
+Naive_Bayes
+F1 score: 0.691137566137566
+SVM
+F1 score: 0.6677737520128824
+kNN
+F1 score: 0.7016612200435729
+Random_Forest
+F1 score: 0.6924683503630872
+------------------------------------------
+Running: job=2 idx=1160 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=1000
+No. selected genes: 9
+Naive_Bayes
+F1 score: 0.7763559969442322
+SVM
+F1 score: 0.5455614344503235
+kNN
+F1 score: 0.6506086506086507
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=1166 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=1000
+No. selected genes: 17
+Naive_Bayes
+F1 score: 0.7322457026404394
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7069452696903676
+Random_Forest
+F1 score: 0.7476076555023923
+------------------------------------------
+Running: job=2 idx=1172 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=1000
+No. selected genes: 170
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7615546218487395
+Random_Forest
+F1 score: 0.7476677805625174
+------------------------------------------
+Running: job=2 idx=1178 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=1000
+No. selected genes: 187
+Naive_Bayes
+F1 score: 0.753908128908129
+SVM
+F1 score: 0.637962962962963
+kNN
+F1 score: 0.7933914306463326
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=1184 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=1000
+No. selected genes: 457
+Naive_Bayes
+F1 score: 0.7763559969442322
+SVM
+F1 score: 0.6951871657754012
+kNN
+F1 score: 0.7968780946722123
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=2 idx=1190 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=500
+No. selected genes: 12
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7991929094870271
+Random_Forest
+F1 score: 0.727805010893246
+------------------------------------------
+Running: job=2 idx=1196 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=500
+No. selected genes: 33
+Naive_Bayes
+F1 score: 0.7939039517986886
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.8296179582944289
+Random_Forest
+F1 score: 0.7215608465608465
+------------------------------------------
+Running: job=2 idx=1202 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=500
+No. selected genes: 15
+Naive_Bayes
+F1 score: 0.6157407407407407
+SVM
+F1 score: 0.5695641542881593
+kNN
+F1 score: 0.6639433551198256
+Random_Forest
+F1 score: 0.670594837261504
+------------------------------------------
+Running: job=2 idx=1208 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=500
+No. selected genes: 202
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.8014870931537597
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=1214 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=500
+No. selected genes: 190
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6615497076023392
+kNN
+F1 score: 0.7522585057414778
+Random_Forest
+F1 score: 0.7023420479302831
+------------------------------------------
+Running: job=2 idx=1220 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=500
+No. selected genes: 418
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.7195378151260504
+kNN
+F1 score: 0.8281136528685548
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=1226 -> ANOVA_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=1000
+No. selected genes: 10
+Naive_Bayes
+F1 score: 0.6872895622895623
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.6712962962962963
+Random_Forest
+F1 score: 0.7270282186948853
+------------------------------------------
+Running: job=2 idx=1232 -> MI_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=1000
+No. selected genes: 17
+Naive_Bayes
+F1 score: 0.7962962962962963
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7370642701525054
+Random_Forest
+F1 score: 0.7184758287699464
+------------------------------------------
+Running: job=2 idx=1238 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=1000
+No. selected genes: 30
+Naive_Bayes
+F1 score: 0.7456922162804516
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.6213441605598469
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=2 idx=1244 -> ANOVA_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=1000
+No. selected genes: 181
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7939039517986886
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=1250 -> MI_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=1000
+No. selected genes: 207
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7921075837742505
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=2 idx=1256 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=1000
+No. selected genes: 385
+Naive_Bayes
+F1 score: 0.8213083213083213
+SVM
+F1 score: 0.7919410454240174
+kNN
+F1 score: 0.8542491912589951
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Work completed for job=2

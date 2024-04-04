@@ -1,0 +1,1024 @@
+Running: job=3 idx=3 -> Ridge_lung_cancer_df, Artificial_Bee_Colony, iter=50, particles=10
+No. selected genes: 343
+Naive_Bayes
+F1 score: 0.7443628834933184
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.810996771589992
+Random_Forest
+F1 score: 0.8271428571428571
+------------------------------------------
+Running: job=3 idx=9 -> chi2_barretNP_df_1000, Particle_Swarm_Optimization, iter=50, particles=10
+No. selected genes: 499
+Naive_Bayes
+F1 score: 0.6891025641025641
+SVM
+F1 score: 0.5550213675213675
+kNN
+F1 score: 0.7414772727272726
+Random_Forest
+F1 score: 0.4732142857142857
+------------------------------------------
+Running: job=3 idx=15 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=10
+No. selected genes: 248
+Naive_Bayes
+F1 score: 0.7757335257335257
+SVM
+F1 score: 0.7204396910279264
+kNN
+F1 score: 0.821969696969697
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=3 idx=21 -> RF_lung_cancer_df, Artificial_Bee_Colony, iter=50, particles=20
+No. selected genes: 140
+Naive_Bayes
+F1 score: 0.7865715983363041
+SVM
+F1 score: 0.8644874899112187
+kNN
+F1 score: 0.8743107769423559
+Random_Forest
+F1 score: 0.8157586763518967
+------------------------------------------
+Running: job=3 idx=27 -> Ridge_lung_cancer_df, Particle_Swarm_Optimization, iter=50, particles=20
+No. selected genes: 212
+Naive_Bayes
+F1 score: 0.7445035460992908
+SVM
+F1 score: 0.855677966101695
+kNN
+F1 score: 0.7927339901477832
+Random_Forest
+F1 score: 0.8442528735632184
+------------------------------------------
+Running: job=3 idx=33 -> chi2_barretNP_df_1000, Artificial_Bee_Colony, iter=100, particles=10
+No. selected genes: 448
+Naive_Bayes
+F1 score: 0.640625
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.625
+Random_Forest
+F1 score: 0.6821581196581197
+------------------------------------------
+Running: job=3 idx=39 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=10
+No. selected genes: 58
+Naive_Bayes
+F1 score: 0.8200067905950258
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.7618446368446369
+Random_Forest
+F1 score: 0.75
+------------------------------------------
+Running: job=3 idx=45 -> RF_lung_cancer_df, Particle_Swarm_Optimization, iter=100, particles=10
+No. selected genes: 132
+Naive_Bayes
+F1 score: 0.7395238095238095
+SVM
+F1 score: 0.8933908045977011
+kNN
+F1 score: 0.8169491525423729
+Random_Forest
+F1 score: 0.8395238095238093
+------------------------------------------
+Running: job=3 idx=51 -> Ridge_lung_cancer_df, Artificial_Bee_Colony, iter=100, particles=20
+No. selected genes: 45
+Naive_Bayes
+F1 score: 0.7410403426360873
+SVM
+F1 score: 0.6888888888888889
+kNN
+F1 score: 0.846031746031746
+Random_Forest
+F1 score: 0.7395784543325525
+------------------------------------------
+Running: job=3 idx=57 -> chi2_barretNP_df_1000, Particle_Swarm_Optimization, iter=100, particles=20
+No. selected genes: 352
+Naive_Bayes
+F1 score: 0.4739583333333333
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.7443181818181818
+Random_Forest
+F1 score: 0.546875
+------------------------------------------
+Running: job=3 idx=63 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=20
+No. selected genes: 222
+Naive_Bayes
+F1 score: 0.7816257816257816
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.794234360410831
+Random_Forest
+F1 score: 0.691301349196086
+------------------------------------------
+Running: job=3 idx=69 -> RF_lung_cancer_df, Artificial_Bee_Colony, iter=200, particles=10
+No. selected genes: 119
+Naive_Bayes
+F1 score: 0.7399797365754812
+SVM
+F1 score: 0.9472906403940886
+kNN
+F1 score: 0.8743107769423559
+Random_Forest
+F1 score: 0.8492896174863388
+------------------------------------------
+Running: job=3 idx=75 -> Ridge_lung_cancer_df, Particle_Swarm_Optimization, iter=200, particles=10
+No. selected genes: 256
+Naive_Bayes
+F1 score: 0.7443628834933184
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.7586965294592412
+Random_Forest
+F1 score: 0.8454433497536946
+------------------------------------------
+Running: job=3 idx=81 -> chi2_barretNP_df_1000, Artificial_Bee_Colony, iter=50, particles=50
+No. selected genes: 48
+Naive_Bayes
+F1 score: 0.6737179487179487
+SVM
+F1 score: 0.43750000000000006
+kNN
+F1 score: 0.5979166666666667
+Random_Forest
+F1 score: 0.5352928321678321
+------------------------------------------
+Running: job=3 idx=87 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=50, particles=50
+No. selected genes: 94
+Naive_Bayes
+F1 score: 0.8028110233992587
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7476677805625174
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=3 idx=93 -> RF_lung_cancer_df, Particle_Swarm_Optimization, iter=50, particles=50
+No. selected genes: 256
+Naive_Bayes
+F1 score: 0.7634343434343436
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.8707393483709274
+Random_Forest
+F1 score: 0.8454433497536946
+------------------------------------------
+Running: job=3 idx=99 -> Ridge_lung_cancer_df, Artificial_Bee_Colony, iter=200, particles=20
+No. selected genes: 16
+Naive_Bayes
+F1 score: 0.6658333333333333
+SVM
+F1 score: 0.5764705882352941
+kNN
+F1 score: 0.725
+Random_Forest
+F1 score: 0.7851149425287357
+------------------------------------------
+Running: job=3 idx=105 -> chi2_barretNP_df_1000, Particle_Swarm_Optimization, iter=200, particles=20
+No. selected genes: 247
+Naive_Bayes
+F1 score: 0.5615079365079365
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.4732142857142857
+Random_Forest
+F1 score: 0.4732142857142857
+------------------------------------------
+Running: job=3 idx=111 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=20
+No. selected genes: 179
+Naive_Bayes
+F1 score: 0.6872895622895623
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.8285657697422403
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=3 idx=117 -> RF_lung_cancer_df, Artificial_Bee_Colony, iter=50, particles=100
+No. selected genes: 57
+Naive_Bayes
+F1 score: 0.7417460317460318
+SVM
+F1 score: 0.7125000000000001
+kNN
+F1 score: 0.7788095238095238
+Random_Forest
+F1 score: 0.7496774193548388
+------------------------------------------
+Running: job=3 idx=123 -> Ridge_lung_cancer_df, Particle_Swarm_Optimization, iter=50, particles=100
+No. selected genes: 262
+Naive_Bayes
+F1 score: 0.7488866930171278
+SVM
+F1 score: 0.95
+kNN
+F1 score: 0.7673371647509579
+Random_Forest
+F1 score: 0.8692493946731235
+------------------------------------------
+Running: job=3 idx=129 -> chi2_barretNP_df_1000, Artificial_Bee_Colony, iter=100, particles=50
+No. selected genes: 44
+Naive_Bayes
+F1 score: 0.6893939393939393
+SVM
+F1 score: 0.75
+kNN
+F1 score: 0.6714743589743589
+Random_Forest
+F1 score: 0.625
+------------------------------------------
+Running: job=3 idx=135 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=50
+No. selected genes: 11
+Naive_Bayes
+F1 score: 0.6772180665939431
+SVM
+F1 score: 0.5354277165782673
+kNN
+F1 score: 0.7224461303408671
+Random_Forest
+F1 score: 0.7503367003367004
+------------------------------------------
+Running: job=3 idx=141 -> RF_lung_cancer_df, Particle_Swarm_Optimization, iter=100, particles=50
+No. selected genes: 243
+Naive_Bayes
+F1 score: 0.7655555555555557
+SVM
+F1 score: 0.9
+kNN
+F1 score: 0.8523809523809524
+Random_Forest
+F1 score: 0.8597255851493137
+------------------------------------------
+Running: job=3 idx=147 -> Ridge_lung_cancer_df, Artificial_Bee_Colony, iter=500, particles=10
+No. selected genes: 272
+Naive_Bayes
+F1 score: 0.7426978818283166
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.846031746031746
+Random_Forest
+F1 score: 0.7788095238095238
+------------------------------------------
+Running: job=3 idx=153 -> chi2_barretNP_df_1000, Particle_Swarm_Optimization, iter=500, particles=10
+No. selected genes: 384
+Naive_Bayes
+F1 score: 0.4204545454545454
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.6412337662337663
+Random_Forest
+F1 score: 0.625
+------------------------------------------
+Running: job=3 idx=159 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=10
+No. selected genes: 224
+Naive_Bayes
+F1 score: 0.8028110233992587
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.7933914306463326
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=3 idx=165 -> RF_lung_cancer_df, Artificial_Bee_Colony, iter=50, particles=200
+No. selected genes: 179
+Naive_Bayes
+F1 score: 0.808
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.7927339901477832
+Random_Forest
+F1 score: 0.8703425229741019
+------------------------------------------
+Running: job=3 idx=171 -> Ridge_lung_cancer_df, Particle_Swarm_Optimization, iter=50, particles=200
+No. selected genes: 241
+Naive_Bayes
+F1 score: 0.7216161616161615
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.7673371647509579
+Random_Forest
+F1 score: 0.768888888888889
+------------------------------------------
+Running: job=3 idx=177 -> chi2_barretNP_df_1000, Artificial_Bee_Colony, iter=100, particles=100
+No. selected genes: 302
+Naive_Bayes
+F1 score: 0.5625
+SVM
+F1 score: 0.5758547008547009
+kNN
+F1 score: 0.5340909090909091
+Random_Forest
+F1 score: 0.384375
+------------------------------------------
+Running: job=3 idx=183 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=100, particles=100
+No. selected genes: 139
+Naive_Bayes
+F1 score: 0.8028110233992587
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.794234360410831
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=3 idx=189 -> RF_lung_cancer_df, Particle_Swarm_Optimization, iter=100, particles=100
+No. selected genes: 254
+Naive_Bayes
+F1 score: 0.8322043969102791
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.7927339901477832
+Random_Forest
+F1 score: 0.8644874899112187
+------------------------------------------
+Running: job=3 idx=195 -> Ridge_lung_cancer_df, Artificial_Bee_Colony, iter=200, particles=50
+No. selected genes: 22
+Naive_Bayes
+F1 score: 0.6693244739756367
+SVM
+F1 score: 0.5764705882352941
+kNN
+F1 score: 0.6420833333333335
+Random_Forest
+F1 score: 0.6728110599078341
+------------------------------------------
+Running: job=3 idx=201 -> chi2_barretNP_df_1000, Particle_Swarm_Optimization, iter=200, particles=50
+No. selected genes: 486
+Naive_Bayes
+F1 score: 0.6875
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.5550213675213675
+Random_Forest
+F1 score: 0.625
+------------------------------------------
+Running: job=3 idx=207 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=200, particles=50
+No. selected genes: 225
+Naive_Bayes
+F1 score: 0.7522585057414778
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.8292483660130718
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=3 idx=213 -> RF_lung_cancer_df, Artificial_Bee_Colony, iter=500, particles=20
+No. selected genes: 144
+Naive_Bayes
+F1 score: 0.7200427350427351
+SVM
+F1 score: 0.8933908045977011
+kNN
+F1 score: 0.8743107769423559
+Random_Forest
+F1 score: 0.8271428571428571
+------------------------------------------
+Running: job=3 idx=219 -> Ridge_lung_cancer_df, Particle_Swarm_Optimization, iter=500, particles=20
+No. selected genes: 231
+Naive_Bayes
+F1 score: 0.7443628834933184
+SVM
+F1 score: 0.855677966101695
+kNN
+F1 score: 0.7867816091954023
+Random_Forest
+F1 score: 0.74
+------------------------------------------
+Running: job=3 idx=225 -> chi2_barretNP_df_1000, Artificial_Bee_Colony, iter=1000, particles=10
+No. selected genes: 236
+Naive_Bayes
+F1 score: 0.5078983516483517
+SVM
+F1 score: 0.5352928321678321
+kNN
+F1 score: 0.7443181818181818
+Random_Forest
+F1 score: 0.6049107142857143
+------------------------------------------
+Running: job=3 idx=231 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=10
+No. selected genes: 158
+Naive_Bayes
+F1 score: 0.7453102453102454
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.8579256618472304
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=3 idx=237 -> RF_lung_cancer_df, Particle_Swarm_Optimization, iter=1000, particles=10
+No. selected genes: 256
+Naive_Bayes
+F1 score: 0.7831372549019606
+SVM
+F1 score: 0.9257070707070707
+kNN
+F1 score: 0.9238721804511278
+Random_Forest
+F1 score: 0.7930054644808744
+------------------------------------------
+Running: job=3 idx=243 -> Ridge_lung_cancer_df, Artificial_Bee_Colony, iter=100, particles=200
+No. selected genes: 87
+Naive_Bayes
+F1 score: 0.6666666666666667
+SVM
+F1 score: 0.8036866359447004
+kNN
+F1 score: 0.7716165413533834
+Random_Forest
+F1 score: 0.7538641686182669
+------------------------------------------
+Running: job=3 idx=249 -> chi2_barretNP_df_1000, Particle_Swarm_Optimization, iter=100, particles=200
+No. selected genes: 501
+Naive_Bayes
+F1 score: 0.4767857142857143
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.5410353535353535
+Random_Forest
+F1 score: 0.4277777777777778
+------------------------------------------
+Running: job=3 idx=255 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=100, particles=200
+No. selected genes: 273
+Naive_Bayes
+F1 score: 0.7803242509124863
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.8296179582944289
+Random_Forest
+F1 score: 0.691301349196086
+------------------------------------------
+Running: job=3 idx=261 -> RF_lung_cancer_df, Artificial_Bee_Colony, iter=200, particles=100
+No. selected genes: 260
+Naive_Bayes
+F1 score: 0.8102222222222222
+SVM
+F1 score: 0.95
+kNN
+F1 score: 0.9037037037037038
+Random_Forest
+F1 score: 0.8053864168618267
+------------------------------------------
+Running: job=3 idx=267 -> Ridge_lung_cancer_df, Particle_Swarm_Optimization, iter=200, particles=100
+No. selected genes: 257
+Naive_Bayes
+F1 score: 0.6721367521367521
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.791949152542373
+Random_Forest
+F1 score: 0.7175729646697389
+------------------------------------------
+Running: job=3 idx=273 -> chi2_barretNP_df_1000, Artificial_Bee_Colony, iter=1000, particles=20
+No. selected genes: 54
+Naive_Bayes
+F1 score: 0.28125
+SVM
+F1 score: 0.6517857142857143
+kNN
+F1 score: 0.6412337662337663
+Random_Forest
+F1 score: 0.49836601307189543
+------------------------------------------
+Running: job=3 idx=279 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=1000, particles=20
+No. selected genes: 375
+Naive_Bayes
+F1 score: 0.8028110233992587
+SVM
+F1 score: 0.6670033670033669
+kNN
+F1 score: 0.8292483660130718
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=3 idx=285 -> RF_lung_cancer_df, Particle_Swarm_Optimization, iter=1000, particles=20
+No. selected genes: 254
+Naive_Bayes
+F1 score: 0.7952380952380953
+SVM
+F1 score: 0.95
+kNN
+F1 score: 0.8780303030303029
+Random_Forest
+F1 score: 0.7930054644808744
+------------------------------------------
+Running: job=3 idx=291 -> Ridge_lung_cancer_df, Artificial_Bee_Colony, iter=50, particles=500
+No. selected genes: 29
+Naive_Bayes
+F1 score: 0.761439393939394
+SVM
+F1 score: 0.6060606060606061
+kNN
+F1 score: 0.8211779448621552
+Random_Forest
+F1 score: 0.7951149425287356
+------------------------------------------
+Running: job=3 idx=297 -> chi2_barretNP_df_1000, Particle_Swarm_Optimization, iter=50, particles=500
+No. selected genes: 251
+Naive_Bayes
+F1 score: 0.41346153846153844
+SVM
+F1 score: 0.5804716117216117
+kNN
+F1 score: 0.5340909090909091
+Random_Forest
+F1 score: 0.5125
+------------------------------------------
+Running: job=3 idx=303 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=500
+No. selected genes: 174
+Naive_Bayes
+F1 score: 0.7777176527176528
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.7175925925925926
+Random_Forest
+F1 score: 0.6910774410774411
+------------------------------------------
+Running: job=3 idx=309 -> RF_lung_cancer_df, Artificial_Bee_Colony, iter=500, particles=50
+No. selected genes: 125
+Naive_Bayes
+F1 score: 0.8102222222222222
+SVM
+F1 score: 0.8933908045977011
+kNN
+F1 score: 0.8981527093596059
+Random_Forest
+F1 score: 0.8395238095238093
+------------------------------------------
+Running: job=3 idx=315 -> Ridge_lung_cancer_df, Particle_Swarm_Optimization, iter=500, particles=50
+No. selected genes: 246
+Naive_Bayes
+F1 score: 0.6670534117045743
+SVM
+F1 score: 0.8933908045977011
+kNN
+F1 score: 0.7673809523809523
+Random_Forest
+F1 score: 0.7525345622119815
+------------------------------------------
+Running: job=3 idx=321 -> chi2_barretNP_df_1000, Artificial_Bee_Colony, iter=200, particles=200
+No. selected genes: 20
+Naive_Bayes
+F1 score: 0.5477272727272727
+SVM
+F1 score: 0.4083333333333333
+kNN
+F1 score: 0.5308441558441559
+Random_Forest
+F1 score: 0.5111607142857143
+------------------------------------------
+Running: job=3 idx=327 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=200
+No. selected genes: 20
+Naive_Bayes
+F1 score: 0.7984844943119839
+SVM
+F1 score: 0.6388694366635543
+kNN
+F1 score: 0.6716931216931217
+Random_Forest
+F1 score: 0.7039159097982628
+------------------------------------------
+Running: job=3 idx=333 -> RF_lung_cancer_df, Particle_Swarm_Optimization, iter=200, particles=200
+No. selected genes: 251
+Naive_Bayes
+F1 score: 0.8078632478632478
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.8488095238095237
+Random_Forest
+F1 score: 0.8299999999999998
+------------------------------------------
+Running: job=3 idx=339 -> Ridge_lung_cancer_df, Artificial_Bee_Colony, iter=50, particles=1000
+No. selected genes: 44
+Naive_Bayes
+F1 score: 0.7388974854932302
+SVM
+F1 score: 0.6656249999999999
+kNN
+F1 score: 0.9
+Random_Forest
+F1 score: 0.8743107769423559
+------------------------------------------
+Running: job=3 idx=345 -> chi2_barretNP_df_1000, Particle_Swarm_Optimization, iter=50, particles=1000
+No. selected genes: 483
+Naive_Bayes
+F1 score: 0.5732638888888889
+SVM
+F1 score: 0.6517857142857143
+kNN
+F1 score: 0.49837662337662336
+Random_Forest
+F1 score: 0.45716783216783213
+------------------------------------------
+Running: job=3 idx=351 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=50, particles=1000
+No. selected genes: 190
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.8038720538720538
+Random_Forest
+F1 score: 0.691137566137566
+------------------------------------------
+Running: job=3 idx=357 -> RF_lung_cancer_df, Artificial_Bee_Colony, iter=100, particles=500
+No. selected genes: 16
+Naive_Bayes
+F1 score: 0.6965079365079365
+SVM
+F1 score: 0.6887912087912087
+kNN
+F1 score: 0.8945812807881772
+Random_Forest
+F1 score: 0.730054644808743
+------------------------------------------
+Running: job=3 idx=363 -> Ridge_lung_cancer_df, Particle_Swarm_Optimization, iter=100, particles=500
+No. selected genes: 237
+Naive_Bayes
+F1 score: 0.6930496453900707
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.7586965294592412
+Random_Forest
+F1 score: 0.7450546448087432
+------------------------------------------
+Running: job=3 idx=369 -> chi2_barretNP_df_1000, Artificial_Bee_Colony, iter=500, particles=100
+No. selected genes: 66
+Naive_Bayes
+F1 score: 0.4575892857142857
+SVM
+F1 score: 0.4427083333333333
+kNN
+F1 score: 0.6357323232323232
+Random_Forest
+F1 score: 0.6014384920634921
+------------------------------------------
+Running: job=3 idx=375 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=100
+No. selected genes: 10
+Naive_Bayes
+F1 score: 0.7016594516594518
+SVM
+F1 score: 0.5129142300194931
+kNN
+F1 score: 0.6773259873750069
+Random_Forest
+F1 score: 0.7195378151260504
+------------------------------------------
+Running: job=3 idx=381 -> RF_lung_cancer_df, Particle_Swarm_Optimization, iter=500, particles=100
+No. selected genes: 247
+Naive_Bayes
+F1 score: 0.8078632478632478
+SVM
+F1 score: 0.8933908045977011
+kNN
+F1 score: 0.8752525252525253
+Random_Forest
+F1 score: 0.762058371735791
+------------------------------------------
+Running: job=3 idx=387 -> Ridge_lung_cancer_df, Artificial_Bee_Colony, iter=1000, particles=50
+No. selected genes: 32
+Naive_Bayes
+F1 score: 0.6508333333333334
+SVM
+F1 score: 0.6250746268656717
+kNN
+F1 score: 0.6549923195084486
+Random_Forest
+F1 score: 0.6656249999999999
+------------------------------------------
+Running: job=3 idx=393 -> chi2_barretNP_df_1000, Particle_Swarm_Optimization, iter=1000, particles=50
+No. selected genes: 244
+Naive_Bayes
+F1 score: 0.6923076923076923
+SVM
+F1 score: 0.45716783216783213
+kNN
+F1 score: 0.7840909090909091
+Random_Forest
+F1 score: 0.6517857142857143
+------------------------------------------
+Running: job=3 idx=399 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=50
+No. selected genes: 198
+Naive_Bayes
+F1 score: 0.7764161220043574
+SVM
+F1 score: 0.6907894736842104
+kNN
+F1 score: 0.8296179582944289
+Random_Forest
+F1 score: 0.6907894736842104
+------------------------------------------
+Running: job=3 idx=405 -> RF_lung_cancer_df, Artificial_Bee_Colony, iter=100, particles=1000
+No. selected genes: 166
+Naive_Bayes
+F1 score: 0.8364545454545456
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.9273809523809524
+Random_Forest
+F1 score: 0.8492896174863388
+------------------------------------------
+Running: job=3 idx=411 -> Ridge_lung_cancer_df, Particle_Swarm_Optimization, iter=100, particles=1000
+No. selected genes: 256
+Naive_Bayes
+F1 score: 0.6944388944388944
+SVM
+F1 score: 0.95
+kNN
+F1 score: 0.6880562060889929
+Random_Forest
+F1 score: 0.7510070257611241
+------------------------------------------
+Running: job=3 idx=417 -> chi2_barretNP_df_1000, Artificial_Bee_Colony, iter=200, particles=500
+No. selected genes: 39
+Naive_Bayes
+F1 score: 0.5574737762237761
+SVM
+F1 score: 0.546875
+kNN
+F1 score: 0.6517857142857143
+Random_Forest
+F1 score: 0.4652777777777778
+------------------------------------------
+Running: job=3 idx=423 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=500
+No. selected genes: 14
+Naive_Bayes
+F1 score: 0.6721317181843498
+SVM
+F1 score: 0.44676833696441537
+kNN
+F1 score: 0.5813570923865042
+Random_Forest
+F1 score: 0.638401559454191
+------------------------------------------
+Running: job=3 idx=429 -> RF_lung_cancer_df, Particle_Swarm_Optimization, iter=200, particles=500
+No. selected genes: 256
+Naive_Bayes
+F1 score: 0.7655555555555557
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.8743107769423559
+Random_Forest
+F1 score: 0.8271428571428571
+------------------------------------------
+Running: job=3 idx=435 -> Ridge_lung_cancer_df, Artificial_Bee_Colony, iter=500, particles=200
+No. selected genes: 289
+Naive_Bayes
+F1 score: 0.6944388944388944
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.7673371647509579
+Random_Forest
+F1 score: 0.7175729646697389
+------------------------------------------
+Running: job=3 idx=441 -> chi2_barretNP_df_1000, Particle_Swarm_Optimization, iter=500, particles=200
+No. selected genes: 224
+Naive_Bayes
+F1 score: 0.4636437908496732
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.7467948717948718
+Random_Forest
+F1 score: 0.5125
+------------------------------------------
+Running: job=3 idx=447 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=500, particles=200
+No. selected genes: 221
+Naive_Bayes
+F1 score: 0.7803242509124863
+SVM
+F1 score: 0.691137566137566
+kNN
+F1 score: 0.8292483660130718
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=3 idx=453 -> RF_lung_cancer_df, Artificial_Bee_Colony, iter=1000, particles=100
+No. selected genes: 363
+Naive_Bayes
+F1 score: 0.8372549019607842
+SVM
+F1 score: 0.95
+kNN
+F1 score: 0.8784067085953877
+Random_Forest
+F1 score: 0.8644874899112187
+------------------------------------------
+Running: job=3 idx=459 -> Ridge_lung_cancer_df, Particle_Swarm_Optimization, iter=1000, particles=100
+No. selected genes: 202
+Naive_Bayes
+F1 score: 0.7199797365754812
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.7876190476190476
+Random_Forest
+F1 score: 0.8347619047619046
+------------------------------------------
+Running: job=3 idx=465 -> chi2_barretNP_df_1000, Artificial_Bee_Colony, iter=200, particles=1000
+No. selected genes: 34
+Naive_Bayes
+F1 score: 0.36979166666666663
+SVM
+F1 score: 0.47470238095238093
+kNN
+F1 score: 0.49837662337662336
+Random_Forest
+F1 score: 0.38541666666666663
+------------------------------------------
+Running: job=3 idx=471 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=200, particles=1000
+No. selected genes: 26
+Naive_Bayes
+F1 score: 0.7303709362532893
+SVM
+F1 score: 0.7189153439153438
+kNN
+F1 score: 0.6393045522302487
+Random_Forest
+F1 score: 0.7453102453102454
+------------------------------------------
+Running: job=3 idx=477 -> RF_lung_cancer_df, Particle_Swarm_Optimization, iter=200, particles=1000
+No. selected genes: 254
+Naive_Bayes
+F1 score: 0.8078632478632478
+SVM
+F1 score: 0.9257070707070707
+kNN
+F1 score: 0.9238721804511278
+Random_Forest
+F1 score: 0.8299999999999998
+------------------------------------------
+Running: job=3 idx=483 -> Ridge_lung_cancer_df, Artificial_Bee_Colony, iter=1000, particles=200
+No. selected genes: 15
+Naive_Bayes
+F1 score: 0.6969673943078198
+SVM
+F1 score: 0.5764705882352941
+kNN
+F1 score: 0.725
+Random_Forest
+F1 score: 0.7788095238095238
+------------------------------------------
+Running: job=3 idx=489 -> chi2_barretNP_df_1000, Particle_Swarm_Optimization, iter=1000, particles=200
+No. selected genes: 248
+Naive_Bayes
+F1 score: 0.27951388888888884
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.7285714285714286
+Random_Forest
+F1 score: 0.625
+------------------------------------------
+Running: job=3 idx=495 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=200
+No. selected genes: 189
+Naive_Bayes
+F1 score: 0.8200067905950258
+SVM
+F1 score: 0.6657407407407407
+kNN
+F1 score: 0.8274310565977233
+Random_Forest
+F1 score: 0.718855218855219
+------------------------------------------
+Running: job=3 idx=501 -> RF_lung_cancer_df, Artificial_Bee_Colony, iter=500, particles=500
+No. selected genes: 16
+Naive_Bayes
+F1 score: 0.7615967365967367
+SVM
+F1 score: 0.5764705882352941
+kNN
+F1 score: 0.7646489104116221
+Random_Forest
+F1 score: 0.7304761904761905
+------------------------------------------
+Running: job=3 idx=507 -> Ridge_lung_cancer_df, Particle_Swarm_Optimization, iter=500, particles=500
+No. selected genes: 187
+Naive_Bayes
+F1 score: 0.7488866930171278
+SVM
+F1 score: 0.743010752688172
+kNN
+F1 score: 0.634153005464481
+Random_Forest
+F1 score: 0.7204301075268817
+------------------------------------------
+Running: job=3 idx=513 -> chi2_barretNP_df_1000, Artificial_Bee_Colony, iter=500, particles=1000
+No. selected genes: 12
+Naive_Bayes
+F1 score: 0.753968253968254
+SVM
+F1 score: 0.20454545454545453
+kNN
+F1 score: 0.6950854700854701
+Random_Forest
+F1 score: 0.6355987762237761
+------------------------------------------
+Running: job=3 idx=519 -> RF_GLA_BRA_180_df, Artificial_Bee_Colony, iter=500, particles=1000
+No. selected genes: 58
+Naive_Bayes
+F1 score: 0.7453102453102454
+SVM
+F1 score: 0.6612862862862863
+kNN
+F1 score: 0.6865253411306043
+Random_Forest
+F1 score: 0.691301349196086
+------------------------------------------
+Running: job=3 idx=525 -> RF_lung_cancer_df, Particle_Swarm_Optimization, iter=500, particles=1000
+No. selected genes: 253
+Naive_Bayes
+F1 score: 0.8078632478632478
+SVM
+F1 score: 0.9257070707070707
+kNN
+F1 score: 0.8743107769423559
+Random_Forest
+F1 score: 0.7863387978142077
+------------------------------------------
+Running: job=3 idx=531 -> Ridge_lung_cancer_df, Artificial_Bee_Colony, iter=1000, particles=500
+No. selected genes: 20
+Naive_Bayes
+F1 score: 0.6771717171717172
+SVM
+F1 score: 0.5764705882352941
+kNN
+F1 score: 0.674920634920635
+Random_Forest
+F1 score: 0.7309523809523809
+------------------------------------------
+Running: job=3 idx=537 -> chi2_barretNP_df_1000, Particle_Swarm_Optimization, iter=1000, particles=500
+No. selected genes: 247
+Naive_Bayes
+F1 score: 0.29166666666666663
+SVM
+F1 score: 0.5929851398601398
+kNN
+F1 score: 0.5220716783216783
+Random_Forest
+F1 score: 0.4000000000000001
+------------------------------------------
+Running: job=3 idx=543 -> RF_GLA_BRA_180_df, Particle_Swarm_Optimization, iter=1000, particles=500
+No. selected genes: 176
+Naive_Bayes
+F1 score: 0.8038720538720538
+SVM
+F1 score: 0.7189153439153438
+kNN
+F1 score: 0.8296179582944289
+Random_Forest
+F1 score: 0.691301349196086
+------------------------------------------
+Running: job=3 idx=549 -> RF_lung_cancer_df, Artificial_Bee_Colony, iter=1000, particles=1000
+No. selected genes: 37
+Naive_Bayes
+F1 score: 0.7896666666666666
+SVM
+F1 score: 0.6887912087912087
+kNN
+F1 score: 0.8454433497536946
+Random_Forest
+F1 score: 0.7746031746031746
+------------------------------------------
+Running: job=3 idx=555 -> Ridge_lung_cancer_df, Particle_Swarm_Optimization, iter=1000, particles=1000
+No. selected genes: 253
+Naive_Bayes
+F1 score: 0.7668898477409116
+SVM
+F1 score: 0.9238721804511278
+kNN
+F1 score: 0.8996031746031747
+Random_Forest
+F1 score: 0.7816666666666666
+------------------------------------------
+Work completed for job=3

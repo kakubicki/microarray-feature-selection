@@ -1,0 +1,226 @@
+Method,Dataset,Feature Selection method,Classification method,No. genes,No. selected genes,No. iterations,Accuracy,Precision,Sensitivity,F-measure
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,Naive Bayes,501,276.0,50,0.75,0.861587302,0.75,0.766889848
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,SVM,501,276.0,50,0.925,0.926724138,0.925,0.92387218
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,kNN,501,276.0,50,0.825,0.820114943,0.825,0.821177945
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,Random Forest,501,276.0,50,0.8,0.810416667,0.8,0.778809524
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,Naive Bayes,501,268.0,100,0.75,0.836111111,0.75,0.762371795
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,SVM,501,268.0,100,0.875,0.884677419,0.875,0.855677966
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,kNN,501,268.0,100,0.825,0.812096774,0.825,0.810996772
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,Random Forest,501,268.0,100,0.825,0.837096774,0.825,0.806949153
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,Naive Bayes,501,262.0,200,0.725,0.868506494,0.725,0.748886693
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,SVM,501,262.0,200,0.85,0.765625,0.85,0.805
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,kNN,501,262.0,200,0.825,0.808448276,0.825,0.81125731
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,Random Forest,501,262.0,200,0.8,0.810416667,0.8,0.778809524
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,Naive Bayes,501,257.0,500,0.75,0.846666667,0.75,0.766309524
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,SVM,501,257.0,500,0.925,0.926724138,0.925,0.92387218
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,kNN,501,257.0,500,0.85,0.846666667,0.85,0.846031746
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,Random Forest,501,257.0,500,0.825,0.828763441,0.825,0.815758676
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,Naive Bayes,501,280.0,1000,0.75,0.836111111,0.75,0.762371795
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,SVM,501,280.0,1000,0.9,0.905,0.9,0.893390805
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,kNN,501,280.0,1000,0.8,0.78,0.8,0.782813355
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,Random Forest,501,280.0,1000,0.775,0.693181818,0.775,0.728864169
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,Naive Bayes,501,288.0,2000,0.725,0.841188198,0.725,0.744503546
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,SVM,501,288.0,2000,0.925,0.926724138,0.925,0.92387218
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,kNN,501,288.0,2000,0.85,0.846666667,0.85,0.846031746
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,Random Forest,501,288.0,2000,0.85,0.853333333,0.85,0.84028462
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,Naive Bayes,501,246.0,50,0.375,0.383928571,0.375,0.36875
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,SVM,501,246.0,50,0.5,0.375,0.5,0.427272727
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,kNN,501,246.0,50,0.5625,0.5625,0.5625,0.5625
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,Random Forest,501,246.0,50,0.4375,0.370738636,0.4375,0.384803922
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,Naive Bayes,501,274.0,100,0.4375,0.420833333,0.4375,0.426136364
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,SVM,501,274.0,100,0.375,0.328125,0.375,0.348214286
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,kNN,501,274.0,100,0.375,0.447916667,0.375,0.369791667
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,Random Forest,501,274.0,100,0.3125,0.292613636,0.3125,0.265756303
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,Naive Bayes,501,260.0,200,0.4375,0.446428571,0.4375,0.43125
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,SVM,501,260.0,200,0.5,0.505208333,0.5,0.486458333
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,kNN,501,260.0,200,0.5,0.484375,0.5,0.48989899
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,Random Forest,501,260.0,200,0.25,0.26875,0.25,0.229910714
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,Naive Bayes,501,230.0,500,0.375,0.410714286,0.375,0.354166667
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,SVM,501,230.0,500,0.375,0.375,0.375,0.369047619
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,kNN,501,230.0,500,0.4375,0.35,0.4375,0.371212121
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,Random Forest,501,230.0,500,0.3125,0.28125,0.3125,0.255952381
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,Naive Bayes,501,256.0,1000,0.4375,0.625,0.4375,0.451388889
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,SVM,501,256.0,1000,0.5625,0.572916667,0.5625,0.539285714
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,kNN,501,256.0,1000,0.4375,0.316964286,0.4375,0.365384615
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,Random Forest,501,256.0,1000,0.3125,0.28125,0.3125,0.255952381
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,Naive Bayes,501,256.0,2000,0.375,0.390625,0.375,0.366987179
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,SVM,501,256.0,2000,0.625,0.630952381,0.625,0.614291958
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,kNN,501,256.0,2000,0.4375,0.375,0.4375,0.401785714
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,Random Forest,501,256.0,2000,0.4375,0.4625,0.4375,0.421875
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,Naive Bayes,501,284.0,50,0.825,0.866708075,0.825,0.832204397
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,SVM,501,284.0,50,0.925,0.926724138,0.925,0.92387218
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,kNN,501,284.0,50,0.9,0.905,0.9,0.898152709
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,Random Forest,501,284.0,50,0.85,0.857291667,0.85,0.83952381
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,Naive Bayes,501,258.0,100,0.725,0.857142857,0.725,0.744362883
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,SVM,501,258.0,100,0.95,0.95,0.95,0.95
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,kNN,501,258.0,100,0.925,0.926724138,0.925,0.92387218
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,Random Forest,501,258.0,100,0.85,0.857291667,0.85,0.827142857
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,Naive Bayes,501,275.0,200,0.725,0.824269006,0.725,0.737708674
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,SVM,501,275.0,200,0.925,0.929074074,0.925,0.925707071
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,kNN,501,275.0,200,0.9,0.908076923,0.9,0.900925926
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,Random Forest,501,275.0,200,0.825,0.839393939,0.825,0.802529274
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,Naive Bayes,501,267.0,500,0.775,0.846666667,0.775,0.786984127
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,SVM,501,267.0,500,0.95,0.95,0.95,0.95
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,kNN,501,267.0,500,0.9,0.9,0.9,0.9
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,Random Forest,501,267.0,500,0.875,0.876344086,0.875,0.869249395
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,Naive Bayes,501,284.0,1000,0.75,0.826190476,0.75,0.765974026
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,SVM,501,284.0,1000,0.95,0.95,0.95,0.95
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,kNN,501,284.0,1000,0.9,0.9,0.9,0.9
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,Random Forest,501,284.0,1000,0.825,0.822727273,0.825,0.793005464
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,Naive Bayes,501,285.0,2000,0.8,0.841666667,0.8,0.812307692
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,SVM,501,285.0,2000,0.925,0.929074074,0.925,0.925707071
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,kNN,501,285.0,2000,0.875,0.888148148,0.875,0.877633478
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,Random Forest,501,285.0,2000,0.8,0.805882353,0.8,0.776344086
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,Naive Bayes,201,116.0,50,0.4375,0.447916667,0.4375,0.440025253
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,SVM,201,116.0,50,0.5,0.381410256,0.5,0.393092105
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,kNN,201,116.0,50,0.5,0.34375,0.5,0.404829545
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,Random Forest,201,116.0,50,0.5625,0.578125,0.5625,0.531994048
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,Naive Bayes,201,103.0,100,0.375,0.359375,0.375,0.36489899
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,SVM,201,103.0,100,0.625,0.615625,0.625,0.578869048
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,kNN,201,103.0,100,0.5625,0.390625,0.5625,0.460164835
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,Random Forest,201,103.0,100,0.375,0.358333333,0.375,0.34375
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,Naive Bayes,201,118.0,200,0.4375,0.432291667,0.4375,0.426339286
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,SVM,201,118.0,200,0.5,0.381410256,0.5,0.393092105
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,kNN,201,118.0,200,0.4375,0.316964286,0.4375,0.365384615
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,Random Forest,201,118.0,200,0.5625,0.583333333,0.5625,0.555902778
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,Naive Bayes,201,112.0,500,0.5,0.5,0.5,0.481196581
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,SVM,201,112.0,500,0.5625,0.798076923,0.5625,0.519580201
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,kNN,201,112.0,500,0.625,0.454545455,0.625,0.514705882
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,Random Forest,201,112.0,500,0.5,0.46875,0.5,0.442708333
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,Naive Bayes,201,115.0,1000,0.4375,0.43125,0.4375,0.431818182
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,SVM,201,115.0,1000,0.625,0.8125,0.625,0.588541667
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,kNN,201,115.0,1000,0.4375,0.394886364,0.4375,0.38125
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,Random Forest,201,115.0,1000,0.625,0.614583333,0.625,0.589285714
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,Naive Bayes,201,100.0,2000,0.4375,0.4375,0.4375,0.4375
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,SVM,201,100.0,2000,0.5625,0.485576923,0.5625,0.471217105
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,kNN,201,100.0,2000,0.5,0.395833333,0.5,0.441558442
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,Random Forest,201,100.0,2000,0.4375,0.364583333,0.4375,0.364583333
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,501,245.0,50,0.833333333,0.847222222,0.833333333,0.820006791
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,SVM,501,245.0,50,0.722222222,0.625,0.722222222,0.661286286
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,kNN,501,245.0,50,0.833333333,0.848562378,0.833333333,0.827431057
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,Random Forest,501,245.0,50,0.75,0.648589065,0.75,0.690789474
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,501,235.0,100,0.805555556,0.827729045,0.805555556,0.775733526
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,SVM,501,235.0,100,0.75,0.644527987,0.75,0.691137566
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,kNN,501,235.0,100,0.888888889,0.898148148,0.888888889,0.885212418
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,Random Forest,501,235.0,100,0.75,0.644527987,0.75,0.691137566
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,501,257.0,200,0.833333333,0.852272727,0.833333333,0.802811023
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,SVM,501,257.0,200,0.75,0.653732131,0.75,0.69246835
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,kNN,501,257.0,200,0.805555556,0.849206349,0.805555556,0.79423436
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,Random Forest,501,257.0,200,0.75,0.648589065,0.75,0.690789474
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,501,258.0,500,0.833333333,0.855119826,0.833333333,0.803872054
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,SVM,501,258.0,500,0.75,0.653732131,0.75,0.69246835
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,kNN,501,258.0,500,0.833333333,0.865740741,0.833333333,0.822911656
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,Random Forest,501,258.0,500,0.75,0.648589065,0.75,0.690789474
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,501,265.0,1000,0.833333333,0.852272727,0.833333333,0.802811023
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,SVM,501,265.0,1000,0.75,0.644527987,0.75,0.691137566
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,kNN,501,265.0,1000,0.805555556,0.832027987,0.805555556,0.792107584
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,Random Forest,501,265.0,1000,0.75,0.644527987,0.75,0.691137566
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,501,277.0,2000,0.805555556,0.777777778,0.805555556,0.780324251
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,SVM,501,277.0,2000,0.75,0.643518519,0.75,0.691077441
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,kNN,501,277.0,2000,0.805555556,0.808641975,0.805555556,0.800917673
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,Random Forest,501,277.0,2000,0.75,0.649250441,0.75,0.691301349
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,Naive Bayes,51,40.0,50,0.925,0.929074074,0.925,0.925707071
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,SVM,51,40.0,50,0.95,0.955,0.95,0.949603175
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,kNN,51,40.0,50,0.925,0.931724138,0.925,0.91871345
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,Random Forest,51,40.0,50,0.95,0.955,0.95,0.949603175
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,Naive Bayes,51,51.0,100,0.925,0.929074074,0.925,0.925707071
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,SVM,51,51.0,100,0.975,0.98,0.975,0.976161616
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,kNN,51,51.0,100,0.95,0.955,0.95,0.949603175
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,Random Forest,51,51.0,100,0.95,0.955,0.95,0.949603175
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,Naive Bayes,51,51.0,200,0.925,0.929074074,0.925,0.925707071
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,SVM,51,51.0,200,0.975,0.98,0.975,0.976161616
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,kNN,51,51.0,200,0.95,0.955,0.95,0.949603175
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,Random Forest,51,51.0,200,0.95,0.955,0.95,0.949603175
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,Naive Bayes,51,51.0,500,0.925,0.929074074,0.925,0.925707071
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,SVM,51,51.0,500,0.975,0.98,0.975,0.976161616
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,kNN,51,51.0,500,0.95,0.955,0.95,0.949603175
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,Random Forest,51,51.0,500,0.95,0.955,0.95,0.949603175
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,Naive Bayes,51,49.0,1000,0.925,0.929074074,0.925,0.925707071
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,SVM,51,49.0,1000,0.975,0.98,0.975,0.976161616
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,kNN,51,49.0,1000,0.95,0.955,0.95,0.949603175
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,Random Forest,51,49.0,1000,0.95,0.955,0.95,0.949603175
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,Naive Bayes,51,51.0,2000,0.925,0.929074074,0.925,0.925707071
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,SVM,51,51.0,2000,0.975,0.98,0.975,0.976161616
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,kNN,51,51.0,2000,0.95,0.955,0.95,0.949603175
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,Random Forest,51,51.0,2000,0.95,0.955,0.95,0.949603175
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,Naive Bayes,51,44.0,50,0.5,0.451339286,0.5,0.466224747
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,SVM,51,44.0,50,0.5,0.557291667,0.5,0.503819444
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,kNN,51,44.0,50,0.5625,0.583333333,0.5625,0.555902778
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,Random Forest,51,44.0,50,0.5,0.587121212,0.5,0.477284664
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,Naive Bayes,51,47.0,100,0.5,0.451339286,0.5,0.466224747
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,SVM,51,47.0,100,0.5,0.53125,0.5,0.507936508
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,kNN,51,47.0,100,0.5,0.494791667,0.5,0.488839286
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,Random Forest,51,47.0,100,0.5,0.494791667,0.5,0.488839286
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,Naive Bayes,51,49.0,200,0.5,0.472916667,0.5,0.482954545
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,SVM,51,49.0,200,0.5625,0.551339286,0.5625,0.555021368
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,kNN,51,49.0,200,0.625,0.604166667,0.625,0.604910714
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,Random Forest,51,49.0,200,0.625,0.604166667,0.625,0.604910714
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,Naive Bayes,51,50.0,500,0.5,0.472916667,0.5,0.482954545
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,SVM,51,50.0,500,0.5,0.53125,0.5,0.507936508
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,kNN,51,50.0,500,0.625,0.604166667,0.625,0.604910714
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,Random Forest,51,50.0,500,0.4375,0.463541667,0.4375,0.436458333
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,Naive Bayes,51,49.0,1000,0.5,0.472916667,0.5,0.482954545
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,SVM,51,49.0,1000,0.5,0.53125,0.5,0.507936508
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,kNN,51,49.0,1000,0.625,0.604166667,0.625,0.604910714
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,Random Forest,51,49.0,1000,0.5625,0.583333333,0.5625,0.555902778
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,Naive Bayes,51,50.0,2000,0.5,0.472916667,0.5,0.482954545
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,SVM,51,50.0,2000,0.5,0.53125,0.5,0.507936508
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,kNN,51,50.0,2000,0.625,0.604166667,0.625,0.604910714
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,Random Forest,51,50.0,2000,0.625,0.604166667,0.625,0.604910714
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,101,70.0,50,0.75,0.64338561,0.75,0.692400192
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,SVM,101,70.0,50,0.75,0.652693984,0.75,0.696603718
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,kNN,101,70.0,50,0.666666667,0.590111643,0.666666667,0.625396825
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,Random Forest,101,70.0,50,0.722222222,0.615740741,0.722222222,0.663299663
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,101,74.0,100,0.75,0.644527987,0.75,0.691137566
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,SVM,101,74.0,100,0.722222222,0.629545835,0.722222222,0.671351193
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,kNN,101,74.0,100,0.777777778,0.671957672,0.777777778,0.717717718
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,Random Forest,101,74.0,100,0.75,0.655508072,0.75,0.698138676
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,101,78.0,200,0.75,0.64338561,0.75,0.692400192
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,SVM,101,78.0,200,0.75,0.772173489,0.75,0.72017797
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,kNN,101,78.0,200,0.694444444,0.587522046,0.694444444,0.632821817
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,Random Forest,101,78.0,200,0.75,0.648989899,0.75,0.694444444
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,101,81.0,500,0.722222222,0.617724868,0.722222222,0.661549708
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,SVM,101,81.0,500,0.722222222,0.627256458,0.722222222,0.669612795
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,kNN,101,81.0,500,0.75,0.649250441,0.75,0.691301349
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,Random Forest,101,81.0,500,0.722222222,0.615740741,0.722222222,0.663299663
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,101,78.0,1000,0.75,0.644527987,0.75,0.691137566
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,SVM,101,78.0,1000,0.777777778,0.678837774,0.777777778,0.723539745
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,kNN,101,78.0,1000,0.75,0.648589065,0.75,0.690789474
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,Random Forest,101,78.0,1000,0.722222222,0.617724868,0.722222222,0.661549708
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,101,81.0,2000,0.75,0.644527987,0.75,0.691137566
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,SVM,101,81.0,2000,0.777777778,0.671296296,0.777777778,0.720439691
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,kNN,101,81.0,2000,0.694444444,0.618650794,0.694444444,0.646604938
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,Random Forest,101,81.0,2000,0.777777778,0.674242424,0.777777778,0.720899471
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,1001,494.0,50,0.777777778,0.671596922,0.777777778,0.719537815
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,SVM,1001,494.0,50,0.722222222,0.639329806,0.722222222,0.676198257
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,kNN,1001,494.0,50,0.75,0.75157563,0.75,0.743686869
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,Random Forest,1001,494.0,50,0.722222222,0.625,0.722222222,0.661286286
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,1001,474.0,100,0.777777778,0.671596922,0.777777778,0.719537815
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,SVM,1001,474.0,100,0.777777778,0.802910053,0.777777778,0.748638344
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,kNN,1001,474.0,100,0.75,0.767416226,0.75,0.746096587
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,Random Forest,1001,474.0,100,0.75,0.644527987,0.75,0.691137566
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,1001,478.0,200,0.805555556,0.693890661,0.805555556,0.745310245
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,SVM,1001,478.0,200,0.75,0.644527987,0.75,0.691137566
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,kNN,1001,478.0,200,0.75,0.745811287,0.75,0.743258609
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,Random Forest,1001,478.0,200,0.722222222,0.627104377,0.722222222,0.662325004
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,1001,506.0,500,0.75,0.644527987,0.75,0.691137566
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,SVM,1001,506.0,500,0.75,0.644527987,0.75,0.691137566
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,kNN,1001,506.0,500,0.722222222,0.742724868,0.722222222,0.70009295
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,Random Forest,1001,506.0,500,0.75,0.643518519,0.75,0.691077441
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,1001,509.0,1000,0.777777778,0.668638136,0.777777778,0.718855219
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,SVM,1001,509.0,1000,0.694444444,0.615039282,0.694444444,0.652208358
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,kNN,1001,509.0,1000,0.75,0.752425044,0.75,0.739560639
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,Random Forest,1001,509.0,1000,0.75,0.649250441,0.75,0.691301349
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,Naive Bayes,1001,509.0,2000,0.777777778,0.671296296,0.777777778,0.720439691
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,SVM,1001,509.0,2000,0.805555556,0.827020202,0.805555556,0.776355997
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,kNN,1001,509.0,2000,0.75,0.750765803,0.75,0.734776688
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,Random Forest,1001,509.0,2000,0.777777778,0.671296296,0.777777778,0.718855219
+Hybrid approach,RF_lung_cancer_df,Genetic Algorithm,SVM,501,,0,,,,0.95
+Hybrid approach,RF_barretNP_df,Genetic Algorithm,SVM,201,,0,,,,0.7
+Hybrid approach,RF_GLA_BRA_180_df,Genetic Algorithm,kNN,501,,0,,,,0.86
+Hybrid approach,Ridge_lung_cancer_df,Genetic Algorithm,SVM,501,,0,,,,0.95
+Hybrid approach,Ridge_barretNP_df,Genetic Algorithm,kNN,501,,0,,,,0.64
+Hybrid approach,Ridge_GLA_BRA_180_df,Genetic Algorithm,kNN,1001,,0,,,,0.79
+Hybrid approach,SVM_RFE_lung_cancer_df,Genetic Algorithm,SVM,51,,0,,,,0.98
+Hybrid approach,SVM_RFE_barretNP_df,Genetic Algorithm,RF,51,,0,,,,0.68
+Hybrid approach,SVM_RFE_GLA_BRA_180_df,Genetic Algorithm,RF ,101,,0,,,,0.72

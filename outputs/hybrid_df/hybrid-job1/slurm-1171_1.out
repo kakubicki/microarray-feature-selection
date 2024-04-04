@@ -1,0 +1,3697 @@
+Running: job=1 idx=1 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=50, particles=10
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.61875
+SVM
+F1 score: 0.5352928321678321
+kNN
+F1 score: 0.7467948717948718
+Random_Forest
+F1 score: 0.45381944444444444
+------------------------------------------
+Running: job=1 idx=7 -> MI_barretNP_df, Artificial_Bee_Colony, iter=50, particles=10
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 141, in artificial_bee_colony
+    onlooker_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 117, in onlooker_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=13 -> RF_barretNP_df, Artificial_Bee_Colony, iter=50, particles=10
+No. selected genes: 186
+Naive_Bayes
+F1 score: 0.42613636363636365
+SVM
+F1 score: 0.29976365546218486
+kNN
+F1 score: 0.5275974025974026
+Random_Forest
+F1 score: 0.315359477124183
+------------------------------------------
+Running: job=1 idx=19 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=10
+No. selected genes: 2
+Naive_Bayes
+F1 score: 0.2864583333333333
+SVM
+F1 score: 0.20454545454545453
+kNN
+F1 score: 0.26363636363636367
+Random_Forest
+F1 score: 0.25
+------------------------------------------
+Running: job=1 idx=25 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=10
+No. selected genes: 5
+Naive_Bayes
+F1 score: 0.5454545454545454
+SVM
+F1 score: 0.5171703296703297
+kNN
+F1 score: 0.6042735042735043
+Random_Forest
+F1 score: 0.5200892857142857
+------------------------------------------
+Running: job=1 idx=31 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=10
+No. selected genes: 430
+Naive_Bayes
+F1 score: 0.24603174603174605
+SVM
+F1 score: 0.384375
+kNN
+F1 score: 0.42727272727272725
+Random_Forest
+F1 score: 0.30153508771929827
+------------------------------------------
+Running: job=1 idx=37 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=50, particles=20
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 141, in artificial_bee_colony
+    onlooker_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 117, in onlooker_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=43 -> MI_barretNP_df, Artificial_Bee_Colony, iter=50, particles=20
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=49 -> RF_barretNP_df, Artificial_Bee_Colony, iter=50, particles=20
+No. selected genes: 39
+Naive_Bayes
+F1 score: 0.5531031468531469
+SVM
+F1 score: 0.2777777777777778
+kNN
+F1 score: 0.2388392857142857
+Random_Forest
+F1 score: 0.2623626373626373
+------------------------------------------
+Running: job=1 idx=55 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=20
+No. selected genes: 6
+Naive_Bayes
+F1 score: 0.5000000000000001
+SVM
+F1 score: 0.4546703296703297
+kNN
+F1 score: 0.6042735042735043
+Random_Forest
+F1 score: 0.5550213675213675
+------------------------------------------
+Running: job=1 idx=61 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=20
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5511363636363635
+------------------------------------------
+Running: job=1 idx=67 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=20
+No. selected genes: 250
+Naive_Bayes
+F1 score: 0.421875
+SVM
+F1 score: 0.33272058823529416
+kNN
+F1 score: 0.4732142857142857
+Random_Forest
+F1 score: 0.2806372549019608
+------------------------------------------
+Running: job=1 idx=73 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=100, particles=10
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=79 -> MI_barretNP_df, Artificial_Bee_Colony, iter=100, particles=10
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 141, in artificial_bee_colony
+    onlooker_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 117, in onlooker_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=85 -> RF_barretNP_df, Artificial_Bee_Colony, iter=100, particles=10
+No. selected genes: 244
+Naive_Bayes
+F1 score: 0.3375
+SVM
+F1 score: 0.3571428571428572
+kNN
+F1 score: 0.5352928321678321
+Random_Forest
+F1 score: 0.4955357142857143
+------------------------------------------
+Running: job=1 idx=91 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=10
+No. selected genes: 3
+Naive_Bayes
+F1 score: 0.45932539682539686
+SVM
+F1 score: 0.20454545454545453
+kNN
+F1 score: 0.2542613636363636
+Random_Forest
+F1 score: 0.4167395104895105
+------------------------------------------
+Running: job=1 idx=97 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=10
+No. selected genes: 3
+Naive_Bayes
+F1 score: 0.45932539682539686
+SVM
+F1 score: 0.20454545454545453
+kNN
+F1 score: 0.2542613636363636
+Random_Forest
+F1 score: 0.4253246753246753
+------------------------------------------
+Running: job=1 idx=103 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=10
+No. selected genes: 474
+Naive_Bayes
+F1 score: 0.3068181818181818
+SVM
+F1 score: 0.25625
+kNN
+F1 score: 0.39583333333333326
+Random_Forest
+F1 score: 0.1830357142857143
+------------------------------------------
+Running: job=1 idx=109 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=100, particles=20
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=115 -> MI_barretNP_df, Artificial_Bee_Colony, iter=100, particles=20
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 141, in artificial_bee_colony
+    onlooker_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 117, in onlooker_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=121 -> RF_barretNP_df, Artificial_Bee_Colony, iter=100, particles=20
+No. selected genes: 321
+Naive_Bayes
+F1 score: 0.36904761904761907
+SVM
+F1 score: 0.35504201680672276
+kNN
+F1 score: 0.5340909090909091
+Random_Forest
+F1 score: 0.3247549019607843
+------------------------------------------
+Running: job=1 idx=127 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=20
+No. selected genes: 2
+Naive_Bayes
+F1 score: 0.2864583333333333
+SVM
+F1 score: 0.20454545454545453
+kNN
+F1 score: 0.26363636363636367
+Random_Forest
+F1 score: 0.25
+------------------------------------------
+Running: job=1 idx=133 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=20
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=139 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=20
+No. selected genes: 495
+Naive_Bayes
+F1 score: 0.29756944444444444
+SVM
+F1 score: 0.5079365079365079
+kNN
+F1 score: 0.4289215686274509
+Random_Forest
+F1 score: 0.22916666666666669
+------------------------------------------
+Running: job=1 idx=145 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=200, particles=10
+No. selected genes: 6
+Naive_Bayes
+F1 score: 0.5381944444444444
+SVM
+F1 score: 0.20454545454545453
+kNN
+F1 score: 0.6818181818181819
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=151 -> MI_barretNP_df, Artificial_Bee_Colony, iter=200, particles=10
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=157 -> RF_barretNP_df, Artificial_Bee_Colony, iter=200, particles=10
+No. selected genes: 23
+Naive_Bayes
+F1 score: 0.6795454545454545
+SVM
+F1 score: 0.30147058823529416
+kNN
+F1 score: 0.265625
+Random_Forest
+F1 score: 0.2857142857142857
+------------------------------------------
+Running: job=1 idx=163 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=10
+No. selected genes: 7
+Naive_Bayes
+F1 score: 0.659090909090909
+SVM
+F1 score: 0.4546703296703297
+kNN
+F1 score: 0.532051282051282
+Random_Forest
+F1 score: 0.45381944444444444
+------------------------------------------
+Running: job=1 idx=169 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=10
+No. selected genes: 5
+Naive_Bayes
+F1 score: 0.5454545454545454
+SVM
+F1 score: 0.5171703296703297
+kNN
+F1 score: 0.6042735042735043
+Random_Forest
+F1 score: 0.5758547008547009
+------------------------------------------
+Running: job=1 idx=175 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=10
+No. selected genes: 421
+Naive_Bayes
+F1 score: 0.36396416083916083
+SVM
+F1 score: 0.4277777777777778
+kNN
+F1 score: 0.5000000000000001
+Random_Forest
+F1 score: 0.29976365546218486
+------------------------------------------
+Running: job=1 idx=181 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=50, particles=50
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 141, in artificial_bee_colony
+    onlooker_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 117, in onlooker_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=187 -> MI_barretNP_df, Artificial_Bee_Colony, iter=50, particles=50
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 141, in artificial_bee_colony
+    onlooker_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 117, in onlooker_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=193 -> RF_barretNP_df, Artificial_Bee_Colony, iter=50, particles=50
+No. selected genes: 51
+Naive_Bayes
+F1 score: 0.32589285714285715
+SVM
+F1 score: 0.36397058823529416
+kNN
+F1 score: 0.3705357142857143
+Random_Forest
+F1 score: 0.3536184210526316
+------------------------------------------
+Running: job=1 idx=199 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=50
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=205 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=50
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.44177350427350426
+------------------------------------------
+Running: job=1 idx=211 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=50
+No. selected genes: 379
+Naive_Bayes
+F1 score: 0.20673076923076922
+SVM
+F1 score: 0.37499999999999994
+kNN
+F1 score: 0.4799107142857143
+Random_Forest
+F1 score: 0.22991071428571427
+------------------------------------------
+Running: job=1 idx=217 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=200, particles=20
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 141, in artificial_bee_colony
+    onlooker_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 117, in onlooker_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=223 -> MI_barretNP_df, Artificial_Bee_Colony, iter=200, particles=20
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=229 -> RF_barretNP_df, Artificial_Bee_Colony, iter=200, particles=20
+No. selected genes: 101
+Naive_Bayes
+F1 score: 0.19270833333333331
+SVM
+F1 score: 0.24718045112781956
+kNN
+F1 score: 0.43002136752136755
+Random_Forest
+F1 score: 0.3191964285714286
+------------------------------------------
+Running: job=1 idx=235 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=20
+No. selected genes: 7
+Naive_Bayes
+F1 score: 0.5565996503496503
+SVM
+F1 score: 0.5227793040293041
+kNN
+F1 score: 0.5614073426573427
+Random_Forest
+F1 score: 0.5352928321678321
+------------------------------------------
+Running: job=1 idx=241 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=20
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.5
+SVM
+F1 score: 0.47121710526315785
+kNN
+F1 score: 0.46212121212121204
+Random_Forest
+F1 score: 0.3666666666666667
+------------------------------------------
+Running: job=1 idx=247 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=20
+No. selected genes: 411
+Naive_Bayes
+F1 score: 0.43696581196581197
+SVM
+F1 score: 0.4652777777777778
+kNN
+F1 score: 0.637987012987013
+Random_Forest
+F1 score: 0.296875
+------------------------------------------
+Running: job=1 idx=253 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=50, particles=100
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=259 -> MI_barretNP_df, Artificial_Bee_Colony, iter=50, particles=100
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=265 -> RF_barretNP_df, Artificial_Bee_Colony, iter=50, particles=100
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.24431818181818182
+SVM
+F1 score: 0.17857142857142855
+kNN
+F1 score: 0.29756944444444444
+Random_Forest
+F1 score: 0.16666666666666666
+------------------------------------------
+Running: job=1 idx=271 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=100
+No. selected genes: 5
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.4546703296703297
+kNN
+F1 score: 0.5236742424242424
+Random_Forest
+F1 score: 0.6357323232323232
+------------------------------------------
+Running: job=1 idx=277 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=100
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.44177350427350426
+------------------------------------------
+Running: job=1 idx=283 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=100
+No. selected genes: 358
+Naive_Bayes
+F1 score: 0.359375
+SVM
+F1 score: 0.546875
+kNN
+F1 score: 0.4756944444444444
+Random_Forest
+F1 score: 0.5178571428571429
+------------------------------------------
+Running: job=1 idx=289 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=100, particles=50
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 141, in artificial_bee_colony
+    onlooker_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 117, in onlooker_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=295 -> MI_barretNP_df, Artificial_Bee_Colony, iter=100, particles=50
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=301 -> RF_barretNP_df, Artificial_Bee_Colony, iter=100, particles=50
+No. selected genes: 88
+Naive_Bayes
+F1 score: 0.564102564102564
+SVM
+F1 score: 0.4035714285714286
+kNN
+F1 score: 0.5364583333333333
+Random_Forest
+F1 score: 0.3072916666666667
+------------------------------------------
+Running: job=1 idx=307 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=50
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5
+------------------------------------------
+Running: job=1 idx=313 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=50
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5
+------------------------------------------
+Running: job=1 idx=319 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=50
+No. selected genes: 403
+Naive_Bayes
+F1 score: 0.30808080808080807
+SVM
+F1 score: 0.4384920634920634
+kNN
+F1 score: 0.3870192307692307
+Random_Forest
+F1 score: 0.34388130252100846
+------------------------------------------
+Running: job=1 idx=325 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=500, particles=10
+No. selected genes: 5
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.4546703296703297
+kNN
+F1 score: 0.5236742424242424
+Random_Forest
+F1 score: 0.5200892857142857
+------------------------------------------
+Running: job=1 idx=331 -> MI_barretNP_df, Artificial_Bee_Colony, iter=500, particles=10
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 141, in artificial_bee_colony
+    onlooker_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 117, in onlooker_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=337 -> RF_barretNP_df, Artificial_Bee_Colony, iter=500, particles=10
+No. selected genes: 129
+Naive_Bayes
+F1 score: 0.625
+SVM
+F1 score: 0.34895833333333326
+kNN
+F1 score: 0.37727272727272726
+Random_Forest
+F1 score: 0.3191964285714286
+------------------------------------------
+Running: job=1 idx=343 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=10
+No. selected genes: 3
+Naive_Bayes
+F1 score: 0.4193802521008404
+SVM
+F1 score: 0.20454545454545453
+kNN
+F1 score: 0.15297202797202797
+Random_Forest
+F1 score: 0.16964285714285715
+------------------------------------------
+Running: job=1 idx=349 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=10
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.44177350427350426
+------------------------------------------
+Running: job=1 idx=355 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=10
+No. selected genes: 464
+Naive_Bayes
+F1 score: 0.4375
+SVM
+F1 score: 0.296875
+kNN
+F1 score: 0.5260416666666667
+Random_Forest
+F1 score: 0.2676282051282051
+------------------------------------------
+Running: job=1 idx=361 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=50, particles=200
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=367 -> MI_barretNP_df, Artificial_Bee_Colony, iter=50, particles=200
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=373 -> RF_barretNP_df, Artificial_Bee_Colony, iter=50, particles=200
+No. selected genes: 125
+Naive_Bayes
+F1 score: 0.42165646853146854
+SVM
+F1 score: 0.32916666666666666
+kNN
+F1 score: 0.3794642857142857
+Random_Forest
+F1 score: 0.2541666666666667
+------------------------------------------
+Running: job=1 idx=379 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=200
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=385 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=200
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5
+------------------------------------------
+Running: job=1 idx=391 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=200
+No. selected genes: 328
+Naive_Bayes
+F1 score: 0.30982905982905984
+SVM
+F1 score: 0.35504201680672276
+kNN
+F1 score: 0.39583333333333326
+Random_Forest
+F1 score: 0.3875
+------------------------------------------
+Running: job=1 idx=397 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=100, particles=100
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=403 -> MI_barretNP_df, Artificial_Bee_Colony, iter=100, particles=100
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=409 -> RF_barretNP_df, Artificial_Bee_Colony, iter=100, particles=100
+No. selected genes: 264
+Naive_Bayes
+F1 score: 0.17613636363636362
+SVM
+F1 score: 0.2785714285714286
+kNN
+F1 score: 0.44155844155844154
+Random_Forest
+F1 score: 0.26575630252100846
+------------------------------------------
+Running: job=1 idx=415 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=100
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5511363636363635
+------------------------------------------
+Running: job=1 idx=421 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=100
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=427 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=100
+No. selected genes: 429
+Naive_Bayes
+F1 score: 0.3638392857142857
+SVM
+F1 score: 0.24479166666666666
+kNN
+F1 score: 0.3875
+Random_Forest
+F1 score: 0.30625
+------------------------------------------
+Running: job=1 idx=433 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=200, particles=50
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=439 -> MI_barretNP_df, Artificial_Bee_Colony, iter=200, particles=50
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=445 -> RF_barretNP_df, Artificial_Bee_Colony, iter=200, particles=50
+No. selected genes: 23
+Naive_Bayes
+F1 score: 0.4996843434343434
+SVM
+F1 score: 0.3536184210526316
+kNN
+F1 score: 0.22058823529411764
+Random_Forest
+F1 score: 0.26575630252100846
+------------------------------------------
+Running: job=1 idx=451 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=50
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=457 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=50
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6200854700854701
+SVM
+F1 score: 0.41346153846153844
+kNN
+F1 score: 0.6719842657342656
+Random_Forest
+F1 score: 0.5
+------------------------------------------
+Running: job=1 idx=463 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=50
+No. selected genes: 341
+Naive_Bayes
+F1 score: 0.375
+SVM
+F1 score: 0.2806372549019608
+kNN
+F1 score: 0.33272058823529416
+Random_Forest
+F1 score: 0.3517857142857143
+------------------------------------------
+Running: job=1 idx=469 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=500, particles=20
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5
+------------------------------------------
+Running: job=1 idx=475 -> MI_barretNP_df, Artificial_Bee_Colony, iter=500, particles=20
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=481 -> RF_barretNP_df, Artificial_Bee_Colony, iter=500, particles=20
+No. selected genes: 70
+Naive_Bayes
+F1 score: 0.24305555555555555
+SVM
+F1 score: 0.4035714285714286
+kNN
+F1 score: 0.37683823529411764
+Random_Forest
+F1 score: 0.2806372549019608
+------------------------------------------
+Running: job=1 idx=487 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=20
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5511363636363635
+------------------------------------------
+Running: job=1 idx=493 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=20
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5
+------------------------------------------
+Running: job=1 idx=499 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=20
+No. selected genes: 484
+Naive_Bayes
+F1 score: 0.31677350427350426
+SVM
+F1 score: 0.1892857142857143
+kNN
+F1 score: 0.44155844155844154
+Random_Forest
+F1 score: 0.25459558823529416
+------------------------------------------
+Running: job=1 idx=505 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=10
+No. selected genes: 5
+Naive_Bayes
+F1 score: 0.5454545454545454
+SVM
+F1 score: 0.5171703296703297
+kNN
+F1 score: 0.6042735042735043
+Random_Forest
+F1 score: 0.4535714285714286
+------------------------------------------
+Running: job=1 idx=511 -> MI_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=10
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 141, in artificial_bee_colony
+    onlooker_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 117, in onlooker_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=517 -> RF_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=10
+No. selected genes: 97
+Naive_Bayes
+F1 score: 0.24545454545454543
+SVM
+F1 score: 0.2916666666666667
+kNN
+F1 score: 0.32916666666666666
+Random_Forest
+F1 score: 0.1875
+------------------------------------------
+Running: job=1 idx=523 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=10
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.47272727272727266
+------------------------------------------
+Running: job=1 idx=529 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=10
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.375
+------------------------------------------
+Running: job=1 idx=535 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=10
+No. selected genes: 425
+Naive_Bayes
+F1 score: 0.2494536713286713
+SVM
+F1 score: 0.4277777777777778
+kNN
+F1 score: 0.3814102564102564
+Random_Forest
+F1 score: 0.27083333333333337
+------------------------------------------
+Running: job=1 idx=541 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=100, particles=200
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=547 -> MI_barretNP_df, Artificial_Bee_Colony, iter=100, particles=200
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=553 -> RF_barretNP_df, Artificial_Bee_Colony, iter=100, particles=200
+No. selected genes: 44
+Naive_Bayes
+F1 score: 0.3013392857142857
+SVM
+F1 score: 0.3055555555555556
+kNN
+F1 score: 0.4263392857142857
+Random_Forest
+F1 score: 0.24776785714285715
+------------------------------------------
+Running: job=1 idx=559 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=200
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.4343434343434343
+------------------------------------------
+Running: job=1 idx=565 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=200
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.48358585858585856
+------------------------------------------
+Running: job=1 idx=571 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=200
+No. selected genes: 428
+Naive_Bayes
+F1 score: 0.4469696969696969
+SVM
+F1 score: 0.386904761904762
+kNN
+F1 score: 0.4083333333333333
+Random_Forest
+F1 score: 0.25595238095238093
+------------------------------------------
+Running: job=1 idx=577 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=200, particles=100
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 141, in artificial_bee_colony
+    onlooker_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 117, in onlooker_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=583 -> MI_barretNP_df, Artificial_Bee_Colony, iter=200, particles=100
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=589 -> RF_barretNP_df, Artificial_Bee_Colony, iter=200, particles=100
+No. selected genes: 21
+Naive_Bayes
+F1 score: 0.6977272727272728
+SVM
+F1 score: 0.3055555555555556
+kNN
+F1 score: 0.375
+Random_Forest
+F1 score: 0.2142857142857143
+------------------------------------------
+Running: job=1 idx=595 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=100
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.49431818181818177
+------------------------------------------
+Running: job=1 idx=601 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=100
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5
+------------------------------------------
+Running: job=1 idx=607 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=100
+No. selected genes: 486
+Naive_Bayes
+F1 score: 0.36396416083916083
+SVM
+F1 score: 0.35504201680672276
+kNN
+F1 score: 0.421875
+Random_Forest
+F1 score: 0.2806372549019608
+------------------------------------------
+Running: job=1 idx=613 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=20
+No. selected genes: 7
+Naive_Bayes
+F1 score: 0.5565996503496503
+SVM
+F1 score: 0.5227793040293041
+kNN
+F1 score: 0.5614073426573427
+Random_Forest
+F1 score: 0.5352928321678321
+------------------------------------------
+Running: job=1 idx=619 -> MI_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=20
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=625 -> RF_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=20
+No. selected genes: 77
+Naive_Bayes
+F1 score: 0.3775252525252525
+SVM
+F1 score: 0.25735294117647056
+kNN
+F1 score: 0.3311688311688311
+Random_Forest
+F1 score: 0.2142857142857143
+------------------------------------------
+Running: job=1 idx=631 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=20
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.38352272727272724
+------------------------------------------
+Running: job=1 idx=637 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=20
+No. selected genes: 7
+Naive_Bayes
+F1 score: 0.5565996503496503
+SVM
+F1 score: 0.5227793040293041
+kNN
+F1 score: 0.5614073426573427
+Random_Forest
+F1 score: 0.5352928321678321
+------------------------------------------
+Running: job=1 idx=643 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=20
+No. selected genes: 411
+Naive_Bayes
+F1 score: 0.35871940559440557
+SVM
+F1 score: 0.5736607142857143
+kNN
+F1 score: 0.47470238095238093
+Random_Forest
+F1 score: 0.22812500000000002
+------------------------------------------
+Running: job=1 idx=649 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=50, particles=500
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=655 -> MI_barretNP_df, Artificial_Bee_Colony, iter=50, particles=500
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=661 -> RF_barretNP_df, Artificial_Bee_Colony, iter=50, particles=500
+No. selected genes: 87
+Naive_Bayes
+F1 score: 0.21875
+SVM
+F1 score: 0.27951388888888884
+kNN
+F1 score: 0.4226190476190476
+Random_Forest
+F1 score: 0.33272058823529416
+------------------------------------------
+Running: job=1 idx=667 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=500
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5
+------------------------------------------
+Running: job=1 idx=673 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=500
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.48358585858585856
+------------------------------------------
+Running: job=1 idx=679 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=500
+No. selected genes: 235
+Naive_Bayes
+F1 score: 0.45581501831501836
+SVM
+F1 score: 0.26206140350877194
+kNN
+F1 score: 0.5814393939393939
+Random_Forest
+F1 score: 0.34523809523809523
+------------------------------------------
+Running: job=1 idx=685 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=500, particles=50
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=691 -> MI_barretNP_df, Artificial_Bee_Colony, iter=500, particles=50
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=697 -> RF_barretNP_df, Artificial_Bee_Colony, iter=500, particles=50
+No. selected genes: 40
+Naive_Bayes
+F1 score: 0.6398809523809523
+SVM
+F1 score: 0.36397058823529416
+kNN
+F1 score: 0.2303921568627451
+Random_Forest
+F1 score: 0.2806372549019608
+------------------------------------------
+Running: job=1 idx=703 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=50
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.44177350427350426
+------------------------------------------
+Running: job=1 idx=709 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=50
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5511363636363635
+------------------------------------------
+Running: job=1 idx=715 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=50
+No. selected genes: 391
+Naive_Bayes
+F1 score: 0.11451048951048949
+SVM
+F1 score: 0.4384920634920634
+kNN
+F1 score: 0.28583916083916083
+Random_Forest
+F1 score: 0.33272058823529416
+------------------------------------------
+Running: job=1 idx=721 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=200, particles=200
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=727 -> MI_barretNP_df, Artificial_Bee_Colony, iter=200, particles=200
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=733 -> RF_barretNP_df, Artificial_Bee_Colony, iter=200, particles=200
+No. selected genes: 34
+Naive_Bayes
+F1 score: 0.43150252525252525
+SVM
+F1 score: 0.2754934210526316
+kNN
+F1 score: 0.4156746031746032
+Random_Forest
+F1 score: 0.3080201048951049
+------------------------------------------
+Running: job=1 idx=739 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=200
+No. selected genes: 7
+Naive_Bayes
+F1 score: 0.49116161616161613
+SVM
+F1 score: 0.4035714285714286
+kNN
+F1 score: 0.4583333333333333
+Random_Forest
+F1 score: 0.41506410256410253
+------------------------------------------
+Running: job=1 idx=745 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=200
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=751 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=200
+No. selected genes: 449
+Naive_Bayes
+F1 score: 0.36752136752136755
+SVM
+F1 score: 0.4364583333333333
+kNN
+F1 score: 0.5536616161616161
+Random_Forest
+F1 score: 0.32291666666666663
+------------------------------------------
+Running: job=1 idx=757 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=50, particles=1000
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=763 -> MI_barretNP_df, Artificial_Bee_Colony, iter=50, particles=1000
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=769 -> RF_barretNP_df, Artificial_Bee_Colony, iter=50, particles=1000
+No. selected genes: 13
+Naive_Bayes
+F1 score: 0.47121710526315785
+SVM
+F1 score: 0.20454545454545453
+kNN
+F1 score: 0.23214285714285718
+Random_Forest
+F1 score: 0.178125
+------------------------------------------
+Running: job=1 idx=775 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=1000
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.4204545454545454
+------------------------------------------
+Running: job=1 idx=781 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=1000
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=787 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=1000
+No. selected genes: 360
+Naive_Bayes
+F1 score: 0.3215811965811966
+SVM
+F1 score: 0.48883928571428575
+kNN
+F1 score: 0.5147058823529411
+Random_Forest
+F1 score: 0.26575630252100846
+------------------------------------------
+Running: job=1 idx=793 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=100, particles=500
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=799 -> MI_barretNP_df, Artificial_Bee_Colony, iter=100, particles=500
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=805 -> RF_barretNP_df, Artificial_Bee_Colony, iter=100, particles=500
+No. selected genes: 95
+Naive_Bayes
+F1 score: 0.4968434343434343
+SVM
+F1 score: 0.265625
+kNN
+F1 score: 0.421875
+Random_Forest
+F1 score: 0.22812500000000002
+------------------------------------------
+Running: job=1 idx=811 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=500
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.49116161616161613
+------------------------------------------
+Running: job=1 idx=817 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=500
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=823 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=500
+No. selected genes: 248
+Naive_Bayes
+F1 score: 0.23484848484848483
+SVM
+F1 score: 0.421875
+kNN
+F1 score: 0.4017857142857143
+Random_Forest
+F1 score: 0.3583333333333333
+------------------------------------------
+Running: job=1 idx=829 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=500, particles=100
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=835 -> MI_barretNP_df, Artificial_Bee_Colony, iter=500, particles=100
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=841 -> RF_barretNP_df, Artificial_Bee_Colony, iter=500, particles=100
+No. selected genes: 11
+Naive_Bayes
+F1 score: 0.22500000000000003
+SVM
+F1 score: 0.2754934210526316
+kNN
+F1 score: 0.4263392857142857
+Random_Forest
+F1 score: 0.3285714285714286
+------------------------------------------
+Running: job=1 idx=847 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=100
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.47272727272727266
+------------------------------------------
+Running: job=1 idx=853 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=100
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.47272727272727266
+------------------------------------------
+Running: job=1 idx=859 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=100
+No. selected genes: 409
+Naive_Bayes
+F1 score: 0.30808080808080807
+SVM
+F1 score: 0.27083333333333337
+kNN
+F1 score: 0.3375
+Random_Forest
+F1 score: 0.3759398496240602
+------------------------------------------
+Running: job=1 idx=865 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=50
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 141, in artificial_bee_colony
+    onlooker_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 117, in onlooker_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=871 -> MI_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=50
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=877 -> RF_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=50
+No. selected genes: 53
+Naive_Bayes
+F1 score: 0.32792207792207795
+SVM
+F1 score: 0.2767857142857143
+kNN
+F1 score: 0.37499999999999994
+Random_Forest
+F1 score: 0.25178571428571433
+------------------------------------------
+Running: job=1 idx=883 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=50
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6200854700854701
+SVM
+F1 score: 0.41346153846153844
+kNN
+F1 score: 0.6719842657342656
+Random_Forest
+F1 score: 0.5079365079365079
+------------------------------------------
+Running: job=1 idx=889 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=50
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.28409090909090906
+------------------------------------------
+Running: job=1 idx=895 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=50
+No. selected genes: 376
+Naive_Bayes
+F1 score: 0.36483828671328666
+SVM
+F1 score: 0.4451388888888889
+kNN
+F1 score: 0.5082417582417582
+Random_Forest
+F1 score: 0.39082080200501257
+------------------------------------------
+Running: job=1 idx=901 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=100, particles=1000
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=907 -> MI_barretNP_df, Artificial_Bee_Colony, iter=100, particles=1000
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=913 -> RF_barretNP_df, Artificial_Bee_Colony, iter=100, particles=1000
+No. selected genes: 7
+Naive_Bayes
+F1 score: 0.33169642857142856
+SVM
+F1 score: 0.20454545454545453
+kNN
+F1 score: 0.19350961538461536
+Random_Forest
+F1 score: 0.2569444444444444
+------------------------------------------
+Running: job=1 idx=919 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=1000
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.44177350427350426
+------------------------------------------
+Running: job=1 idx=925 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=1000
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.44177350427350426
+------------------------------------------
+Running: job=1 idx=931 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=1000
+No. selected genes: 377
+Naive_Bayes
+F1 score: 0.4864583333333333
+SVM
+F1 score: 0.4108455882352941
+kNN
+F1 score: 0.4842171717171717
+Random_Forest
+F1 score: 0.2866541353383459
+------------------------------------------
+Running: job=1 idx=937 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=200, particles=500
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=943 -> MI_barretNP_df, Artificial_Bee_Colony, iter=200, particles=500
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=949 -> RF_barretNP_df, Artificial_Bee_Colony, iter=200, particles=500
+No. selected genes: 35
+Naive_Bayes
+F1 score: 0.2857142857142857
+SVM
+F1 score: 0.265625
+kNN
+F1 score: 0.2775974025974026
+Random_Forest
+F1 score: 0.17752100840336138
+------------------------------------------
+Running: job=1 idx=955 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=500
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.31463675213675213
+------------------------------------------
+Running: job=1 idx=961 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=500
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.375
+------------------------------------------
+Running: job=1 idx=967 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=500
+No. selected genes: 380
+Naive_Bayes
+F1 score: 0.4065934065934066
+SVM
+F1 score: 0.3541666666666667
+kNN
+F1 score: 0.4226190476190476
+Random_Forest
+F1 score: 0.2806372549019608
+------------------------------------------
+Running: job=1 idx=973 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=500, particles=200
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=979 -> MI_barretNP_df, Artificial_Bee_Colony, iter=500, particles=200
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 141, in artificial_bee_colony
+    onlooker_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 117, in onlooker_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=985 -> RF_barretNP_df, Artificial_Bee_Colony, iter=500, particles=200
+No. selected genes: 132
+Naive_Bayes
+F1 score: 0.3068181818181818
+SVM
+F1 score: 0.296875
+kNN
+F1 score: 0.3482142857142857
+Random_Forest
+F1 score: 0.23214285714285718
+------------------------------------------
+Running: job=1 idx=991 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=200
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.375
+------------------------------------------
+Running: job=1 idx=997 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=200
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5
+------------------------------------------
+Running: job=1 idx=1003 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=200
+No. selected genes: 439
+Naive_Bayes
+F1 score: 0.24776785714285715
+SVM
+F1 score: 0.35504201680672276
+kNN
+F1 score: 0.4017857142857143
+Random_Forest
+F1 score: 0.2916666666666667
+------------------------------------------
+Running: job=1 idx=1009 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=100
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=1015 -> MI_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=100
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=1021 -> RF_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=100
+No. selected genes: 17
+Naive_Bayes
+F1 score: 0.28867521367521365
+SVM
+F1 score: 0.2361111111111111
+kNN
+F1 score: 0.3668831168831169
+Random_Forest
+F1 score: 0.3333333333333333
+------------------------------------------
+Running: job=1 idx=1027 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=100
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.37276785714285715
+------------------------------------------
+Running: job=1 idx=1033 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=100
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.37276785714285715
+------------------------------------------
+Running: job=1 idx=1039 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=100
+No. selected genes: 450
+Naive_Bayes
+F1 score: 0.36396416083916083
+SVM
+F1 score: 0.34895833333333326
+kNN
+F1 score: 0.4375
+Random_Forest
+F1 score: 0.4035714285714286
+------------------------------------------
+Running: job=1 idx=1045 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=200, particles=1000
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=1051 -> MI_barretNP_df, Artificial_Bee_Colony, iter=200, particles=1000
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=1057 -> RF_barretNP_df, Artificial_Bee_Colony, iter=200, particles=1000
+No. selected genes: 21
+Naive_Bayes
+F1 score: 0.2623626373626374
+SVM
+F1 score: 0.2767857142857143
+kNN
+F1 score: 0.26339285714285715
+Random_Forest
+F1 score: 0.435515873015873
+------------------------------------------
+Running: job=1 idx=1063 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=1000
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=1069 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=1000
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=1075 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=1000
+No. selected genes: 237
+Naive_Bayes
+F1 score: 0.27951388888888884
+SVM
+F1 score: 0.22163865546218486
+kNN
+F1 score: 0.2888888888888889
+Random_Forest
+F1 score: 0.2142857142857143
+------------------------------------------
+Running: job=1 idx=1081 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=200
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=1087 -> MI_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=200
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=1093 -> RF_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=200
+No. selected genes: 38
+Naive_Bayes
+F1 score: 0.40625
+SVM
+F1 score: 0.3055555555555556
+kNN
+F1 score: 0.4662247474747474
+Random_Forest
+F1 score: 0.31098484848484853
+------------------------------------------
+Running: job=1 idx=1099 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=200
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.44177350427350426
+------------------------------------------
+Running: job=1 idx=1105 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=200
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.375
+------------------------------------------
+Running: job=1 idx=1111 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=200
+No. selected genes: 441
+Naive_Bayes
+F1 score: 0.21363636363636362
+SVM
+F1 score: 0.37499999999999994
+kNN
+F1 score: 0.4083333333333333
+Random_Forest
+F1 score: 0.3462301587301587
+------------------------------------------
+Running: job=1 idx=1117 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=500, particles=500
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=1123 -> MI_barretNP_df, Artificial_Bee_Colony, iter=500, particles=500
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=1129 -> RF_barretNP_df, Artificial_Bee_Colony, iter=500, particles=500
+No. selected genes: 24
+Naive_Bayes
+F1 score: 0.37058080808080807
+SVM
+F1 score: 0.36397058823529416
+kNN
+F1 score: 0.484375
+Random_Forest
+F1 score: 0.2503277972027972
+------------------------------------------
+Running: job=1 idx=1135 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=500
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5
+------------------------------------------
+Running: job=1 idx=1141 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=500
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=1147 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=500
+No. selected genes: 399
+Naive_Bayes
+F1 score: 0.3076923076923077
+SVM
+F1 score: 0.37499999999999994
+kNN
+F1 score: 0.44270833333333326
+Random_Forest
+F1 score: 0.296875
+------------------------------------------
+Running: job=1 idx=1153 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=500, particles=1000
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=1159 -> MI_barretNP_df, Artificial_Bee_Colony, iter=500, particles=1000
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=1165 -> RF_barretNP_df, Artificial_Bee_Colony, iter=500, particles=1000
+No. selected genes: 47
+Naive_Bayes
+F1 score: 0.3775252525252525
+SVM
+F1 score: 0.32291666666666663
+kNN
+F1 score: 0.21944444444444447
+Random_Forest
+F1 score: 0.22058823529411764
+------------------------------------------
+Running: job=1 idx=1171 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=1000
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=1177 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=1000
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=1183 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=1000
+No. selected genes: 368
+Naive_Bayes
+F1 score: 0.22814685314685312
+SVM
+F1 score: 0.4108455882352941
+kNN
+F1 score: 0.44270833333333326
+Random_Forest
+F1 score: 0.25595238095238093
+------------------------------------------
+Running: job=1 idx=1189 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=500
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    accuracy, precision, sensitivity, f_measure = classif(X_train_normalized_selected_features, X_test_normalized_selected, X_train_normalized_selected_features_y, y_test)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=1195 -> MI_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=500
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    accuracy, precision, sensitivity, f_measure = classif(X_train_normalized_selected_features, X_test_normalized_selected, X_train_normalized_selected_features_y, y_test)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=1201 -> RF_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=500
+No. selected genes: 16
+Naive_Bayes
+F1 score: 0.5025252525252525
+SVM
+F1 score: 0.36397058823529416
+kNN
+F1 score: 0.315359477124183
+Random_Forest
+F1 score: 0.17647058823529413
+------------------------------------------
+Running: job=1 idx=1207 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=500
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5
+------------------------------------------
+Running: job=1 idx=1213 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=500
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.42613636363636365
+------------------------------------------
+Running: job=1 idx=1219 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=500
+No. selected genes: 418
+Naive_Bayes
+F1 score: 0.4864583333333333
+SVM
+F1 score: 0.4575892857142857
+kNN
+F1 score: 0.45833333333333326
+Random_Forest
+F1 score: 0.23928571428571432
+------------------------------------------
+Running: job=1 idx=1225 -> ANOVA_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=1000
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    accuracy, precision, sensitivity, f_measure = classif(X_train_normalized_selected_features, X_test_normalized_selected, X_train_normalized_selected_features_y, y_test)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=1231 -> MI_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=1000
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 442, in main
+    accuracy, precision, sensitivity, f_measure = classif(X_train_normalized_selected_features, X_test_normalized_selected, X_train_normalized_selected_features_y, y_test)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=1 idx=1237 -> RF_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=1000
+No. selected genes: 9
+Naive_Bayes
+F1 score: 0.3549107142857143
+SVM
+F1 score: 0.20454545454545453
+kNN
+F1 score: 0.2298951048951049
+Random_Forest
+F1 score: 0.4383169934640523
+------------------------------------------
+Running: job=1 idx=1243 -> ANOVA_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=1000
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5511363636363635
+------------------------------------------
+Running: job=1 idx=1249 -> MI_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=1000
+No. selected genes: 8
+Naive_Bayes
+F1 score: 0.6045454545454545
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.38352272727272724
+Random_Forest
+F1 score: 0.5
+------------------------------------------
+Running: job=1 idx=1255 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=1000
+No. selected genes: 324
+Naive_Bayes
+F1 score: 0.1722027972027972
+SVM
+F1 score: 0.3191964285714286
+kNN
+F1 score: 0.26339285714285715
+Random_Forest
+F1 score: 0.296875
+------------------------------------------
+Work completed for job=1

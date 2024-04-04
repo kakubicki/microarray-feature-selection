@@ -1,0 +1,673 @@
+Method,Dataset,Feature Selection method,Classification method,No. genes,No. selected genes,No. trees,Accuracy,Precision,Sensitivity,F-measure
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,10,10,0.775,0.79,0.775,0.7801587301587302
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,10,10,0.7,0.48999999999999994,0.7,0.5764705882352941
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,10,10,0.725,0.7100000000000001,0.725,0.7126436781609196
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,10,10,0.8,0.79375,0.8,0.7816666666666666
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,20,10,0.825,0.8301149425287356,0.825,0.8235588972431078
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,20,10,0.7,0.48999999999999994,0.7,0.5764705882352941
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,20,10,0.85,0.865625,0.85,0.8307142857142857
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,20,10,0.775,0.7681818181818182,0.775,0.7538641686182669
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,50,10,0.85,0.8611538461538462,0.85,0.8527777777777779
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,50,10,0.775,0.62,0.775,0.6888888888888889
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,50,10,0.875,0.8775862068965518,0.875,0.8743107769423559
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,50,10,0.85,0.840625,0.85,0.8299999999999998
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,100,10,0.85,0.8611538461538462,0.85,0.8527777777777779
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,100,10,0.925,0.9340740740740742,0.925,0.9253102453102453
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,100,10,0.9,0.905,0.9,0.8996031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,100,10,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,200,10,0.875,0.8781481481481481,0.875,0.8752525252525253
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,200,10,0.925,0.9290740740740742,0.925,0.9257070707070707
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,200,10,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,200,10,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,500,10,0.9,0.905,0.9,0.8996031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,500,10,0.95,0.9550000000000001,0.95,0.9496031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,500,10,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,500,10,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,1000,10,0.9,0.905,0.9,0.8996031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,1000,10,0.95,0.9550000000000001,0.95,0.9496031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,1000,10,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,1000,10,0.925,0.9317241379310344,0.925,0.9187134502923977
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,10,20,0.875,0.8692528735632183,0.875,0.8707393483709274
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,10,20,0.725,0.6025641025641025,0.725,0.6250746268656717
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,10,20,0.75,0.7765151515151515,0.75,0.7283879781420766
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,10,20,0.825,0.76,0.825,0.7622222222222222
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,20,20,0.825,0.8618571428571429,0.825,0.8370926243567751
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,20,20,0.75,0.6157894736842106,0.75,0.6606060606060605
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,20,20,0.825,0.8166666666666667,0.825,0.8133004926108374
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,20,20,0.825,0.76,0.825,0.7622222222222222
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,50,20,0.85,0.8711538461538462,0.85,0.8572222222222223
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,50,20,0.8,0.6444444444444445,0.8,0.7125000000000001
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,50,20,0.875,0.8846774193548388,0.875,0.8680589184826474
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,50,20,0.875,0.8939393939393939,0.875,0.8492896174863388
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,100,20,0.9,0.905,0.9,0.8996031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,100,20,0.875,0.8781481481481481,0.875,0.8752525252525253
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,100,20,0.9,0.905,0.9,0.8996031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,100,20,0.9,0.9125,0.9,0.8866666666666667
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,200,20,0.9,0.905,0.9,0.8996031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,200,20,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,200,20,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,200,20,0.85,0.8572916666666668,0.85,0.8271428571428571
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,500,20,0.9,0.905,0.9,0.8996031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,500,20,0.95,0.9550000000000001,0.95,0.9496031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,500,20,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,500,20,0.875,0.8846774193548388,0.875,0.855677966101695
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,1000,20,0.9,0.905,0.9,0.8996031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,1000,20,0.95,0.9550000000000001,0.95,0.9496031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,1000,20,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,1000,20,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,10,50,0.85,0.866153846153846,0.85,0.8555555555555555
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,10,50,0.725,0.6025641025641025,0.725,0.6250746268656717
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,10,50,0.875,0.8939393939393939,0.875,0.8616705698672911
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,10,50,0.875,0.8896774193548389,0.875,0.8629001883239171
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,20,50,0.75,0.7825,0.75,0.7587179487179487
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,20,50,0.775,0.6297297297297297,0.775,0.6887912087912087
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,20,50,0.8,0.7854166666666667,0.8,0.7828571428571427
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,20,50,0.875,0.8763440860215054,0.875,0.8644874899112187
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,50,50,0.8,0.8275641025641025,0.8,0.8112962962962964
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,50,50,0.8,0.6444444444444445,0.8,0.7125000000000001
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,50,50,0.9,0.9125,0.9,0.8790476190476191
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,50,50,0.85,0.7764705882352941,0.85,0.7989247311827957
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,100,50,0.875,0.8831481481481482,0.875,0.8780303030303029
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,100,50,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,100,50,0.875,0.8846774193548388,0.875,0.8680589184826474
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,100,50,0.85,0.8764705882352942,0.85,0.812258064516129
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,200,50,0.9,0.9,0.9,0.9
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,200,50,0.9,0.9,0.9,0.9
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,200,50,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,200,50,0.95,0.9533333333333334,0.95,0.9472906403940886
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,500,50,0.9,0.905,0.9,0.8996031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,500,50,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,500,50,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,500,50,0.95,0.9533333333333334,0.95,0.9472906403940886
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,1000,50,0.9,0.905,0.9,0.8996031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,1000,50,0.95,0.9550000000000001,0.95,0.9496031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,1000,50,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,1000,50,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,10,100,0.65,0.7361111111111112,0.65,0.6708241758241759
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,10,100,0.7,0.48999999999999994,0.7,0.5764705882352941
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,10,100,0.75,0.7157894736842105,0.75,0.673939393939394
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,10,100,0.625,0.47297297297297297,0.625,0.5384615384615385
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,20,100,0.725,0.875,0.725,0.7528260869565218
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,20,100,0.7,0.48999999999999994,0.7,0.5764705882352941
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,20,100,0.775,0.7848484848484849,0.775,0.7510070257611241
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,20,100,0.8,0.8,0.8,0.7834482758620689
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,50,100,0.9,0.9216666666666666,0.9,0.904266247379455
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,50,100,0.8,0.7444444444444445,0.8,0.7382142857142858
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,50,100,0.85,0.8483333333333334,0.85,0.8454433497536946
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,50,100,0.8,0.8058823529411765,0.8,0.7687250384024578
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,100,100,0.9,0.9147435897435898,0.9,0.9031481481481481
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,100,100,0.875,0.8846774193548388,0.875,0.855677966101695
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,100,100,0.85,0.865625,0.85,0.8307142857142857
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,100,100,0.825,0.8227272727272726,0.825,0.7930054644808744
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,200,100,0.875,0.8831481481481482,0.875,0.8780303030303029
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,200,100,0.875,0.8831481481481482,0.875,0.8780303030303029
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,200,100,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,200,100,0.85,0.8764705882352942,0.85,0.812258064516129
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,500,100,0.9,0.905,0.9,0.8996031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,500,100,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,500,100,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,500,100,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,1000,100,0.875,0.8781481481481481,0.875,0.8752525252525253
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,1000,100,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,1000,100,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,1000,100,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,10,200,0.625,0.8206349206349206,0.625,0.650609855261018
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,10,200,0.7,0.48999999999999994,0.7,0.5764705882352941
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,10,200,0.75,0.7348484848484848,0.75,0.7252927400468383
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,10,200,0.775,0.7787499999999999,0.775,0.7466666666666667
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,20,200,0.75,0.8615873015873016,0.75,0.7668898477409116
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,20,200,0.7,0.48999999999999994,0.7,0.5764705882352941
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,20,200,0.775,0.6194444444444445,0.775,0.6875000000000001
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,20,200,0.75,0.7157894736842105,0.75,0.673939393939394
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,50,200,0.8,0.8192307692307692,0.8,0.8062962962962963
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,50,200,0.775,0.6297297297297297,0.775,0.6887912087912087
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,50,200,0.75,0.721875,0.75,0.725
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,50,200,0.775,0.79,0.775,0.74
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,100,200,0.85,0.8611538461538462,0.85,0.8527777777777779
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,100,200,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,100,200,0.875,0.8846774193548388,0.875,0.8680589184826472
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,100,200,0.9,0.9125,0.9,0.8866666666666667
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,200,200,0.825,0.849,0.825,0.8314360587002095
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,200,200,0.9,0.9,0.9,0.9
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,200,200,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,200,200,0.85,0.8764705882352942,0.85,0.812258064516129
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,500,200,0.875,0.8781481481481481,0.875,0.8752525252525253
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,500,200,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,500,200,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,500,200,0.875,0.8939393939393939,0.875,0.8492896174863388
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,1000,200,0.875,0.8781481481481481,0.875,0.8752525252525253
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,1000,200,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,1000,200,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,1000,200,0.85,0.8572916666666668,0.85,0.8271428571428571
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,10,500,0.65,0.7685858585858585,0.65,0.6669565217391303
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,10,500,0.7,0.48999999999999994,0.7,0.5764705882352941
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,10,500,0.775,0.714516129032258,0.775,0.7432203389830507
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,10,500,0.725,0.6866666666666668,0.725,0.674920634920635
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,20,500,0.7,0.7899999999999999,0.7,0.7154761904761904
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,20,500,0.7,0.48999999999999994,0.7,0.5764705882352941
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,20,500,0.825,0.8120967741935484,0.825,0.810996771589992
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,20,500,0.725,0.6866666666666668,0.725,0.674920634920635
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,50,500,0.75,0.8363095238095237,0.75,0.7691558441558441
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,50,500,0.775,0.62,0.775,0.6888888888888889
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,50,500,0.825,0.828763440860215,0.825,0.8157586763518967
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,50,500,0.775,0.7848484848484849,0.775,0.7510070257611241
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,100,500,0.775,0.8219875776397515,0.775,0.7865715983363041
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,100,500,0.85,0.8572916666666668,0.85,0.8271428571428571
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,100,500,0.85,0.865,0.85,0.8472222222222221
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,100,500,0.825,0.7393939393939395,0.825,0.7768149882903981
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,200,500,0.775,0.8316304347826087,0.775,0.790359477124183
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,200,500,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,200,500,0.9,0.905,0.9,0.8996031746031747
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,200,500,0.775,0.6900000000000001,0.775,0.7190476190476189
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,500,500,0.8,0.8395238095238096,0.8,0.8107420357420357
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,500,500,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,500,500,0.85,0.8616666666666667,0.85,0.8314750957854408
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,500,500,0.825,0.8393939393939395,0.825,0.8025292740046839
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,1000,500,0.85,0.8711538461538462,0.85,0.8572222222222223
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,1000,500,0.95,0.95,0.95,0.95
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,1000,500,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,1000,500,0.875,0.8763440860215054,0.875,0.8644874899112187
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,10,1000,0.6,0.8149350649350648,0.6,0.6230303030303029
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,10,1000,0.7,0.48999999999999994,0.7,0.5764705882352941
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,10,1000,0.8,0.7727272727272727,0.8,0.7596721311475411
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,10,1000,0.825,0.828763440860215,0.825,0.8157586763518967
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,20,1000,0.725,0.8194444444444443,0.725,0.7423717948717948
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,20,1000,0.725,0.6025641025641025,0.725,0.6250746268656717
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,20,1000,0.775,0.7444444444444445,0.775,0.7191666666666668
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,20,1000,0.775,0.7681818181818182,0.775,0.7538641686182669
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,50,1000,0.625,0.7970192307692308,0.625,0.6509982174688057
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,50,1000,0.775,0.6297297297297297,0.775,0.6887912087912087
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,50,1000,0.85,0.865625,0.85,0.8383333333333333
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,50,1000,0.85,0.8764705882352942,0.85,0.8246390168970814
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,100,1000,0.75,0.8615873015873016,0.75,0.7668898477409116
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,100,1000,0.875,0.8939393939393939,0.875,0.8492896174863388
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,100,1000,0.85,0.8566666666666667,0.85,0.8442528735632184
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,100,1000,0.875,0.8846774193548388,0.875,0.8680589184826474
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,200,1000,0.75,0.8058874458874458,0.75,0.7612121212121212
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,200,1000,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,200,1000,0.875,0.8846774193548388,0.875,0.8680589184826474
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,200,1000,0.85,0.8572916666666668,0.85,0.8271428571428571
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,500,1000,0.8,0.8316666666666667,0.8,0.8078632478632478
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,500,1000,0.95,0.95,0.95,0.95
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,500,1000,0.925,0.9290740740740742,0.925,0.9257070707070707
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,500,1000,0.825,0.8393939393939395,0.825,0.8101483216237314
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,1000,1000,0.8,0.8333333333333333,0.8,0.8073076923076924
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,1000,1000,0.95,0.95,0.95,0.95
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,1000,1000,0.925,0.9267241379310345,0.925,0.9238721804511278
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,1000,1000,0.8,0.7058823529411764,0.8,0.743010752688172
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,10,2000,0.575,0.7816346153846154,0.575,0.6274688057040998
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,10,2000,0.7,0.48999999999999994,0.7,0.5764705882352941
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,10,2000,0.725,0.6866666666666668,0.725,0.674920634920635
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,10,2000,0.725,0.6766666666666666,0.725,0.6986863711001641
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,20,2000,0.55,0.7572294372294373,0.55,0.5915715292459479
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,20,2000,0.7,0.48999999999999994,0.7,0.5764705882352941
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,20,2000,0.75,0.6157894736842106,0.75,0.6606060606060605
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,20,2000,0.775,0.8066666666666666,0.775,0.7371428571428572
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,50,2000,0.75,0.8623015873015873,0.75,0.7744172494172494
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,50,2000,0.8,0.6444444444444445,0.8,0.7125000000000001
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,50,2000,0.875,0.8846774193548388,0.875,0.8680589184826474
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,50,2000,0.825,0.8600000000000001,0.825,0.7879365079365079
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,100,2000,0.675,0.8044444444444444,0.675,0.6968784838350056
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,100,2000,0.825,0.76,0.825,0.7622222222222222
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,100,2000,0.8,0.7970967741935484,0.8,0.7836158192090397
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,100,2000,0.775,0.7150000000000001,0.775,0.7150000000000001
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,200,2000,0.675,0.8558080808080808,0.675,0.6989627039627039
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,200,2000,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,200,2000,0.825,0.8120967741935484,0.825,0.810996771589992
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,200,2000,0.85,0.8764705882352942,0.85,0.8246390168970814
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,500,2000,0.775,0.8431818181818181,0.775,0.7902727272727273
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,500,2000,0.9,0.905,0.9,0.8933908045977011
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,500,2000,0.825,0.828763440860215,0.825,0.8157586763518967
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,500,2000,0.775,0.79,0.775,0.74
+Embedded approach,df_normalized_lung_cancer,Random Forest,Naive Bayes,12601,1000,2000,0.825,0.849,0.825,0.8314360587002095
+Embedded approach,df_normalized_lung_cancer,Random Forest,SVM,12601,1000,2000,0.95,0.95,0.95,0.95
+Embedded approach,df_normalized_lung_cancer,Random Forest,kNN,12601,1000,2000,0.875,0.8825862068965519,0.875,0.8691520467836258
+Embedded approach,df_normalized_lung_cancer,Random Forest,Random Forest,12601,1000,2000,0.775,0.6900000000000001,0.775,0.7190476190476189
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,10,10,0.5625,0.59375,0.5625,0.5226190476190475
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,10,10,0.4375,0.35256410256410253,0.4375,0.3536184210526316
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,10,10,0.375,0.37135416666666665,0.375,0.35871940559440557
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,10,10,0.375,0.34375,0.375,0.3531746031746032
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,20,10,0.5625,0.56875,0.5625,0.5625
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,20,10,0.4375,0.3005952380952381,0.4375,0.35625
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,20,10,0.3125,0.2767857142857143,0.3125,0.29166666666666663
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,20,10,0.4375,0.43087121212121204,0.4375,0.38799894957983194
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,50,10,0.25,0.24166666666666667,0.25,0.24431818181818182
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,50,10,0.5,0.390625,0.5,0.41666666666666663
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,50,10,0.375,0.2708333333333333,0.375,0.3136363636363636
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,50,10,0.3125,0.25416666666666665,0.3125,0.265625
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,100,10,0.4375,0.4296875,0.4375,0.41506410256410253
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,100,10,0.4375,0.37073863636363635,0.4375,0.3848039215686274
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,100,10,0.5,0.42857142857142855,0.5,0.4583333333333333
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,100,10,0.375,0.4625,0.375,0.3660714285714286
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,200,10,0.5,0.49375,0.5,0.49431818181818177
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,200,10,0.4375,0.421875,0.4375,0.42261904761904756
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,200,10,0.5,0.3611111111111111,0.5,0.4107142857142857
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,200,10,0.3125,0.44886363636363635,0.3125,0.2806372549019608
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,500,10,0.3125,0.3125,0.3125,0.3125
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,500,10,0.3125,0.30625,0.3125,0.2767857142857143
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,500,10,0.4375,0.32291666666666663,0.4375,0.3704545454545455
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,500,10,0.25,0.24479166666666666,0.25,0.2388392857142857
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,1000,10,0.3125,0.32291666666666663,0.3125,0.3102678571428572
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,1000,10,0.5,0.4625,0.5,0.4652777777777778
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,1000,10,0.5,0.421875,0.5,0.44270833333333326
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,1000,10,0.3125,0.30625,0.3125,0.2767857142857143
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,10,20,0.4375,0.4463541666666666,0.4375,0.42690122377622375
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,10,20,0.375,0.140625,0.375,0.20454545454545453
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,10,20,0.375,0.29166666666666663,0.375,0.3214285714285714
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,10,20,0.4375,0.40104166666666663,0.4375,0.4083333333333333
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,20,20,0.4375,0.4401785714285714,0.4375,0.43150252525252525
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,20,20,0.375,0.2589285714285714,0.375,0.30625
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,20,20,0.3125,0.22916666666666666,0.3125,0.26363636363636367
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,20,20,0.3125,0.3489583333333333,0.3125,0.3169642857142857
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,50,20,0.3125,0.3080357142857143,0.3125,0.3041666666666667
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,50,20,0.4375,0.32386363636363635,0.4375,0.36397058823529416
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,50,20,0.3125,0.24107142857142855,0.3125,0.27163461538461536
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,50,20,0.4375,0.4583333333333333,0.4375,0.4330357142857143
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,100,20,0.5,0.49375,0.5,0.49431818181818177
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,100,20,0.4375,0.3375,0.4375,0.375
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,100,20,0.375,0.3263888888888889,0.375,0.32857142857142857
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,100,20,0.375,0.30625,0.375,0.3263888888888889
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,200,20,0.4375,0.4401785714285714,0.4375,0.43150252525252525
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,200,20,0.375,0.375,0.375,0.35625
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,200,20,0.5625,0.38789682539682535,0.5625,0.4539835164835164
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,200,20,0.3125,0.32291666666666663,0.3125,0.2892857142857143
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,500,20,0.3125,0.3125,0.3125,0.3125
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,500,20,0.3125,0.425,0.3125,0.3191964285714286
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,500,20,0.5,0.39583333333333337,0.5,0.4375
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,500,20,0.3125,0.30625,0.3125,0.2767857142857143
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,1000,20,0.25,0.25,0.25,0.24603174603174605
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,1000,20,0.5,0.4625,0.5,0.4652777777777778
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,1000,20,0.5625,0.5424107142857143,0.5625,0.5502136752136753
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,1000,20,0.25,0.2585227272727273,0.25,0.22163865546218486
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,10,50,0.625,0.65625,0.625,0.6357323232323232
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,10,50,0.375,0.140625,0.375,0.20454545454545453
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,10,50,0.5,0.34375,0.5,0.3888888888888889
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,10,50,0.375,0.34375,0.375,0.3531746031746032
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,20,50,0.4375,0.46354166666666663,0.4375,0.4364583333333333
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,20,50,0.4375,0.32386363636363635,0.4375,0.36397058823529416
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,20,50,0.4375,0.37073863636363635,0.4375,0.3848039215686274
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,20,50,0.4375,0.46875,0.4375,0.386904761904762
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,50,50,0.4375,0.5009469696969697,0.4375,0.42200630252100846
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,50,50,0.375,0.26875,0.375,0.3110795454545454
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,50,50,0.3125,0.28125,0.3125,0.2888888888888889
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,50,50,0.3125,0.29261363636363635,0.3125,0.26575630252100846
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,100,50,0.4375,0.46875,0.4375,0.4267857142857143
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,100,50,0.4375,0.3375,0.4375,0.375
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,100,50,0.375,0.296875,0.375,0.3311688311688311
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,100,50,0.3125,0.25416666666666665,0.3125,0.265625
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,200,50,0.25,0.3020833333333333,0.25,0.25178571428571433
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,200,50,0.375,0.32291666666666663,0.375,0.3388888888888889
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,200,50,0.6875,0.4732142857142857,0.6875,0.5604166666666667
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,200,50,0.3125,0.25416666666666665,0.3125,0.265625
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,500,50,0.3125,0.31666666666666665,0.3125,0.3125
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,500,50,0.25,0.4147727272727273,0.25,0.23651960784313725
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,500,50,0.4375,0.3267045454545454,0.4375,0.35947712418300654
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,500,50,0.25,0.425,0.25,0.24479166666666666
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,1000,50,0.25,0.25,0.25,0.24603174603174605
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,1000,50,0.5,0.4625,0.5,0.4652777777777778
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,1000,50,0.4375,0.4263392857142857,0.4375,0.43002136752136755
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,1000,50,0.375,0.346875,0.375,0.34895833333333326
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,10,100,0.5,0.5267857142857142,0.5,0.5006555944055944
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,10,100,0.375,0.140625,0.375,0.20454545454545453
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,10,100,0.5625,0.554861111111111,0.5625,0.5170454545454546
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,10,100,0.6875,0.703125,0.6875,0.6845238095238095
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,20,100,0.3125,0.328125,0.3125,0.3044871794871795
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,20,100,0.375,0.2483974358974359,0.375,0.2754934210526316
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,20,100,0.5625,0.6354166666666666,0.5625,0.5840909090909091
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,20,100,0.4375,0.5610795454545454,0.4375,0.3941993464052288
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,50,100,0.4375,0.4609375,0.4375,0.4210164835164835
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,50,100,0.4375,0.3125,0.4375,0.3472222222222222
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,50,100,0.375,0.3169642857142857,0.375,0.34353146853146854
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,50,100,0.25,0.3020833333333333,0.25,0.2532467532467533
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,100,100,0.375,0.2745535714285714,0.375,0.3169642857142857
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,100,100,0.375,0.28125,0.375,0.3055555555555556
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,100,100,0.4375,0.44886363636363635,0.4375,0.4108455882352941
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,100,100,0.5,0.6041666666666666,0.5,0.4322916666666667
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,200,100,0.3125,0.34375,0.3125,0.31701388888888893
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,200,100,0.375,0.44886363636363635,0.375,0.35504201680672276
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,200,100,0.4375,0.3375,0.4375,0.375
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,200,100,0.25,0.425,0.25,0.24479166666666666
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,500,100,0.3125,0.31547619047619047,0.3125,0.30714597902097895
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,500,100,0.375,0.44886363636363635,0.375,0.35504201680672276
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,500,100,0.5,0.4799107142857143,0.5,0.48771367521367515
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,500,100,0.3125,0.28125,0.3125,0.25595238095238093
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,1000,100,0.3125,0.328125,0.3125,0.31547619047619047
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,1000,100,0.5625,0.5833333333333333,0.5625,0.5559027777777779
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,1000,100,0.5625,0.41666666666666663,0.5625,0.47727272727272724
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,1000,100,0.375,0.53125,0.375,0.3609848484848485
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,10,200,0.5625,0.59375,0.5625,0.5464743589743589
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,10,200,0.375,0.140625,0.375,0.20454545454545453
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,10,200,0.4375,0.46354166666666663,0.4375,0.4364583333333333
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,10,200,0.4375,0.43229166666666663,0.4375,0.4263392857142857
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,20,200,0.4375,0.3375,0.4375,0.375
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,20,200,0.4375,0.30625,0.4375,0.3579545454545454
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,20,200,0.25,0.20833333333333331,0.25,0.22500000000000003
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,20,200,0.375,0.40401785714285715,0.375,0.3862179487179487
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,50,200,0.375,0.35416666666666663,0.375,0.3549107142857143
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,50,200,0.4375,0.27724358974358976,0.4375,0.31496710526315785
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,50,200,0.5,0.3958333333333333,0.5,0.44155844155844154
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,50,200,0.3125,0.37797619047619047,0.3125,0.3333333333333333
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,100,200,0.3125,0.26488095238095233,0.3125,0.28671328671328666
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,100,200,0.5,0.3814102564102564,0.5,0.39309210526315785
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,100,200,0.25,0.21428571428571427,0.25,0.22916666666666666
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,100,200,0.3125,0.30625,0.3125,0.2767857142857143
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,200,200,0.375,0.29166666666666663,0.375,0.32500000000000007
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,200,200,0.375,0.4567307692307693,0.375,0.30153508771929827
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,200,200,0.4375,0.5875,0.4375,0.4166666666666667
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,200,200,0.4375,0.540625,0.4375,0.435515873015873
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,500,200,0.4375,0.44791666666666663,0.4375,0.41720779220779225
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,500,200,0.3125,0.4375,0.3125,0.27083333333333337
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,500,200,0.375,0.3638392857142857,0.375,0.36752136752136755
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,500,200,0.375,0.4375,0.375,0.34523809523809523
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,1000,200,0.3125,0.3125,0.3125,0.31250000000000006
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,1000,200,0.5625,0.5833333333333333,0.5625,0.5559027777777779
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,1000,200,0.4375,0.34375,0.4375,0.3798076923076923
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,1000,200,0.4375,0.384375,0.4375,0.39583333333333326
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,10,500,0.3125,0.30729166666666663,0.3125,0.30808080808080807
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,10,500,0.4375,0.4625,0.4375,0.318452380952381
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,10,500,0.25,0.1964285714285714,0.25,0.21955128205128202
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,10,500,0.375,0.36979166666666663,0.375,0.3638392857142857
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,20,500,0.3125,0.31026785714285715,0.3125,0.30982905982905984
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,20,500,0.4375,0.32386363636363635,0.4375,0.36397058823529416
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,20,500,0.4375,0.5875,0.4375,0.40719696969696967
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,20,500,0.25,0.20833333333333331,0.25,0.22500000000000003
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,50,500,0.4375,0.4375,0.4375,0.4375
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,50,500,0.4375,0.35256410256410253,0.4375,0.3536184210526316
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,50,500,0.375,0.36979166666666663,0.375,0.3638392857142857
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,50,500,0.5625,0.6212121212121212,0.5625,0.5214023109243697
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,100,500,0.5625,0.5629464285714285,0.5625,0.553030303030303
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,100,500,0.5,0.3814102564102564,0.5,0.39309210526315785
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,100,500,0.5,0.3579545454545454,0.5,0.40808823529411764
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,100,500,0.5,0.7857142857142857,0.5,0.43333333333333335
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,200,500,0.5,0.49375,0.5,0.49431818181818177
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,200,500,0.75,0.85,0.75,0.6979166666666667
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,200,500,0.625,0.42857142857142855,0.625,0.5083333333333333
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,200,500,0.5,0.375,0.5,0.421875
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,500,500,0.3125,0.296875,0.3125,0.3023989898989899
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,500,500,0.4375,0.4625,0.4375,0.421875
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,500,500,0.5625,0.3958333333333333,0.5625,0.46164772727272724
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,500,500,0.25,0.26875,0.25,0.22991071428571427
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,1000,500,0.25,0.19791666666666666,0.25,0.22077922077922077
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,1000,500,0.625,0.625,0.625,0.6059027777777778
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,1000,500,0.5625,0.43892045454545453,0.5625,0.4730392156862744
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,1000,500,0.4375,0.34375,0.4375,0.3732638888888889
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,10,1000,0.5625,0.6339285714285714,0.5625,0.578125
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,10,1000,0.4375,0.3005952380952381,0.4375,0.35625
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,10,1000,0.5,0.5201388888888889,0.5,0.4724025974025974
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,10,1000,0.625,0.640625,0.625,0.6287878787878787
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,20,1000,0.375,0.39732142857142855,0.375,0.36092032967032966
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,20,1000,0.4375,0.30625,0.4375,0.3579545454545454
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,20,1000,0.4375,0.4609375,0.4375,0.4210164835164835
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,20,1000,0.4375,0.4419642857142857,0.4375,0.43696581196581197
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,50,1000,0.375,0.36979166666666663,0.375,0.3638392857142857
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,50,1000,0.3125,0.21666666666666665,0.3125,0.2542613636363636
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,50,1000,0.3125,0.28125,0.3125,0.25595238095238093
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,50,1000,0.375,0.5416666666666666,0.375,0.34895833333333337
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,100,1000,0.25,0.1964285714285714,0.25,0.21955128205128202
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,100,1000,0.3125,0.2716346153846154,0.3125,0.24718045112781956
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,100,1000,0.4375,0.384375,0.4375,0.39583333333333326
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,100,1000,0.3125,0.4875,0.3125,0.3072916666666667
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,200,1000,0.3125,0.32053571428571426,0.3125,0.3112373737373737
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,200,1000,0.375,0.4567307692307693,0.375,0.30153508771929827
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,200,1000,0.4375,0.35416666666666663,0.4375,0.3875
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,200,1000,0.1875,0.3958333333333333,0.1875,0.2041666666666667
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,500,1000,0.375,0.375,0.375,0.36904761904761896
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,500,1000,0.5625,0.5989583333333334,0.5625,0.5538194444444444
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,500,1000,0.5,0.36607142857142855,0.5,0.4226190476190476
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,500,1000,0.5625,0.6392045454545454,0.5625,0.5442489495798319
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,1000,1000,0.3125,0.30625,0.3125,0.2767857142857143
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,1000,1000,0.625,0.65625,0.625,0.6014384920634921
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,1000,1000,0.5625,0.43892045454545453,0.5625,0.4730392156862744
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,1000,1000,0.4375,0.453125,0.4375,0.4256944444444445
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,10,2000,0.5625,0.6171875,0.5625,0.5608974358974359
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,10,2000,0.4375,0.3169642857142857,0.4375,0.3142857142857143
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,10,2000,0.3125,0.24999999999999997,0.3125,0.27724358974358976
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,10,2000,0.3125,0.3508928571428572,0.3125,0.32733585858585856
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,20,2000,0.3125,0.30729166666666663,0.3125,0.3013392857142857
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,20,2000,0.5,0.4732142857142857,0.5,0.4035714285714286
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,20,2000,0.3125,0.2767857142857143,0.3125,0.29166666666666663
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,20,2000,0.4375,0.5252976190476191,0.4375,0.46427010489510484
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,50,2000,0.375,0.38541666666666663,0.375,0.3670138888888889
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,50,2000,0.375,0.2589285714285714,0.375,0.30625
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,50,2000,0.375,0.3421875,0.375,0.34877622377622375
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,50,2000,0.3125,0.3489583333333333,0.3125,0.3068181818181818
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,100,2000,0.5,0.5044642857142857,0.5,0.49946581196581197
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,100,2000,0.375,0.26875,0.375,0.3110795454545454
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,100,2000,0.4375,0.41666666666666663,0.4375,0.4174107142857143
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,100,2000,0.4375,0.5625,0.4375,0.4010416666666667
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,200,2000,0.5,0.5044642857142857,0.5,0.49946581196581197
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,200,2000,0.4375,0.5009469696969697,0.4375,0.42200630252100846
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,200,2000,0.375,0.40104166666666663,0.375,0.36363636363636365
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,200,2000,0.3125,0.3489583333333333,0.3125,0.3068181818181818
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,500,2000,0.25,0.20833333333333331,0.25,0.22500000000000003
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,500,2000,0.4375,0.453125,0.4375,0.4384920634920634
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,500,2000,0.4375,0.36607142857142855,0.4375,0.3958333333333333
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,500,2000,0.375,0.34469696969696967,0.375,0.33272058823529416
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Naive Bayes,22278,1000,2000,0.375,0.3489583333333333,0.375,0.3475694444444445
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,SVM,22278,1000,2000,0.5,0.5357142857142857,0.5,0.5133547008547009
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,kNN,22278,1000,2000,0.625,0.475,0.625,0.53125
+Embedded approach,df_normalized_NablonekPlaski,Random Forest,Random Forest,22278,1000,2000,0.5,0.5052083333333333,0.5,0.4864583333333333
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,10,10,0.7222222222222222,0.6709401709401709,0.7222222222222222,0.6932367149758454
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,10,10,0.4444444444444444,0.19753086419753085,0.4444444444444444,0.2735042735042735
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,10,10,0.6666666666666666,0.6104497354497354,0.6666666666666666,0.6259976554094201
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,10,10,0.6944444444444444,0.598989898989899,0.6944444444444444,0.6419753086419752
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,20,10,0.75,0.6445279866332498,0.75,0.691137566137566
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,20,10,0.6388888888888888,0.4794238683127572,0.6388888888888888,0.5354277165782673
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,20,10,0.75,0.7434553872053873,0.75,0.7309202147911826
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,20,10,0.8055555555555556,0.8358860113246078,0.8055555555555556,0.7769075466443888
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,50,10,0.8333333333333334,0.855119825708061,0.8333333333333334,0.8038720538720538
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,50,10,0.75,0.6445279866332498,0.75,0.691137566137566
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,50,10,0.75,0.73804012345679,0.75,0.7351270805218173
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,50,10,0.7777777777777778,0.6742424242424243,0.7777777777777778,0.720899470899471
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,100,10,0.8055555555555556,0.827020202020202,0.8055555555555556,0.7763559969442322
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,100,10,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,100,10,0.75,0.7287199480181936,0.75,0.7261790840738208
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,100,10,0.75,0.6445279866332498,0.75,0.691137566137566
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,200,10,0.8055555555555556,0.827729044834308,0.8055555555555556,0.7757335257335257
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,200,10,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,200,10,0.75,0.759700176366843,0.75,0.73869825708061
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,200,10,0.75,0.6435185185185186,0.75,0.6910774410774411
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,500,10,0.8055555555555556,0.827020202020202,0.8055555555555556,0.7763559969442322
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,500,10,0.7777777777777778,0.6686381357433989,0.7777777777777778,0.718855218855219
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,500,10,0.7777777777777778,0.8086361737677527,0.7777777777777778,0.7722222222222221
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,500,10,0.7222222222222222,0.625,0.7222222222222222,0.6612862862862863
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,1000,10,0.8055555555555556,0.827020202020202,0.8055555555555556,0.7763559969442322
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,1000,10,0.7777777777777778,0.6686381357433989,0.7777777777777778,0.718855218855219
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,1000,10,0.8055555555555556,0.8320279866332498,0.8055555555555556,0.7976190476190477
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,1000,10,0.75,0.6445279866332498,0.75,0.691137566137566
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,10,20,0.6666666666666666,0.6615282865282865,0.6666666666666666,0.6553514067881883
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,10,20,0.4444444444444444,0.19753086419753085,0.4444444444444444,0.2735042735042735
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,10,20,0.6111111111111112,0.5951213818860878,0.6111111111111112,0.5972222222222222
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,10,20,0.6388888888888888,0.5515151515151515,0.6388888888888888,0.5908289241622575
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,20,20,0.6944444444444444,0.6342592592592593,0.6944444444444444,0.6616161616161617
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,20,20,0.5555555555555556,0.3952991452991453,0.5555555555555556,0.4563492063492064
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,20,20,0.6666666666666666,0.5715488215488215,0.6666666666666666,0.6096491228070176
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,20,20,0.7777777777777778,0.6768755935422601,0.7777777777777778,0.7222932651321399
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,50,20,0.7777777777777778,0.8023288439955107,0.7777777777777778,0.7502122060945591
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,50,20,0.75,0.6435185185185186,0.75,0.6910774410774411
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,50,20,0.7777777777777778,0.7999512670565303,0.7777777777777778,0.7479557479557479
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,50,20,0.7777777777777778,0.6749512670565303,0.7777777777777778,0.7218614718614719
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,100,20,0.8055555555555556,0.827729044834308,0.8055555555555556,0.7757335257335257
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,100,20,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,100,20,0.6944444444444444,0.671400724032303,0.6944444444444444,0.6694172113289759
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,100,20,0.75,0.6433856104908737,0.75,0.6924001924001923
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,200,20,0.8055555555555556,0.827729044834308,0.8055555555555556,0.7757335257335257
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,200,20,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,200,20,0.75,0.7524250440917108,0.75,0.739560639070443
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,200,20,0.7777777777777778,0.6749512670565303,0.7777777777777778,0.7218614718614719
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,500,20,0.8055555555555556,0.827020202020202,0.8055555555555556,0.7763559969442322
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,500,20,0.7777777777777778,0.6686381357433989,0.7777777777777778,0.718855218855219
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,500,20,0.8055555555555556,0.8260582010582012,0.8055555555555556,0.7968780946722123
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,500,20,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,1000,20,0.8055555555555556,0.827020202020202,0.8055555555555556,0.7763559969442322
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,1000,20,0.7777777777777778,0.6686381357433989,0.7777777777777778,0.718855218855219
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,1000,20,0.8333333333333334,0.8515211640211641,0.8333333333333334,0.8292483660130718
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,1000,20,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,10,50,0.6944444444444444,0.6860380116959064,0.6944444444444444,0.6801867885201219
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,10,50,0.4444444444444444,0.19753086419753085,0.4444444444444444,0.2735042735042735
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,10,50,0.5555555555555556,0.5307017543859649,0.5555555555555556,0.5303511303511304
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,10,50,0.6111111111111112,0.526984126984127,0.6111111111111112,0.5601851851851852
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,20,50,0.75,0.7820308346624136,0.75,0.7259259259259259
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,20,50,0.5277777777777778,0.38580246913580246,0.5277777777777778,0.43353430950330174
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,20,50,0.5555555555555556,0.514985380116959,0.5555555555555556,0.5213064713064713
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,20,50,0.6666666666666666,0.5691137566137566,0.6666666666666666,0.606398064731398
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,50,50,0.8055555555555556,0.827020202020202,0.8055555555555556,0.7763559969442322
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,50,50,0.6944444444444444,0.5955026455026454,0.6944444444444444,0.6368583495776478
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,50,50,0.6666666666666666,0.687389770723104,0.6666666666666666,0.661628540305011
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,50,50,0.6944444444444444,0.6186507936507937,0.6944444444444444,0.6466049382716048
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,100,50,0.8333333333333334,0.855119825708061,0.8333333333333334,0.8038720538720538
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,100,50,0.6944444444444444,0.5955026455026454,0.6944444444444444,0.6368583495776478
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,100,50,0.7777777777777778,0.7919973544973546,0.7777777777777778,0.7654529529529529
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,100,50,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,200,50,0.8055555555555556,0.7793622499504853,0.8055555555555556,0.7816257816257816
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,200,50,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,200,50,0.8333333333333334,0.8657407407407408,0.8333333333333334,0.8295578332343038
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,200,50,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,500,50,0.8055555555555556,0.7777777777777778,0.8055555555555556,0.7803242509124863
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,500,50,0.75,0.6435185185185186,0.75,0.6910774410774411
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,500,50,0.8611111111111112,0.8603395061728396,0.8611111111111112,0.8575564728815502
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,500,50,0.75,0.6492504409171076,0.75,0.691301349196086
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,1000,50,0.8055555555555556,0.7793622499504853,0.8055555555555556,0.7816257816257816
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,1000,50,0.7777777777777778,0.6686381357433989,0.7777777777777778,0.718855218855219
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,1000,50,0.8333333333333334,0.8515211640211641,0.8333333333333334,0.8292483660130718
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,1000,50,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,10,100,0.75,0.7410130718954249,0.75,0.7394781144781145
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,10,100,0.4722222222222222,0.4809523809523809,0.4722222222222222,0.3293721529015647
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,10,100,0.8055555555555556,0.7986111111111112,0.8055555555555556,0.7990769407178075
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,10,100,0.7222222222222222,0.701058201058201,0.7222222222222222,0.6897042191159838
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,20,100,0.8055555555555556,0.7965686274509803,0.8055555555555556,0.7950336700336701
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,20,100,0.6944444444444444,0.6024130190796857,0.6944444444444444,0.6388888888888888
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,20,100,0.7777777777777778,0.7962962962962963,0.7777777777777778,0.7640629351155668
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,20,100,0.6944444444444444,0.6024130190796857,0.6944444444444444,0.6388888888888888
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,50,100,0.8333333333333334,0.8472222222222222,0.8333333333333334,0.8200067905950258
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,50,100,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,50,100,0.8055555555555556,0.8135964912280702,0.8055555555555556,0.8030864197530865
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,50,100,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,100,100,0.8333333333333334,0.8472222222222222,0.8333333333333334,0.8200067905950258
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,100,100,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,100,100,0.7777777777777778,0.7828483245149912,0.7777777777777778,0.7716874628639334
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,100,100,0.8055555555555556,0.827020202020202,0.8055555555555556,0.7763559969442322
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,200,100,0.8611111111111112,0.874059219647455,0.8611111111111112,0.8477633477633478
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,200,100,0.7777777777777778,0.8050218137937437,0.7777777777777778,0.7476677805625174
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,200,100,0.7777777777777778,0.8333333333333334,0.7777777777777778,0.7637995137995138
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,200,100,0.75,0.6445279866332498,0.75,0.691137566137566
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,500,100,0.8333333333333334,0.8522727272727272,0.8333333333333334,0.8028110233992587
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,500,100,0.75,0.6445279866332498,0.75,0.691137566137566
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,500,100,0.8333333333333334,0.8515211640211641,0.8333333333333334,0.8292483660130718
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,500,100,0.75,0.6445279866332498,0.75,0.691137566137566
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,1000,100,0.8055555555555556,0.827020202020202,0.8055555555555556,0.7763559969442322
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,1000,100,0.7777777777777778,0.7999512670565303,0.7777777777777778,0.7479557479557479
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,1000,100,0.8055555555555556,0.8492063492063492,0.8055555555555556,0.7986111111111112
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,1000,100,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,10,200,0.6944444444444444,0.6158433070197776,0.6944444444444444,0.6510942760942761
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,10,200,0.4722222222222222,0.4809523809523809,0.4722222222222222,0.3293721529015647
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,10,200,0.75,0.6564814814814814,0.75,0.6967629511489162
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,10,200,0.7222222222222222,0.621653038319705,0.7222222222222222,0.6669389978213507
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,20,200,0.7222222222222222,0.6272564581388111,0.7222222222222222,0.6696127946127947
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,20,200,0.5833333333333334,0.44074074074074077,0.5833333333333334,0.5012345679012346
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,20,200,0.6666666666666666,0.5781899881164586,0.6666666666666666,0.6157361157361156
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,20,200,0.7222222222222222,0.621653038319705,0.7222222222222222,0.6669389978213507
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,50,200,0.75,0.6445279866332498,0.75,0.691137566137566
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,50,200,0.75,0.6445279866332498,0.75,0.691137566137566
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,50,200,0.75,0.7383124546114742,0.75,0.7283028861976231
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,50,200,0.7222222222222222,0.625,0.7222222222222222,0.6612862862862863
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,100,200,0.7777777777777778,0.7550705467372134,0.7777777777777778,0.7522585057414778
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,100,200,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,100,200,0.8055555555555556,0.8310185185185186,0.8055555555555556,0.7975589225589226
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,100,200,0.7777777777777778,0.8050218137937437,0.7777777777777778,0.7476677805625174
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,200,200,0.75,0.6661329249048548,0.75,0.701371484266221
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,200,200,0.7222222222222222,0.6177248677248677,0.7222222222222222,0.6615497076023392
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,200,200,0.8055555555555556,0.8052248677248678,0.8055555555555556,0.7933914306463326
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,200,200,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,500,200,0.7777777777777778,0.6723057644110276,0.7777777777777778,0.7189153439153438
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,500,200,0.7222222222222222,0.6199937976253765,0.7222222222222222,0.6670033670033669
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,500,200,0.8055555555555556,0.8320279866332498,0.8055555555555556,0.7921075837742505
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,500,200,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,1000,200,0.7777777777777778,0.8050218137937437,0.7777777777777778,0.7476677805625174
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,1000,200,0.7222222222222222,0.6157407407407408,0.7222222222222222,0.6632996632996633
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,1000,200,0.7777777777777778,0.8086361737677527,0.7777777777777778,0.7722222222222221
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,1000,200,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,10,500,0.6388888888888888,0.6329059829059829,0.6388888888888888,0.6303276453171264
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,10,500,0.5833333333333334,0.43209876543209874,0.5833333333333334,0.485516115871073
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,10,500,0.5,0.4857282094124199,0.5,0.4859859095153213
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,10,500,0.6666666666666666,0.5773148148148147,0.6666666666666666,0.6150392817059482
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,20,500,0.7222222222222222,0.7547321959086664,0.7222222222222222,0.6973905723905724
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,20,500,0.6944444444444444,0.6024831649831649,0.6944444444444444,0.6405691405691405
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,20,500,0.6944444444444444,0.654320987654321,0.6944444444444444,0.6649958228905598
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,20,500,0.75,0.6507936507936508,0.75,0.6936936936936937
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,50,500,0.8055555555555556,0.8310185185185186,0.8055555555555556,0.7920474587141254
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,50,500,0.75,0.6445279866332498,0.75,0.691137566137566
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,50,500,0.75,0.7617568226120858,0.75,0.7308455433455434
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,50,500,0.7777777777777778,0.6686381357433989,0.7777777777777778,0.718855218855219
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,100,500,0.8055555555555556,0.8348765432098766,0.8055555555555556,0.7768474215842638
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,100,500,0.75,0.6445279866332498,0.75,0.691137566137566
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,100,500,0.7777777777777778,0.7857316903369536,0.7777777777777778,0.7628968253968255
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,100,500,0.75,0.6492504409171076,0.75,0.691301349196086
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,200,500,0.7777777777777778,0.7530864197530864,0.7777777777777778,0.754180460062813
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,200,500,0.75,0.6466049382716049,0.75,0.694295900178253
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,200,500,0.75,0.7936507936507936,0.75,0.7184758287699464
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,200,500,0.7777777777777778,0.6712962962962963,0.7777777777777778,0.718855218855219
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,500,500,0.8055555555555556,0.827729044834308,0.8055555555555556,0.7757335257335257
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,500,500,0.75,0.6610623781676414,0.75,0.7016594516594518
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,500,500,0.75,0.740079365079365,0.75,0.7218720821661999
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,500,500,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,1000,500,0.8055555555555556,0.827729044834308,0.8055555555555556,0.7757335257335257
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,1000,500,0.75,0.6492504409171076,0.75,0.691301349196086
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,1000,500,0.8055555555555556,0.8310185185185186,0.8055555555555556,0.7975589225589226
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,1000,500,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,10,1000,0.7777777777777778,0.6809826203208557,0.7777777777777778,0.7225182225182225
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,10,1000,0.5277777777777778,0.4932659932659933,0.5277777777777778,0.41845456131170417
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,10,1000,0.75,0.6785714285714286,0.75,0.7060393727060394
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,10,1000,0.75,0.6471734892787525,0.75,0.6940836940836941
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,20,1000,0.7777777777777778,0.6715969215969216,0.7777777777777778,0.7195378151260504
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,20,1000,0.5833333333333334,0.46851851851851856,0.5833333333333334,0.48278985507246375
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,20,1000,0.75,0.6395502645502646,0.75,0.6860856071382386
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,20,1000,0.7777777777777778,0.671957671957672,0.7777777777777778,0.7177177177177178
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,50,1000,0.8055555555555556,0.8322723028605381,0.8055555555555556,0.7777176527176528
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,50,1000,0.75,0.6445279866332498,0.75,0.691137566137566
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,50,1000,0.7777777777777778,0.7973057644110276,0.7777777777777778,0.7612433862433863
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,50,1000,0.75,0.6492504409171076,0.75,0.691301349196086
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,100,1000,0.8055555555555556,0.6938906609959241,0.8055555555555556,0.7453102453102454
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,100,1000,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,100,1000,0.7777777777777778,0.8333333333333334,0.7777777777777778,0.7511555673320379
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,100,1000,0.75,0.6445279866332498,0.75,0.691137566137566
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,200,1000,0.8055555555555556,0.8306878306878307,0.8055555555555556,0.7764161220043574
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,200,1000,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,200,1000,0.8055555555555556,0.8075396825396824,0.8055555555555556,0.7978312537136066
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,200,1000,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,500,1000,0.8055555555555556,0.8306878306878307,0.8055555555555556,0.7764161220043574
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,500,1000,0.7222222222222222,0.6211361737677527,0.7222222222222222,0.6657407407407407
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,500,1000,0.75,0.7870370370370371,0.75,0.7290772915772916
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,500,1000,0.7222222222222222,0.625,0.7222222222222222,0.6612862862862863
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,1000,1000,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,1000,1000,0.7777777777777778,0.8050218137937437,0.7777777777777778,0.7476677805625174
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,1000,1000,0.7777777777777778,0.7973057644110276,0.7777777777777778,0.7667548500881834
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,1000,1000,0.7222222222222222,0.625,0.7222222222222222,0.6612862862862863
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,10,2000,0.6388888888888888,0.5611111111111111,0.6388888888888888,0.595679012345679
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,10,2000,0.4444444444444444,0.19753086419753085,0.4444444444444444,0.2735042735042735
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,10,2000,0.5833333333333334,0.4850970017636684,0.5833333333333334,0.5182332192136114
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,10,2000,0.5,0.4826892109500805,0.5,0.44360269360269367
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,20,2000,0.6111111111111112,0.5398428731762065,0.6111111111111112,0.573154514330985
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,20,2000,0.4444444444444444,0.19753086419753085,0.4444444444444444,0.2735042735042735
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,20,2000,0.5555555555555556,0.4672571121846484,0.5555555555555556,0.4748677248677249
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,20,2000,0.6111111111111112,0.5275000000000001,0.6111111111111112,0.5436427280939475
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,50,2000,0.75,0.7314814814814815,0.75,0.729076479076479
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,50,2000,0.7222222222222222,0.6177248677248677,0.7222222222222222,0.6615497076023392
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,50,2000,0.6388888888888888,0.6223544973544973,0.6388888888888888,0.6121860496860497
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,50,2000,0.75,0.6464646464646465,0.75,0.6931216931216932
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,100,2000,0.6388888888888888,0.6488858363858364,0.6388888888888888,0.6352848407446108
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,100,2000,0.75,0.6445279866332498,0.75,0.691137566137566
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,100,2000,0.7222222222222222,0.7476851851851851,0.7222222222222222,0.7089112922446257
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,100,2000,0.7222222222222222,0.6203703703703703,0.7222222222222222,0.6658249158249158
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,200,2000,0.6666666666666666,0.6043345543345544,0.6666666666666666,0.6289088878499818
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,200,2000,0.6666666666666666,0.6101851851851853,0.6666666666666666,0.6323856848050396
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,200,2000,0.7777777777777778,0.790448343079922,0.7777777777777778,0.7711700336700336
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,200,2000,0.7777777777777778,0.6801146384479718,0.7777777777777778,0.7205411152779574
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,500,2000,0.6944444444444444,0.6223544973544973,0.6944444444444444,0.6536195286195287
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,500,2000,0.6666666666666666,0.6373456790123456,0.6666666666666666,0.6470529599399568
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,500,2000,0.6944444444444444,0.7342171717171717,0.6944444444444444,0.6669915529564653
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,500,2000,0.75,0.6485890652557319,0.75,0.6907894736842104
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Naive Bayes,49152,1000,2000,0.7777777777777778,0.6765483971366325,0.7777777777777778,0.7218013468013468
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,SVM,49152,1000,2000,0.6944444444444444,0.6186507936507937,0.6944444444444444,0.6466049382716048
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,kNN,49152,1000,2000,0.6944444444444444,0.6880952380952381,0.6944444444444444,0.669753086419753
+Embedded approach,df_normalized_GLA_BRA_180,Random Forest,Random Forest,49152,1000,2000,0.75,0.6485890652557319,0.75,0.6907894736842104

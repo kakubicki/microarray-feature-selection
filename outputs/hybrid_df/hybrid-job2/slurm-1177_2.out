@@ -1,0 +1,1046 @@
+Running: job=2 idx=2 -> MI_barretNP_df_1000, Artificial_Bee_Colony, iter=50, particles=10
+No. selected genes: 262
+Naive_Bayes
+F1 score: 0.5691287878787878
+SVM
+F1 score: 0.5550213675213675
+kNN
+F1 score: 0.5454545454545454
+Random_Forest
+F1 score: 0.5550213675213675
+------------------------------------------
+Running: job=2 idx=8 -> ANOVA_barretNP_df_1000, Particle_Swarm_Optimization, iter=50, particles=10
+No. selected genes: 229
+Naive_Bayes
+F1 score: 0.6208333333333333
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.6014384920634921
+Random_Forest
+F1 score: 0.384375
+------------------------------------------
+Running: job=2 idx=14 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=10
+No. selected genes: 92
+Naive_Bayes
+F1 score: 0.5562500000000001
+SVM
+F1 score: 0.45833333333333326
+kNN
+F1 score: 0.6660714285714286
+Random_Forest
+F1 score: 0.6232638888888888
+------------------------------------------
+Running: job=2 idx=20 -> Ridge_barretNP_df, Artificial_Bee_Colony, iter=50, particles=20
+No. selected genes: 39
+Naive_Bayes
+F1 score: 0.21394230769230768
+SVM
+F1 score: 0.45833333333333326
+kNN
+F1 score: 0.2785714285714286
+Random_Forest
+F1 score: 0.3941993464052288
+------------------------------------------
+Running: job=2 idx=26 -> MI_barretNP_df_1000, Particle_Swarm_Optimization, iter=50, particles=20
+No. selected genes: 489
+Naive_Bayes
+F1 score: 0.4951388888888889
+SVM
+F1 score: 0.5079365079365079
+kNN
+F1 score: 0.6354166666666667
+Random_Forest
+F1 score: 0.6049107142857143
+------------------------------------------
+Running: job=2 idx=32 -> ANOVA_barretNP_df_1000, Artificial_Bee_Colony, iter=100, particles=10
+No. selected genes: 61
+Naive_Bayes
+F1 score: 0.5506410256410256
+SVM
+F1 score: 0.4652777777777778
+kNN
+F1 score: 0.48863636363636365
+Random_Forest
+F1 score: 0.5550213675213675
+------------------------------------------
+Running: job=2 idx=38 -> RF_barretNP_df, Artificial_Bee_Colony, iter=100, particles=10
+No. selected genes: 59
+Naive_Bayes
+F1 score: 0.4400252525252525
+SVM
+F1 score: 0.3142857142857143
+kNN
+F1 score: 0.5195802005012531
+Random_Forest
+F1 score: 0.36458333333333337
+------------------------------------------
+Running: job=2 idx=44 -> Ridge_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=10
+No. selected genes: 187
+Naive_Bayes
+F1 score: 0.31004273504273505
+SVM
+F1 score: 0.4767857142857143
+kNN
+F1 score: 0.4749781468531469
+Random_Forest
+F1 score: 0.5064935064935066
+------------------------------------------
+Running: job=2 idx=50 -> MI_barretNP_df_1000, Artificial_Bee_Colony, iter=100, particles=20
+No. selected genes: 382
+Naive_Bayes
+F1 score: 0.5655906593406593
+SVM
+F1 score: 0.4784746503496503
+kNN
+F1 score: 0.7288024475524475
+Random_Forest
+F1 score: 0.4732142857142857
+------------------------------------------
+Running: job=2 idx=56 -> ANOVA_barretNP_df_1000, Particle_Swarm_Optimization, iter=100, particles=20
+No. selected genes: 501
+Naive_Bayes
+F1 score: 0.47462121212121217
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.7288024475524475
+Random_Forest
+F1 score: 0.6049107142857143
+------------------------------------------
+Running: job=2 idx=62 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=20
+No. selected genes: 89
+Naive_Bayes
+F1 score: 0.28867521367521365
+SVM
+F1 score: 0.3472222222222222
+kNN
+F1 score: 0.3317307692307692
+Random_Forest
+F1 score: 0.45581501831501836
+------------------------------------------
+Running: job=2 idx=68 -> Ridge_barretNP_df, Artificial_Bee_Colony, iter=200, particles=10
+No. selected genes: 70
+Naive_Bayes
+F1 score: 0.1921875
+SVM
+F1 score: 0.36397058823529416
+kNN
+F1 score: 0.3704545454545455
+Random_Forest
+F1 score: 0.4017857142857143
+------------------------------------------
+Running: job=2 idx=74 -> MI_barretNP_df_1000, Particle_Swarm_Optimization, iter=200, particles=10
+No. selected genes: 503
+Naive_Bayes
+F1 score: 0.3653846153846154
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.7366071428571428
+Random_Forest
+F1 score: 0.4732142857142857
+------------------------------------------
+Running: job=2 idx=80 -> ANOVA_barretNP_df_1000, Artificial_Bee_Colony, iter=50, particles=50
+No. selected genes: 218
+Naive_Bayes
+F1 score: 0.4384920634920635
+SVM
+F1 score: 0.5550213675213675
+kNN
+F1 score: 0.6979166666666667
+Random_Forest
+F1 score: 0.6049107142857143
+------------------------------------------
+Running: job=2 idx=86 -> RF_barretNP_df, Artificial_Bee_Colony, iter=50, particles=50
+No. selected genes: 20
+Naive_Bayes
+F1 score: 0.4210164835164835
+SVM
+F1 score: 0.3536184210526316
+kNN
+F1 score: 0.430239898989899
+Random_Forest
+F1 score: 0.22058823529411764
+------------------------------------------
+Running: job=2 idx=92 -> Ridge_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=50
+No. selected genes: 241
+Naive_Bayes
+F1 score: 0.3044871794871795
+SVM
+F1 score: 0.4799107142857143
+kNN
+F1 score: 0.48232323232323226
+Random_Forest
+F1 score: 0.3660714285714286
+------------------------------------------
+Running: job=2 idx=98 -> MI_barretNP_df_1000, Artificial_Bee_Colony, iter=200, particles=20
+No. selected genes: 242
+Naive_Bayes
+F1 score: 0.43311965811965814
+SVM
+F1 score: 0.6309523809523809
+kNN
+F1 score: 0.8104166666666668
+Random_Forest
+F1 score: 0.4777777777777778
+------------------------------------------
+Running: job=2 idx=104 -> ANOVA_barretNP_df_1000, Particle_Swarm_Optimization, iter=200, particles=20
+No. selected genes: 489
+Naive_Bayes
+F1 score: 0.5044642857142857
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.6821581196581197
+Random_Forest
+F1 score: 0.5125
+------------------------------------------
+Running: job=2 idx=110 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=20
+No. selected genes: 102
+Naive_Bayes
+F1 score: 0.3620580808080808
+SVM
+F1 score: 0.5885416666666667
+kNN
+F1 score: 0.6666666666666666
+Random_Forest
+F1 score: 0.5995273109243697
+------------------------------------------
+Running: job=2 idx=116 -> Ridge_barretNP_df, Artificial_Bee_Colony, iter=50, particles=100
+No. selected genes: 18
+Naive_Bayes
+F1 score: 0.28125
+SVM
+F1 score: 0.3536184210526316
+kNN
+F1 score: 0.25595238095238093
+Random_Forest
+F1 score: 0.3541666666666667
+------------------------------------------
+Running: job=2 idx=122 -> MI_barretNP_df_1000, Particle_Swarm_Optimization, iter=50, particles=100
+No. selected genes: 245
+Naive_Bayes
+F1 score: 0.6022727272727273
+SVM
+F1 score: 0.6014384920634921
+kNN
+F1 score: 0.7414772727272726
+Random_Forest
+F1 score: 0.546875
+------------------------------------------
+Running: job=2 idx=128 -> ANOVA_barretNP_df_1000, Artificial_Bee_Colony, iter=100, particles=50
+No. selected genes: 110
+Naive_Bayes
+F1 score: 0.6302083333333333
+SVM
+F1 score: 0.75
+kNN
+F1 score: 0.60385101010101
+Random_Forest
+F1 score: 0.5550213675213675
+------------------------------------------
+Running: job=2 idx=134 -> RF_barretNP_df, Artificial_Bee_Colony, iter=100, particles=50
+No. selected genes: 50
+Naive_Bayes
+F1 score: 0.5659090909090908
+SVM
+F1 score: 0.40808823529411764
+kNN
+F1 score: 0.36607142857142855
+Random_Forest
+F1 score: 0.3125
+------------------------------------------
+Running: job=2 idx=140 -> Ridge_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=50
+No. selected genes: 184
+Naive_Bayes
+F1 score: 0.6208333333333333
+SVM
+F1 score: 0.6666666666666666
+kNN
+F1 score: 0.49679487179487175
+Random_Forest
+F1 score: 0.4256944444444445
+------------------------------------------
+Running: job=2 idx=146 -> MI_barretNP_df_1000, Artificial_Bee_Colony, iter=500, particles=10
+No. selected genes: 71
+Naive_Bayes
+F1 score: 0.594551282051282
+SVM
+F1 score: 0.75
+kNN
+F1 score: 0.5104166666666666
+Random_Forest
+F1 score: 0.75
+------------------------------------------
+Running: job=2 idx=152 -> ANOVA_barretNP_df_1000, Particle_Swarm_Optimization, iter=500, particles=10
+No. selected genes: 487
+Naive_Bayes
+F1 score: 0.6212121212121211
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.6196581196581197
+Random_Forest
+F1 score: 0.4652777777777778
+------------------------------------------
+Running: job=2 idx=158 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=10
+No. selected genes: 93
+Naive_Bayes
+F1 score: 0.40982142857142856
+SVM
+F1 score: 0.45833333333333326
+kNN
+F1 score: 0.5116758241758241
+Random_Forest
+F1 score: 0.4017857142857143
+------------------------------------------
+Running: job=2 idx=164 -> Ridge_barretNP_df, Artificial_Bee_Colony, iter=50, particles=200
+No. selected genes: 66
+Naive_Bayes
+F1 score: 0.6256410256410255
+SVM
+F1 score: 0.3579545454545454
+kNN
+F1 score: 0.3214285714285714
+Random_Forest
+F1 score: 0.3832070707070707
+------------------------------------------
+Running: job=2 idx=170 -> MI_barretNP_df_1000, Particle_Swarm_Optimization, iter=50, particles=200
+No. selected genes: 241
+Naive_Bayes
+F1 score: 0.5267857142857143
+SVM
+F1 score: 0.4732142857142857
+kNN
+F1 score: 0.6136363636363636
+Random_Forest
+F1 score: 0.4732142857142857
+------------------------------------------
+Running: job=2 idx=176 -> ANOVA_barretNP_df_1000, Artificial_Bee_Colony, iter=100, particles=100
+No. selected genes: 7
+Naive_Bayes
+F1 score: 0.3125
+SVM
+F1 score: 0.20454545454545453
+kNN
+F1 score: 0.2694444444444445
+Random_Forest
+F1 score: 0.3704545454545455
+------------------------------------------
+Running: job=2 idx=182 -> RF_barretNP_df, Artificial_Bee_Colony, iter=100, particles=100
+No. selected genes: 22
+Naive_Bayes
+F1 score: 0.4419642857142857
+SVM
+F1 score: 0.3888888888888889
+kNN
+F1 score: 0.28645833333333337
+Random_Forest
+F1 score: 0.37683823529411764
+------------------------------------------
+Running: job=2 idx=188 -> Ridge_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=100
+No. selected genes: 126
+Naive_Bayes
+F1 score: 0.26041666666666663
+SVM
+F1 score: 0.43002136752136755
+kNN
+F1 score: 0.37941919191919193
+Random_Forest
+F1 score: 0.5451388888888888
+------------------------------------------
+Running: job=2 idx=194 -> MI_barretNP_df_1000, Artificial_Bee_Colony, iter=200, particles=50
+No. selected genes: 18
+Naive_Bayes
+F1 score: 0.39812271062271065
+SVM
+F1 score: 0.4289215686274509
+kNN
+F1 score: 0.3862179487179487
+Random_Forest
+F1 score: 0.4469696969696969
+------------------------------------------
+Running: job=2 idx=200 -> ANOVA_barretNP_df_1000, Particle_Swarm_Optimization, iter=200, particles=50
+No. selected genes: 492
+Naive_Bayes
+F1 score: 0.6875
+SVM
+F1 score: 0.6412337662337663
+kNN
+F1 score: 0.5876623376623377
+Random_Forest
+F1 score: 0.5079365079365079
+------------------------------------------
+Running: job=2 idx=206 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=50
+No. selected genes: 75
+Naive_Bayes
+F1 score: 0.43002136752136755
+SVM
+F1 score: 0.40808823529411764
+kNN
+F1 score: 0.3759920634920635
+Random_Forest
+F1 score: 0.482390873015873
+------------------------------------------
+Running: job=2 idx=212 -> Ridge_barretNP_df, Artificial_Bee_Colony, iter=500, particles=20
+No. selected genes: 131
+Naive_Bayes
+F1 score: 0.6208333333333333
+SVM
+F1 score: 0.3579545454545454
+kNN
+F1 score: 0.3589285714285714
+Random_Forest
+F1 score: 0.3462301587301587
+------------------------------------------
+Running: job=2 idx=218 -> MI_barretNP_df_1000, Particle_Swarm_Optimization, iter=500, particles=20
+No. selected genes: 358
+Naive_Bayes
+F1 score: 0.46222527472527475
+SVM
+F1 score: 0.49837662337662336
+kNN
+F1 score: 0.75
+Random_Forest
+F1 score: 0.6049107142857143
+------------------------------------------
+Running: job=2 idx=224 -> ANOVA_barretNP_df_1000, Artificial_Bee_Colony, iter=1000, particles=10
+No. selected genes: 332
+Naive_Bayes
+F1 score: 0.4946581196581197
+SVM
+F1 score: 0.45716783216783213
+kNN
+F1 score: 0.5625
+Random_Forest
+F1 score: 0.4732142857142857
+------------------------------------------
+Running: job=2 idx=230 -> RF_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=10
+No. selected genes: 49
+Naive_Bayes
+F1 score: 0.4864583333333333
+SVM
+F1 score: 0.34558823529411764
+kNN
+F1 score: 0.47045454545454546
+Random_Forest
+F1 score: 0.42727272727272725
+------------------------------------------
+Running: job=2 idx=236 -> Ridge_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=10
+No. selected genes: 240
+Naive_Bayes
+F1 score: 0.30113636363636365
+SVM
+F1 score: 0.42261904761904767
+kNN
+F1 score: 0.44471153846153844
+Random_Forest
+F1 score: 0.41780303030303034
+------------------------------------------
+Running: job=2 idx=242 -> MI_barretNP_df_1000, Artificial_Bee_Colony, iter=100, particles=200
+No. selected genes: 17
+Naive_Bayes
+F1 score: 0.5
+SVM
+F1 score: 0.36397058823529416
+kNN
+F1 score: 0.6022727272727273
+Random_Forest
+F1 score: 0.265625
+------------------------------------------
+Running: job=2 idx=248 -> ANOVA_barretNP_df_1000, Particle_Swarm_Optimization, iter=100, particles=200
+No. selected genes: 269
+Naive_Bayes
+F1 score: 0.625
+SVM
+F1 score: 0.6821581196581197
+kNN
+F1 score: 0.6821581196581197
+Random_Forest
+F1 score: 0.546875
+------------------------------------------
+Running: job=2 idx=254 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=100, particles=200
+No. selected genes: 83
+Naive_Bayes
+F1 score: 0.375
+SVM
+F1 score: 0.3142857142857143
+kNN
+F1 score: 0.4807692307692307
+Random_Forest
+F1 score: 0.4302944862155389
+------------------------------------------
+Running: job=2 idx=260 -> Ridge_barretNP_df, Artificial_Bee_Colony, iter=200, particles=100
+No. selected genes: 82
+Naive_Bayes
+F1 score: 0.05208333333333333
+SVM
+F1 score: 0.4427083333333333
+kNN
+F1 score: 0.5736607142857143
+Random_Forest
+F1 score: 0.4410714285714286
+------------------------------------------
+Running: job=2 idx=266 -> MI_barretNP_df_1000, Particle_Swarm_Optimization, iter=200, particles=100
+No. selected genes: 259
+Naive_Bayes
+F1 score: 0.4384920634920634
+SVM
+F1 score: 0.45716783216783213
+kNN
+F1 score: 0.45716783216783213
+Random_Forest
+F1 score: 0.6049107142857143
+------------------------------------------
+Running: job=2 idx=272 -> ANOVA_barretNP_df_1000, Artificial_Bee_Colony, iter=1000, particles=20
+No. selected genes: 155
+Naive_Bayes
+F1 score: 0.6818181818181819
+SVM
+F1 score: 0.75
+kNN
+F1 score: 0.61875
+Random_Forest
+F1 score: 0.5079365079365079
+------------------------------------------
+Running: job=2 idx=278 -> RF_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=20
+No. selected genes: 25
+Naive_Bayes
+F1 score: 0.48397435897435903
+SVM
+F1 score: 0.30147058823529416
+kNN
+F1 score: 0.2767857142857143
+Random_Forest
+F1 score: 0.30288461538461536
+------------------------------------------
+Running: job=2 idx=284 -> Ridge_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=20
+No. selected genes: 266
+Naive_Bayes
+F1 score: 0.40719696969696967
+SVM
+F1 score: 0.37058080808080807
+kNN
+F1 score: 0.4749781468531469
+Random_Forest
+F1 score: 0.4256944444444445
+------------------------------------------
+Running: job=2 idx=290 -> MI_barretNP_df_1000, Artificial_Bee_Colony, iter=50, particles=500
+No. selected genes: 12
+Naive_Bayes
+F1 score: 0.7556818181818181
+SVM
+F1 score: 0.5277777777777778
+kNN
+F1 score: 0.5283882783882783
+Random_Forest
+F1 score: 0.6845238095238094
+------------------------------------------
+Running: job=2 idx=296 -> ANOVA_barretNP_df_1000, Particle_Swarm_Optimization, iter=50, particles=500
+No. selected genes: 242
+Naive_Bayes
+F1 score: 0.4767857142857143
+SVM
+F1 score: 0.5550213675213675
+kNN
+F1 score: 0.5550213675213675
+Random_Forest
+F1 score: 0.6049107142857143
+------------------------------------------
+Running: job=2 idx=302 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=500
+No. selected genes: 90
+Naive_Bayes
+F1 score: 0.5625
+SVM
+F1 score: 0.4065934065934066
+kNN
+F1 score: 0.4583333333333333
+Random_Forest
+F1 score: 0.4522058823529411
+------------------------------------------
+Running: job=2 idx=308 -> Ridge_barretNP_df, Artificial_Bee_Colony, iter=500, particles=50
+No. selected genes: 21
+Naive_Bayes
+F1 score: 0.30808080808080807
+SVM
+F1 score: 0.30625
+kNN
+F1 score: 0.5456349206349206
+Random_Forest
+F1 score: 0.3794642857142857
+------------------------------------------
+Running: job=2 idx=314 -> MI_barretNP_df_1000, Particle_Swarm_Optimization, iter=500, particles=50
+No. selected genes: 261
+Naive_Bayes
+F1 score: 0.6398809523809523
+SVM
+F1 score: 0.672979797979798
+kNN
+F1 score: 0.8092948717948717
+Random_Forest
+F1 score: 0.5559027777777779
+------------------------------------------
+Running: job=2 idx=320 -> ANOVA_barretNP_df_1000, Artificial_Bee_Colony, iter=200, particles=200
+No. selected genes: 308
+Naive_Bayes
+F1 score: 0.5064102564102564
+SVM
+F1 score: 0.5550213675213675
+kNN
+F1 score: 0.5410353535353535
+Random_Forest
+F1 score: 0.546875
+------------------------------------------
+Running: job=2 idx=326 -> RF_barretNP_df, Artificial_Bee_Colony, iter=200, particles=200
+No. selected genes: 17
+Naive_Bayes
+F1 score: 0.44296328671328666
+SVM
+F1 score: 0.3472222222222222
+kNN
+F1 score: 0.19263548951048948
+Random_Forest
+F1 score: 0.256753663003663
+------------------------------------------
+Running: job=2 idx=332 -> Ridge_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=200
+No. selected genes: 250
+Naive_Bayes
+F1 score: 0.3878205128205129
+SVM
+F1 score: 0.5308441558441559
+kNN
+F1 score: 0.40674603174603174
+Random_Forest
+F1 score: 0.4256944444444445
+------------------------------------------
+Running: job=2 idx=338 -> MI_barretNP_df_1000, Artificial_Bee_Colony, iter=50, particles=1000
+No. selected genes: 358
+Naive_Bayes
+F1 score: 0.43150252525252525
+SVM
+F1 score: 0.4829545454545454
+kNN
+F1 score: 0.5125
+Random_Forest
+F1 score: 0.6049107142857143
+------------------------------------------
+Running: job=2 idx=344 -> ANOVA_barretNP_df_1000, Particle_Swarm_Optimization, iter=50, particles=1000
+No. selected genes: 248
+Naive_Bayes
+F1 score: 0.4706959706959707
+SVM
+F1 score: 0.5550213675213675
+kNN
+F1 score: 0.6136363636363636
+Random_Forest
+F1 score: 0.4732142857142857
+------------------------------------------
+Running: job=2 idx=350 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=50, particles=1000
+No. selected genes: 63
+Naive_Bayes
+F1 score: 0.44761904761904764
+SVM
+F1 score: 0.4583333333333333
+kNN
+F1 score: 0.4517045454545454
+Random_Forest
+F1 score: 0.546875
+------------------------------------------
+Running: job=2 idx=356 -> Ridge_barretNP_df, Artificial_Bee_Colony, iter=100, particles=500
+No. selected genes: 29
+Naive_Bayes
+F1 score: 0.16433566433566432
+SVM
+F1 score: 0.3049450549450549
+kNN
+F1 score: 0.4256944444444445
+Random_Forest
+F1 score: 0.3125
+------------------------------------------
+Running: job=2 idx=362 -> MI_barretNP_df_1000, Particle_Swarm_Optimization, iter=100, particles=500
+No. selected genes: 483
+Naive_Bayes
+F1 score: 0.6379464285714285
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.5550213675213675
+Random_Forest
+F1 score: 0.5125
+------------------------------------------
+Running: job=2 idx=368 -> ANOVA_barretNP_df_1000, Artificial_Bee_Colony, iter=500, particles=100
+No. selected genes: 71
+Naive_Bayes
+F1 score: 0.5260416666666666
+SVM
+F1 score: 0.4732142857142857
+kNN
+F1 score: 0.6014384920634921
+Random_Forest
+F1 score: 0.5789141414141414
+------------------------------------------
+Running: job=2 idx=374 -> RF_barretNP_df, Artificial_Bee_Colony, iter=500, particles=100
+No. selected genes: 15
+Naive_Bayes
+F1 score: 0.5009469696969696
+SVM
+F1 score: 0.36397058823529416
+kNN
+F1 score: 0.3870192307692307
+Random_Forest
+F1 score: 0.47630494505494503
+------------------------------------------
+Running: job=2 idx=380 -> Ridge_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=100
+No. selected genes: 121
+Naive_Bayes
+F1 score: 0.29513888888888895
+SVM
+F1 score: 0.36397058823529416
+kNN
+F1 score: 0.45804195804195796
+Random_Forest
+F1 score: 0.28860294117647056
+------------------------------------------
+Running: job=2 idx=386 -> MI_barretNP_df_1000, Artificial_Bee_Colony, iter=1000, particles=50
+No. selected genes: 41
+Naive_Bayes
+F1 score: 0.755050505050505
+SVM
+F1 score: 0.75
+kNN
+F1 score: 0.6875
+Random_Forest
+F1 score: 0.5758547008547009
+------------------------------------------
+Running: job=2 idx=392 -> ANOVA_barretNP_df_1000, Particle_Swarm_Optimization, iter=1000, particles=50
+No. selected genes: 257
+Naive_Bayes
+F1 score: 0.4864583333333333
+SVM
+F1 score: 0.5550213675213675
+kNN
+F1 score: 0.5929851398601398
+Random_Forest
+F1 score: 0.5125
+------------------------------------------
+Running: job=2 idx=398 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=50
+No. selected genes: 98
+Naive_Bayes
+F1 score: 0.578125
+SVM
+F1 score: 0.4048295454545454
+kNN
+F1 score: 0.29261363636363635
+Random_Forest
+F1 score: 0.4083333333333333
+------------------------------------------
+Running: job=2 idx=404 -> Ridge_barretNP_df, Artificial_Bee_Colony, iter=100, particles=1000
+No. selected genes: 9
+Naive_Bayes
+F1 score: 0.49978146853146854
+SVM
+F1 score: 0.3536184210526316
+kNN
+F1 score: 0.546875
+Random_Forest
+F1 score: 0.44791666666666663
+------------------------------------------
+Running: job=2 idx=410 -> MI_barretNP_df_1000, Particle_Swarm_Optimization, iter=100, particles=1000
+No. selected genes: 255
+Naive_Bayes
+F1 score: 0.5662878787878787
+SVM
+F1 score: 0.5550213675213675
+kNN
+F1 score: 0.6011800699300699
+Random_Forest
+F1 score: 0.625
+------------------------------------------
+Running: job=2 idx=416 -> ANOVA_barretNP_df_1000, Artificial_Bee_Colony, iter=200, particles=500
+No. selected genes: 55
+Naive_Bayes
+F1 score: 0.501602564102564
+SVM
+F1 score: 0.4705882352941177
+kNN
+F1 score: 0.3794642857142857
+Random_Forest
+F1 score: 0.31092436974789917
+------------------------------------------
+Running: job=2 idx=422 -> RF_barretNP_df, Artificial_Bee_Colony, iter=200, particles=500
+No. selected genes: 26
+Naive_Bayes
+F1 score: 0.4410714285714286
+SVM
+F1 score: 0.40808823529411764
+kNN
+F1 score: 0.47934877622377614
+Random_Forest
+F1 score: 0.3392857142857143
+------------------------------------------
+Running: job=2 idx=428 -> Ridge_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=500
+No. selected genes: 272
+Naive_Bayes
+F1 score: 0.3044871794871795
+SVM
+F1 score: 0.3847402597402597
+kNN
+F1 score: 0.36752136752136755
+Random_Forest
+F1 score: 0.4156746031746032
+------------------------------------------
+Running: job=2 idx=434 -> MI_barretNP_df_1000, Artificial_Bee_Colony, iter=500, particles=200
+No. selected genes: 126
+Naive_Bayes
+F1 score: 0.4451388888888889
+SVM
+F1 score: 0.6049107142857143
+kNN
+F1 score: 0.6011800699300699
+Random_Forest
+F1 score: 0.5758547008547009
+------------------------------------------
+Running: job=2 idx=440 -> ANOVA_barretNP_df_1000, Particle_Swarm_Optimization, iter=500, particles=200
+No. selected genes: 250
+Naive_Bayes
+F1 score: 0.6693618881118881
+SVM
+F1 score: 0.4732142857142857
+kNN
+F1 score: 0.4732142857142857
+Random_Forest
+F1 score: 0.5079365079365079
+------------------------------------------
+Running: job=2 idx=446 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=200
+No. selected genes: 76
+Naive_Bayes
+F1 score: 0.5078983516483517
+SVM
+F1 score: 0.31496710526315785
+kNN
+F1 score: 0.30113636363636365
+Random_Forest
+F1 score: 0.5788690476190476
+------------------------------------------
+Running: job=2 idx=452 -> Ridge_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=100
+No. selected genes: 18
+Naive_Bayes
+F1 score: 0.30714597902097895
+SVM
+F1 score: 0.3585164835164835
+kNN
+F1 score: 0.5339972527472527
+Random_Forest
+F1 score: 0.5571581196581197
+------------------------------------------
+Running: job=2 idx=458 -> MI_barretNP_df_1000, Particle_Swarm_Optimization, iter=1000, particles=100
+No. selected genes: 514
+Naive_Bayes
+F1 score: 0.5536616161616161
+SVM
+F1 score: 0.5550213675213675
+kNN
+F1 score: 0.8646197552447552
+Random_Forest
+F1 score: 0.6821581196581197
+------------------------------------------
+Running: job=2 idx=464 -> ANOVA_barretNP_df_1000, Artificial_Bee_Colony, iter=200, particles=1000
+No. selected genes: 7
+Naive_Bayes
+F1 score: 0.28867521367521365
+SVM
+F1 score: 0.20454545454545453
+kNN
+F1 score: 0.37941919191919193
+Random_Forest
+F1 score: 0.3638392857142857
+------------------------------------------
+Running: job=2 idx=470 -> RF_barretNP_df, Artificial_Bee_Colony, iter=200, particles=1000
+No. selected genes: 36
+Naive_Bayes
+F1 score: 0.36979166666666663
+SVM
+F1 score: 0.3472222222222222
+kNN
+F1 score: 0.42040598290598286
+Random_Forest
+F1 score: 0.3603896103896104
+------------------------------------------
+Running: job=2 idx=476 -> Ridge_barretNP_df, Particle_Swarm_Optimization, iter=200, particles=1000
+No. selected genes: 257
+Naive_Bayes
+F1 score: 0.37003968253968256
+SVM
+F1 score: 0.47934877622377614
+kNN
+F1 score: 0.546875
+Random_Forest
+F1 score: 0.26575630252100846
+------------------------------------------
+Running: job=2 idx=482 -> MI_barretNP_df_1000, Artificial_Bee_Colony, iter=1000, particles=200
+No. selected genes: 31
+Naive_Bayes
+F1 score: 0.29375
+SVM
+F1 score: 0.5844155844155844
+kNN
+F1 score: 0.24545454545454543
+Random_Forest
+F1 score: 0.5025641025641026
+------------------------------------------
+Running: job=2 idx=488 -> ANOVA_barretNP_df_1000, Particle_Swarm_Optimization, iter=1000, particles=200
+No. selected genes: 268
+Naive_Bayes
+F1 score: 0.626602564102564
+SVM
+F1 score: 0.5559027777777779
+kNN
+F1 score: 0.5344065656565656
+Random_Forest
+F1 score: 0.5079365079365079
+------------------------------------------
+Running: job=2 idx=494 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=200
+No. selected genes: 88
+Naive_Bayes
+F1 score: 0.40719696969696967
+SVM
+F1 score: 0.39309210526315785
+kNN
+F1 score: 0.3847402597402597
+Random_Forest
+F1 score: 0.3941993464052288
+------------------------------------------
+Running: job=2 idx=500 -> Ridge_barretNP_df, Artificial_Bee_Colony, iter=500, particles=500
+No. selected genes: 49
+Naive_Bayes
+F1 score: 0.36931818181818177
+SVM
+F1 score: 0.3579545454545454
+kNN
+F1 score: 0.4225305944055944
+Random_Forest
+F1 score: 0.3557692307692307
+------------------------------------------
+Running: job=2 idx=506 -> MI_barretNP_df_1000, Particle_Swarm_Optimization, iter=500, particles=500
+No. selected genes: 257
+Naive_Bayes
+F1 score: 0.5736607142857143
+SVM
+F1 score: 0.5876623376623377
+kNN
+F1 score: 0.672979797979798
+Random_Forest
+F1 score: 0.4277777777777778
+------------------------------------------
+Running: job=2 idx=512 -> ANOVA_barretNP_df_1000, Artificial_Bee_Colony, iter=500, particles=1000
+No. selected genes: 17
+Naive_Bayes
+F1 score: 0.30982905982905984
+SVM
+F1 score: 0.2767857142857143
+kNN
+F1 score: 0.6737012987012987
+Random_Forest
+F1 score: 0.43750000000000006
+------------------------------------------
+Running: job=2 idx=518 -> RF_barretNP_df, Artificial_Bee_Colony, iter=500, particles=1000
+This one failed!
+Traceback (most recent call last):
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 428, in main
+    X_train_normalized_selected_features = func(dataset, particles, iters)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 140, in artificial_bee_colony
+    employed_bee_phase(population, fitness_values, X_train, X_test, y_train, y_test, abandonment_counters)
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 88, in employed_bee_phase
+    new_fitness = evaluate_fitness(new_solution, X_train, X_test, y_train, y_test)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/gene-selection-methods.py", line 59, in evaluate_fitness
+    classifier.fit(X_train_selected, y_train)
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_classification.py", line 233, in fit
+    return self._fit(X, y)
+           ^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/neighbors/_base.py", line 456, in _fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/base.py", line 622, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1146, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/rkurjata/kkubicki/cluster/.venv/lib/python3.11/site-packages/sklearn/utils/validation.py", line 795, in check_array
+    dtype_orig = np.result_type(*dtypes_orig)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: at least one array or dtype is required
+------------------------------------------
+Running: job=2 idx=524 -> Ridge_barretNP_df, Particle_Swarm_Optimization, iter=500, particles=1000
+No. selected genes: 190
+Naive_Bayes
+F1 score: 0.32053571428571426
+SVM
+F1 score: 0.3847402597402597
+kNN
+F1 score: 0.430239898989899
+Random_Forest
+F1 score: 0.30625
+------------------------------------------
+Running: job=2 idx=530 -> MI_barretNP_df_1000, Artificial_Bee_Colony, iter=1000, particles=500
+No. selected genes: 44
+Naive_Bayes
+F1 score: 0.5625
+SVM
+F1 score: 0.5184659090909091
+kNN
+F1 score: 0.4334935897435897
+Random_Forest
+F1 score: 0.5876623376623377
+------------------------------------------
+Running: job=2 idx=536 -> ANOVA_barretNP_df_1000, Particle_Swarm_Optimization, iter=1000, particles=500
+No. selected genes: 251
+Naive_Bayes
+F1 score: 0.5
+SVM
+F1 score: 0.6517857142857143
+kNN
+F1 score: 0.6412337662337663
+Random_Forest
+F1 score: 0.4652777777777778
+------------------------------------------
+Running: job=2 idx=542 -> RF_barretNP_df, Particle_Swarm_Optimization, iter=1000, particles=500
+No. selected genes: 85
+Naive_Bayes
+F1 score: 0.49523809523809526
+SVM
+F1 score: 0.46164772727272724
+kNN
+F1 score: 0.4724025974025974
+Random_Forest
+F1 score: 0.44270833333333326
+------------------------------------------
+Running: job=2 idx=548 -> Ridge_barretNP_df, Artificial_Bee_Colony, iter=1000, particles=1000
+No. selected genes: 10
+Naive_Bayes
+F1 score: 0.50625
+SVM
+F1 score: 0.318452380952381
+kNN
+F1 score: 0.4920634920634921
+Random_Forest
+F1 score: 0.4799107142857143
+------------------------------------------
+Running: job=2 idx=554 -> MI_barretNP_df_1000, Particle_Swarm_Optimization, iter=1000, particles=1000
+No. selected genes: 496
+Naive_Bayes
+F1 score: 0.4959415584415584
+SVM
+F1 score: 0.5550213675213675
+kNN
+F1 score: 0.610479797979798
+Random_Forest
+F1 score: 0.5125
+------------------------------------------
+Work completed for job=2
